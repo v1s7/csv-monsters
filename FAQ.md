@@ -1,6 +1,8 @@
-<sup>v1.1</sup>
+<sup>v1.2</sup>
 
 Перед началом чтения FAQ рекомендуется прочесть [README](https://github.com/v1s7/csv-monsters).
+
+Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу. 
 # Базовое
 
 ### Как удалить моды или патч ресурсов?
@@ -16,7 +18,7 @@
 Скачиваете и открываете файл мода (.NullsBrawlAssets) прямо из телеграма и выбираете в списке приложений Null's Brawl. Ставите галочку и нажимаете установить. И всё. 
 Если по какой-то причине телега не открывает файл, жмёте на "⋮", потом "Сохранить в загрузки", открываете проводник, заходите в папку Download/Telegram (у людей с определёнными сторонними клиентами тг может находиться в Download/AyuGram или подобной) и уже оттуда открываете файл мода.
 Обращаю внимание, что некоторые файловые менеджеры не видят некоторые интент-фильтры, и из-за этого они не видят, что Null's Brawl поддерживает этот формат файла. Тогда попробуйте другой файловый менеджер, например:
--[MT Manager](https://mt2.cn) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=548542)),
+- [MT Manager](https://mt2.cn) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=548542)),
 - [Solid Explorer](https://neatbytes.com/solidexplorer/index.php/about/) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=325553)),
 - [MiXplorer](https://www.mixplorer.com/) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=318294)), 
 - [ZArchiver](https://zdevs.ru) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=305019)).
