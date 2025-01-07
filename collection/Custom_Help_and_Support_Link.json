@@ -1,0 +1,15 @@
+{
+    "@title": "Project!Lazer",
+    "@description": "Replaces Help and Support page with a removed 8-bit secret game",
+    "@author": "-",
+    "locales": {
+        "EN": {"https://andrei-paraschiv.github.io/project-laser-game/"},
+        "RU": {"https://andrei-paraschiv.github.io/project-laser-game/"}
+    },
+    "ru": {
+        "TID_FAQ_BUTTON": {"EN": "<cfefefe>Project Lazer</c>"}
+    },
+    "texts": {
+        "TID_FAQ_BUTTON": {"RU": "<cfefefe>Секрет 8-бита</c>"}
+    }
+}
