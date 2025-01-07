@@ -1,0 +1,13 @@
+{
+	"@title": "Different Leon Clone",
+	"@description": "Делает клона Леона фиолетовым, помогая отличить его от настоящего",
+	"@author": "@TRY_TO_BRO",
+    "characters": {
+        "NinjaFake": {
+            "UseColorMod": "true",
+            "RedAdd": "135",
+            "GreenAdd": "24",
+            "BlueAdd": "235"
+        }
+    }
+}
