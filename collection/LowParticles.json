@@ -1,0 +1,89 @@
+{
+   "@name": "Low Particles",
+   "@description": "Уменьшает количество, время появления и исчезновения некоторых незаметных партиклов.\\n\\nТак же убрана анимация ломания и тряски блоков.",
+   "@author": "@sakupen_ppppp",
+
+	"tiles": {
+		"*": {
+			"BlockProjectiles": null,
+			"BaseExplosionEffect": null,
+			"BaseHitEffect": null,
+			"HasHitAnim": null
+	   }
+   },
+
+	"particle_emitters": {
+		"heal_particle": {
+			"MaxParticleCount": "1",
+			"MinLife": "300",
+			"MaxLife": "400",
+			"ParticleMaxInterval": "100",
+			"ParticleMinLife": "250",
+			"ParticleMaxLife": "300",
+			"StartScale": "50"
+		},
+		"sware_particle": {
+			"MaxParticleCount": "1",
+			"MinLife": "400",
+			"MaxLife": "400",
+			"ParticleMaxInterval": "5",
+			"ParticleMinLife": "300",
+			"ParticleMaxLife": "400",
+			"StartScale": "90"
+		},
+		"slowed_particle": {
+			"MaxParticleCount": "1",
+			"MinLife": "400",
+			"MaxLife": "400",
+			"ParticleMaxInterval": "50",
+			"ParticleMinLife": "150",
+			"ParticleMaxLife": "500",
+			"StartScale": "50"
+		},
+		"crippled_particle": {
+			"MaxParticleCount": "1",
+			"MinLife": "300",
+			"MaxLife": "400",
+			"ParticleMaxInterval": "100",
+			"ParticleMinLife": "250",
+			"ParticleMaxLife": "300",
+			"StartScale": "50",
+			"EndScale": "50"
+		},
+		"poisoned_crippled_particle": {
+			"MaxParticleCount": "1",
+			"MinLife": "300",
+			"MaxLife": "400",
+			"ParticleMaxInterval": "100",
+			"ParticleMinLife": "250",
+			"ParticleMaxLife": "300",
+			"StartScale": "50"
+		},
+		"Gems_Flying": {
+			"MaxParticleCount": "15",
+			"MinLife": "500",
+			"MaxLife": "500",
+			"ParticleMaxInterval": "1",
+			"ParticleMinLife": "4000",
+			"ParticleMaxLife": "5000",
+			"StartScale": "40"
+		},
+		"Teleport_light_particles": {
+			"MaxParticleCount": "15",
+			"MinLife": "20",
+			"MaxLife": "50",
+			"ParticleMaxInterval": "100",
+			"ParticleMinLife": "1200",
+			"ParticleMaxLife": "1600",
+			"StartScale": "50"
+		},
+		"meteor_shards": {
+			"MaxParticleCount": "4",
+			"MinLife": "15",
+			"MaxLife": "20",
+			"ParticleMinLife": "250",
+			"ParticleMaxLife": "500",
+			"StartScale": "50"
+      }
+   }
+}

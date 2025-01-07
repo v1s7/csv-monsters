@@ -1,0 +1,10 @@
+{
+    "@title": "Message Extender",
+    "@description": "Увеличивает лимит символов для сообщения (199 → 255). Сообщения длиннее сервер уже начинает отвергать, поэтому ставить значение выше не имеет смысла.",
+    "@author": "Null's Brawl Mods",
+    "globals": {
+        "MAX_MESSAGE_LENGTH": {
+           "NumberValue": 256
+        }
+    }
+}

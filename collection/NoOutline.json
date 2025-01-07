@@ -1,0 +1,11 @@
+{
+    "@name": "No Outline",
+    "@description": "Убирает обводку бравлеров",
+    "@author": "@sakupen_ppppp",
+
+    "skins": {
+        "*": {
+            "OutlineShader": "sc3d/shaders/impostor"
+        }
+    }
+}

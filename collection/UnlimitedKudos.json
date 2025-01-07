@@ -1,0 +1,10 @@
+{
+    "@title": "Unlimited Kudos",
+    "@description": "Увеличивает лимит лайков после катки (1 → 99).",
+    "@author": "Null's Brawl Mods",
+    "globals": {
+        "SEND_KUDOS_LIMIT": {
+            "NumberValue": 99
+        }
+    }
+}

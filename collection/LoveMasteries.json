@@ -1,0 +1,527 @@
+{
+    "@name": "Love Masteries",
+    "@description": "Заменяет все титулы на «Я люблю (бравлер)».",
+    "@author": "@Vidokl_official & @sakupen_ppppp",
+
+    "ru": {
+        "TID_TITLE_MASTERY_SHELLY": {
+            "RU": "Я люблю Шелли"
+        },
+        "TID_TITLE_MASTERY_COLT": {
+            "RU": "Я люблю Кольта"
+        },
+        "TID_TITLE_MASTERY_BULL": {
+            "RU": "Я люблю Булла"
+        },
+        "TID_TITLE_MASTERY_BROCK": {
+            "RU": "Я люблю Брока"
+        },
+        "TID_TITLE_MASTERY_RICO": {
+            "RU": "Я люблю Рико"
+        },
+        "TID_TITLE_MASTERY_SPIKE": {
+            "RU": "Я люблю Спайка"
+        },
+        "TID_TITLE_MASTERY_BARLEY": {
+            "RU": "Я люблю Барли"
+        },
+        "TID_TITLE_MASTERY_JESSIE": {
+            "RU": "Я люблю Джесси"
+        },
+        "TID_TITLE_MASTERY_NITA": {
+            "RU": "Я люблю Ниту"
+        },
+        "TID_TITLE_MASTERY_DYNAMIKE": {
+            "RU": "Я люблю Динамайка"
+        },
+        "TID_TITLE_MASTERY_ELPRIMO": {
+            "RU": "Я люблю Эль примо"
+        },
+        "TID_TITLE_MASTERY_MORTIS": {
+            "RU": "Я люблю Мортиса"
+        },
+        "TID_TITLE_MASTERY_CROW": {
+            "RU": "Я люблю Ворона"
+        },
+        "TID_TITLE_MASTERY_POCO": {
+            "RU": "Я люблю Поко"
+        },
+        "TID_TITLE_MASTERY_BO": {
+            "RU": "Я люблю Бо"
+        },
+        "TID_TITLE_MASTERY_PIPER": {
+            "RU": "Я люблю Пайпер"
+        },
+        "TID_TITLE_MASTERY_PAM": {
+            "RU": "Я люблю Пэм"
+        },
+        "TID_TITLE_MASTERY_TARA": {
+            "RU": "Я люблю Тару"
+        },
+        "TID_TITLE_MASTERY_DARRYL": {
+            "RU": "Я люблю Дэрилла"
+        },
+        "TID_TITLE_MASTERY_PENNY": {
+            "RU": "Я люблю Пенни"
+        },
+        "TID_TITLE_MASTERY_FRANK": {
+            "RU": "Я люблю Фрэнка"
+        },
+        "TID_TITLE_MASTERY_GENE": {
+            "RU": "Я люблю Джина"
+        },
+        "TID_TITLE_MASTERY_TICK": {
+            "RU": "Я люблю Тика"
+        },
+        "TID_TITLE_MASTERY_LEON": {
+            "RU": "Я люблю Леона"
+        },
+        "TID_TITLE_MASTERY_ROSA": {
+            "RU": "Я люблю Розу"
+        },
+        "TID_TITLE_MASTERY_CARL": {
+            "RU": "Я люблю Карла"
+        },
+        "TID_TITLE_MASTERY_BIBI": {
+            "RU": "Я люблю Биби"
+        },
+        "TID_TITLE_MASTERY_8BIT": {
+            "RU": "Я люблю 8-бита"
+        },
+        "TID_TITLE_MASTERY_SANDY": {
+            "RU": "Я люблю Сэнди"
+        },
+        "TID_TITLE_MASTERY_BEA": {
+            "RU": "Я люблю Беа"
+        },
+        "TID_TITLE_MASTERY_EMZ": {
+            "RU": "Я люблю Эмз"
+        },
+        "TID_TITLE_MASTERY_MRP": {
+            "RU": "Я люблю Мистера П."
+        },
+        "TID_TITLE_MASTERY_MAX": {
+            "RU": "Я люблю Макс"
+        },
+        "TID_TITLE_MASTERY_JACKY": {
+            "RU": "Я б###ь, люблю Джеки"
+        },
+        "TID_TITLE_MASTERY_GALE": {
+            "RU": "Я люблю Гейла"
+        },
+        "TID_TITLE_MASTERY_NANI": {
+            "RU": "Я люблю Нани"
+        },
+        "TID_TITLE_MASTERY_SPROUT": {
+            "RU": "Я люблю Спраута"
+        },
+        "TID_TITLE_MASTERY_SURGE": {
+            "RU": "Я люблю Вольта"
+        },
+        "TID_TITLE_MASTERY_COLETTE": {
+            "RU": "Я люблю Колетт"
+        },
+        "TID_TITLE_MASTERY_AMBER": {
+            "RU": "Я люблю Амбер"
+        },
+        "TID_TITLE_MASTERY_LOU": {
+            "RU": "Я люблю Лу"
+        },
+        "TID_TITLE_MASTERY_BYRON": {
+            "RU": "Я люблю Байрона"
+        },
+        "TID_TITLE_MASTERY_EDGAR": {
+            "RU": "Я люблю Эдгара"
+        },
+        "TID_TITLE_MASTERY_RUFFS": {
+            "RU": "Я люблю Генерала Гавса"
+        },
+        "TID_TITLE_MASTERY_STU": {
+            "RU": "Я люблю Сту"
+        },
+        "TID_TITLE_MASTERY_BELLE": {
+            "RU": "Я люблю Белль"
+        },
+        "TID_TITLE_MASTERY_SQUEAK": {
+            "RU": "Я люблю Скуика"
+        },
+        "TID_TITLE_MASTERY_GROM": {
+            "RU": "Я люблю Грома"
+        },
+        "TID_TITLE_MASTERY_BUZZ": {
+            "RU": "Я люблю Базза"
+        },
+        "TID_TITLE_MASTERY_GRIFF": {
+            "RU": "Я люблю Гриффа"
+        },
+        "TID_TITLE_MASTERY_ASH": {
+            "RU": "Я люблю Эша"
+        },
+        "TID_TITLE_MASTERY_MEG": {
+            "RU": "Я люблю Мэг"
+        },
+        "TID_TITLE_MASTERY_LOLA": {
+            "RU": "Я люблю Лолу"
+        },
+        "TID_TITLE_MASTERY_FANG": {
+            "RU": "Я люблю Фэнга"
+        },
+        "TID_TITLE_MASTERY_EVE": {
+            "RU": "Я люблю Еву"
+        },
+        "TID_TITLE_MASTERY_JANET": {
+            "RU": "Я люблю Джанет"
+        },
+        "TID_TITLE_MASTERY_BONNIE": {
+            "RU": "Я люблю Бонни"
+        },
+        "TID_TITLE_MASTERY_OTIS": {
+            "RU": "Я люблю Отиса"
+        },
+        "TID_TITLE_MASTERY_SAM": {
+            "RU": "Я люблю Сэма"
+        },
+        "TID_TITLE_MASTERY_GUS": {
+            "RU": "Я люблю Гаса"
+        },
+        "TID_TITLE_MASTERY_BUSTER": {
+            "RU": "Я люблю Бастера"
+        },
+        "TID_TITLE_MASTERY_CHESTER": {
+            "RU": "Я люблю Честера"
+        },
+        "TID_TITLE_MASTERY_GRAY": {
+            "RU": "Я люблю Грея"
+        },
+        "TID_TITLE_MASTERY_MANDY": {
+            "RU": "Я люблю Мэнди"
+        },
+        "TID_TITLE_MASTERY_ANGELO": {
+            "RU": "Я люблю Анджело"
+        },
+        "TID_TITLE_MASTERY_MELODY": {
+            "RU": "Я люблю Мелоди"
+        },
+        "TID_TITLE_MASTERY_LILY": {
+            "RU": "Я люблю Лили"
+        },
+        "TID_TITLE_MASTERY_DRACO": {
+            "RU": "Я люблю Драко"
+        },
+        "TID_TITLE_MASTERY_RT": {
+            "RU": "Я люблю Р-Т"
+        },
+        "TID_TITLE_MASTERY_WILLOW": {
+            "RU": "Я люблю Виллоу"
+        },
+        "TID_TITLE_MASTERY_HANK": {
+            "RU": "Я люблю Хэнка"
+        },
+        "TID_TITLE_MASTERY_MAISIE": {
+            "RU": "Я люблю Мэйси"
+        },
+        "TID_TITLE_MASTERY_DOUG": {
+            "RU": "Я люблю Дага"
+        },
+        "TID_TITLE_MASTERY_CORDELIUS": {
+            "RU": "Я люблю Корделиуса"
+        },
+        "TID_TITLE_MASTERY_PEARL": {
+            "RU": "Я люблю Перл"
+        },
+        "TID_TITLE_MASTERY_CHUCK": {
+            "RU": "Я люблю Чака"
+        },
+        "TID_TITLE_MASTERY_CHARLIE": {
+            "RU": "Я люблю Чарли"
+        },
+        "TID_TITLE_MASTERY_DIGGER": {
+            "RU": "Я люблю Мо"
+        },
+        "TID_TILE_MASTERY_MICO": {
+            "RU": "Я люблю Мико"
+        },
+        "TID_TILE_MASTERY_KIT": {
+            "RU": "Я люблю Кита"
+        },
+        "TID_TILE_MASTERY_TWINS": {
+            "RU": "Я люблю Ларри и Лори"
+        },
+        "TID_TILE_MASTERY_BERRY": {
+            "RU": "Я люблю Берри"
+        },
+        "TID_TILE_MASTERY_CLANCY": {
+            "RU": "Я люблю Клэнси"
+        },
+        "TID_TILE_MASTERY_SAMURAI": {
+            "RU": "Я люблю Кэндзи"
+        },
+        "TID_TILE_MASTERY_GHOST": {
+            "RU": "Я люблю Шейда"
+        },
+        "TID_TILE_MASTERY_VOODOO": {
+            "RU": "Я люблю Джуджу"
+        }
+    }
+
+    "en": {
+        "TID_TITLE_MASTERY_SHELLY": {
+            "EN": "I love Shelly"
+        },
+        "TID_TITLE_MASTERY_COLT": {
+            "EN": "I love Colt"
+        },
+        "TID_TITLE_MASTERY_BULL": {
+            "EN": "I love Bull"
+        },
+        "TID_TITLE_MASTERY_BROCK": {
+            "EN": "I love Brock"
+        },
+        "TID_TITLE_MASTERY_RICO": {
+            "EN": "I love Rico"
+        },
+        "TID_TITLE_MASTERY_SPIKE": {
+            "EN": "I love Spike"
+        },
+        "TID_TITLE_MASTERY_BARLEY": {
+            "EN": "I love Barley"
+        },
+        "TID_TITLE_MASTERY_JESSIE": {
+            "EN": "I love Jessie"
+        },
+        "TID_TITLE_MASTERY_NITA": {
+            "EN": "I love Nita"
+        },
+        "TID_TITLE_MASTERY_DYNAMIKE": {
+            "EN": "I love Dynamike"
+        },
+        "TID_TITLE_MASTERY_ELPRIMO": {
+            "EN": "I love El Primo"
+        },
+        "TID_TITLE_MASTERY_MORTIS": {
+            "EN": "I love Mortis"
+        },
+        "TID_TITLE_MASTERY_CROW": {
+            "EN": "I love Crow"
+        },
+        "TID_TITLE_MASTERY_POCO": {
+            "EN": "I love Poco"
+        },
+        "TID_TITLE_MASTERY_BO": {
+            "EN": "I love Bo"
+        },
+        "TID_TITLE_MASTERY_PIPER": {
+            "EN": "I love Piper"
+        },
+        "TID_TITLE_MASTERY_PAM": {
+            "EN": "I love Pam"
+        },
+        "TID_TITLE_MASTERY_TARA": {
+            "EN": "I love Tara"
+        },
+        "TID_TITLE_MASTERY_DARRYL": {
+            "EN": "I love Darryl"
+        },
+        "TID_TITLE_MASTERY_PENNY": {
+            "EN": "I love Penny"
+        },
+        "TID_TITLE_MASTERY_FRANK": {
+            "EN": "I love Frank"
+        },
+        "TID_TITLE_MASTERY_GENE": {
+            "EN": "I love Gene"
+        },
+        "TID_TITLE_MASTERY_TICK": {
+            "EN": "I love Tick"
+        },
+        "TID_TITLE_MASTERY_LEON": {
+            "EN": "I love Leon"
+        },
+        "TID_TITLE_MASTERY_ROSA": {
+            "EN": "I love Rosa"
+        },
+        "TID_TITLE_MASTERY_CARL": {
+            "EN": "I love Carl"
+        },
+        "TID_TITLE_MASTERY_BIBI": {
+            "EN": "I love Bibi"
+        },
+        "TID_TITLE_MASTERY_8BIT": {
+            "EN": "I love 8-Bit"
+        },
+        "TID_TITLE_MASTERY_SANDY": {
+            "EN": "I love Sandy"
+        },
+        "TID_TITLE_MASTERY_BEA": {
+            "EN": "I love Bea"
+        },
+        "TID_TITLE_MASTERY_EMZ": {
+            "EN": "I love Emz"
+        },
+        "TID_TITLE_MASTERY_MRP": {
+            "EN": "I love Mr. P"
+        },
+        "TID_TITLE_MASTERY_MAX": {
+            "EN": "I love Max"
+        },
+        "TID_TITLE_MASTERY_JACKY": {
+            "EN": "I love Jacky"
+        },
+        "TID_TITLE_MASTERY_GALE": {
+            "EN": "I love Gale"
+        },
+        "TID_TITLE_MASTERY_NANI": {
+            "EN": "I love Nani"
+        },
+        "TID_TITLE_MASTERY_SPROUT": {
+            "EN": "I love Sprout"
+        },
+        "TID_TITLE_MASTERY_SURGE": {
+            "EN": "I love Surge"
+        },
+        "TID_TITLE_MASTERY_COLETTE": {
+            "EN": "I love Colette"
+        },
+        "TID_TITLE_MASTERY_AMBER": {
+            "EN": "I love Amber"
+        },
+        "TID_TITLE_MASTERY_LOU": {
+            "EN": "I love Lou"
+        },
+        "TID_TITLE_MASTERY_BYRON": {
+            "EN": "I love Byron"
+        },
+        "TID_TITLE_MASTERY_EDGAR": {
+            "EN": "I love Edgar"
+        },
+        "TID_TITLE_MASTERY_RUFFS": {
+            "EN": "I love Colonel Ruffs"
+        },
+        "TID_TITLE_MASTERY_STU": {
+            "EN": "I love Stu"
+        },
+        "TID_TITLE_MASTERY_BELLE": {
+            "EN": "I love Belle"
+        },
+        "TID_TITLE_MASTERY_SQUEAK": {
+            "EN": "I love Squeak"
+        },
+        "TID_TITLE_MASTERY_GROM": {
+            "EN": "I love Grom"
+        },
+        "TID_TITLE_MASTERY_BUZZ": {
+            "EN": "I love Buzz"
+        },
+        "TID_TITLE_MASTERY_GRIFF": {
+            "EN": "I love Griff"
+        },
+        "TID_TITLE_MASTERY_ASH": {
+            "EN": "I love Ash"
+        },
+        "TID_TITLE_MASTERY_MEG": {
+            "EN": "I love Meg"
+        },
+        "TID_TITLE_MASTERY_LOLA": {
+            "EN": "I love Lola"
+        },
+        "TID_TITLE_MASTERY_FANG": {
+            "EN": "I love Fang"
+        },
+        "TID_TITLE_MASTERY_EVE": {
+            "EN": "I love Eve"
+        },
+        "TID_TITLE_MASTERY_JANET": {
+            "EN": "I love Janet"
+        },
+        "TID_TITLE_MASTERY_BONNIE": {
+            "EN": "I love Bonnie"
+        },
+        "TID_TITLE_MASTERY_OTIS": {
+            "EN": "I love Otis"
+        },
+        "TID_TITLE_MASTERY_SAM": {
+            "EN": "I love Sam"
+        },
+        "TID_TITLE_MASTERY_GUS": {
+            "EN": "I love Gus"
+        },
+        "TID_TITLE_MASTERY_BUSTER": {
+            "EN": "I love Buster"
+        },
+        "TID_TITLE_MASTERY_CHESTER": {
+            "EN": "I love Chester"
+        },
+        "TID_TITLE_MASTERY_GRAY": {
+            "EN": "I love Gray"
+        },
+        "TID_TITLE_MASTERY_MANDY": {
+            "EN": "I love Mandy"
+        },
+        "TID_TITLE_MASTERY_ANGELO": {
+            "EN": "I love Angelo"
+        },
+        "TID_TITLE_MASTERY_MELODY": {
+            "EN": "I love Melody"
+        },
+        "TID_TITLE_MASTERY_LILY": {
+            "EN": "I love Lily"
+        },
+        "TID_TITLE_MASTERY_DRACO": {
+            "EN": "I love Draco"
+        },
+        "TID_TITLE_MASTERY_RT": {
+            "EN": "I love RT"
+        },
+        "TID_TITLE_MASTERY_WILLOW": {
+            "EN": "I love Willow"
+        },
+        "TID_TITLE_MASTERY_HANK": {
+            "EN": "I love Hank"
+        },
+        "TID_TITLE_MASTERY_MAISIE": {
+            "EN": "I love Maisie"
+        },
+        "TID_TITLE_MASTERY_DOUG": {
+            "EN": "I love Doug"
+        },
+        "TID_TITLE_MASTERY_CORDELIUS": {
+            "EN": "I love Cordelius"
+        },
+        "TID_TITLE_MASTERY_PEARL": {
+            "EN": "I love Pearl"
+        },
+        "TID_TITLE_MASTERY_CHUCK": {
+            "EN": "I love Chuck"
+        },
+        "TID_TITLE_MASTERY_CHARLIE": {
+            "EN": "I love Charlie"
+        },
+        "TID_TITLE_MASTERY_DIGGER": {
+            "EN": "I love Moe"
+        },
+        "TID_TILE_MASTERY_MICO": {
+            "EN": "I love Miko"
+        },
+        "TID_TILE_MASTERY_KIT": {
+            "EN": "I love Kit"
+        },
+        "TID_TILE_MASTERY_TWINS": {
+            "EN": "I love Larry and Laurie"
+        },
+        "TID_TILE_MASTERY_BERRY": {
+            "EN": "I love Berry"
+        },
+        "TID_TILE_MASTERY_CLANCY": {
+            "EN": "I love Clancy"
+        },
+        "TID_TILE_MASTERY_SAMURAI": {
+            "EN": "I love Kenji"
+        },
+        "TID_TILE_MASTERY_GHOST": {
+            "EN": "I love Shade"
+        },
+        "TID_TILE_MASTERY_VOODOO": {
+            "EN": "I love Juju"
+        }
+    }
+}

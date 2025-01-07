@@ -1,0 +1,9 @@
+{
+    "@title": "No Diamond I Tooltip",
+    "@description": "Убирает вспомогательное сообщение при достижении Алмаза I.",
+    "@author": "Null's Brawl Mods",
+
+    "ranked_ranks": {
+        "Diamond I": {"ShowFormatTooltip": false}
+    }
+}

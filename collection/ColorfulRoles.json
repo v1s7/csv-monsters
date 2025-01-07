@@ -1,0 +1,20 @@
+{
+    "@title": "Colorful Clan Roles",
+    "@description": "Роли в клубе становятся цветными.",
+    "@author": "Null's Brawl Mods",
+
+        "ru": {
+                "TID_ALLIANCE_ROLE_LEADER": {
+                    "RU": "<c3200ff>П<c6500ff>р<c9800ff>е<ccb00ff>з<cff00ff>и<cff00ff>д<cff00cc>е<cff0099>н<cff0066>т</c>"  
+                },
+                "TID_ALLIANCE_ROLE_CO_LEADER": {
+                    "RU": "<cff0741>В<cff0e36>и<cff152b>ц<cfe1d20>е<cff2415>-<cff2b0a>п<cff3201>р<cff3f00>е<cff4b00>з<cff5700>и<cfe6300>д<cff6f00>е<cff7b00>н<cff8700>т</c>"   
+                },
+                "TID_ALLIANCE_ROLE_ELDER": {
+                    "RU": "<cff3f00>В<cff7f00>е<cffbf00>т<cffff00>е<cffff00>р<cbfff00>а<c7fff00>н</c>"    
+                },
+                "TID_ALLIANCE_ROLE_MEMBER": {
+                    "RU": "<c003fff>У<c007fff>ч<c00bfff>а<c00ffff>с<c00ffbf>т<c00ff7f>н<c00ff3f>и<c00ff00>к</c>"                                                                                                                      
+                }
+        }
+}

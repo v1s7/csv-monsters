@@ -1,0 +1,22 @@
+{
+    "@title": "LowResTextures",
+    "@description": "Forces game to always use low resolution textures",
+    "@author": "Null's Brawl Mods",
+    "client_globals": {
+        "LOW_GFX_DEVICES": {
+            "StringArray": ",*"
+        },
+        "LOW_GFX_RENDERERS": {
+            "StringArray": ",*"
+        },
+        "LOW_MEMORY_LIMIT": {
+            "NumberValue": 4096
+        },
+        "HIGH_GFX_DEVICES": {
+            "StringArray": null
+        },
+        "HIGH_GFX_RENDERERS": {
+            "StringArray": null
+        }
+    }
+}
