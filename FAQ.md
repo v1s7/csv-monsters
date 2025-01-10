@@ -1,4 +1,6 @@
-<sup>v1.4 – создано v1s7, вдохновлено MrsFolls</sup>
+<sup>v1.5 – создано v1s7, вдохновлено MrsFolls</sup>
+
+| \> [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FAQ-en.md) \< |
 
 > [!TIP]  
 > Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
@@ -14,6 +16,9 @@
 В расширенное меню, где можно очистить патч ресурсов можно зайти, очистив данные игры в настройках. Не бойтесь, сами данные не должны очиститься. 
 
 ### Как установить мод на iOS?
+> [!CAUTION]  
+> Автор понятия не имеет, о чём написал ответ на этот вопрос, так как не владеет никаким устройством на iOS. Поглощайте данную информацию с осторожностью и умом.
+
 1. Скачайте последнюю версию Null's Brawl и установите игру через [Sideloadly](https://sideloadly.io) с включённым File Sharing (или же распакуйте IPA-файл и добавьте ключ UISupportsDocumentBrowser (bool) со значением TRUE в Info.plist, затем запакуйте обратно, подпишите и установите, выйдет то же самое). 
 2. Зайдите хотя бы один раз в игру. 
 3. Скачайте файл .NullsBrawlAssets, распакуйте его как ZIP-архив (к примеру с помощью [Filza](https://www.tigisoftware.com/default/?page_id=78)) и положите всё содержимое по пути `/var/mobile/Containers/Data/Application/NB v58.279/Documents/updated/mods/`
@@ -32,7 +37,7 @@
 > - [ZArchiver](https://zdevs.ru) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=305019)).
 
 ### Как установить zip-файл мода (неподписанный) на Android?   
-Достаточно вставить папку с модом по пути
+Достаточно вставить папку с модом, в названии которой должен быть только UUID (сгенерировать [тут](https://uuidgenerator.net)), по пути
 `/data/data/daniillnull.nulls.brawlstars/mods/`. Это можно сделать несколькими способами:
 1. Используя рут-права или виртуальную машину с поддержкой Magisk (например, [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). Виртуальной машине потребуется 6 ГБ свободного места. Видеоинструкция: [YouTube](https://youtu.be/4Bzl8jt57qc) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4)
 2. Модифицируя apk-файл Null's Brawl на открытие доступа к скрытым данным приложения поставщику документов и на удаление проверки подписи apk. Учтите, что таким способом вы рискуете словить бан на свой аккаунт. Видеоинструкция: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)

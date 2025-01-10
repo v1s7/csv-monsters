@@ -1,4 +1,4 @@
-\> [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) \<
+| \> [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) \< | \> [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/README-en.md) \< |
 
 ### Назначение папок
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) – все модифицируемые скриптами (json-файлами), согласно мануалу, CSV-файлы, взятые из последней версии Null's Brawl. Только для чтения. 
@@ -21,6 +21,6 @@
 > [!NOTE]  
 > Если вам выдаёт ошибку, и вы ничего в скрипте из этого репозитория не меняли, то сообщите о ней (прислав ошибку от бота и на какой именно скрипт он жалуется) одним из способов:
 > 1. Запостить её в [Issues](https://github.com/v1s7/csv-monsters/issues), потребуется аккаунт на Github
-> 2. Прислать её в [телегу](https://t.me/anonaskbot?start=02PQRQ6rMj0Sjdb)
+> 2. Прислать её автору в Телеграм
 
-7. Если файл был "успешно подписан", то смело скачивайте его и приступайте к установке. Подробнее об установке читать в [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md). 
+7. Если файл был "Успешно подписан!", то смело скачивайте его и приступайте к установке. Подробнее об установке читать в [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md). 
