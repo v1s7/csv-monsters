@@ -1,19 +1,16 @@
 {
-    "@title": "Quick Mod Removal Menu Access",
-    "@description": "Replaces Starr Drop Rates page with the mod menu",
-    "@author": "v1s7",
-    "locales": {
-        "EN": {
-            "DropRatesUrl": "files.dnull.xyz/mods.html"
-        },
-        "RU": {
-            "DropRatesUrl": "files.dnull.xyz/mods.html"
-        }
-    },
-    "ru": {
-        "TID_SETTINGS_RANDOM_REWARD_RATES": {"RU": "Мод-меню"}
-    },
-    "texts": {
-        "TID_SETTINGS_RANDOM_REWARD_RATES": {"EN": "Mod Menu"}
+  "@title": "Quick Mod Removal Menu Access",
+  "@description": "Set REGION to JAPAN in SETTINGS!!!!!!!!!!!!!!! Adds the mod menu button in settings",
+  "@author": "v1s7",
+  "locales": {
+    "*": {
+      "CountrySpecificLegalNotice": "files.dnull.xyz/mods.html"
     }
+  },
+  "texts_patch": {
+    "TID_SETTINGS_JP_LEGAL_NOTICE": {
+      "EN": "Mod Menu",
+      "RU": "Мод-меню"
+    }
+  }
 }
