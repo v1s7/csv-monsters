@@ -1,4 +1,4 @@
-| \> [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) \< | \> [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/README-en.md) \< |
+[Мануал](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md) | [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) | [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/README-en.md)
 
 ### Назначение папок
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) – все модифицируемые скриптами (json-файлами), согласно мануалу, CSV-файлы, взятые из последней версии Null's Brawl. Только для чтения. 

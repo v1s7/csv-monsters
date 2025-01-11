@@ -1,4 +1,4 @@
-| \> [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ-en.md) \< | \> [Версия на русском](https://github.com/v1s7/csv-monsters) \< |
+[Manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md) | [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ-en.md) | [Версия на русском](https://github.com/v1s7/csv-monsters)
 
 ### Folder assignments
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) - all script-modifiable (json-files), according to the manual, CSV-files, taken from the latest version of Null's Brawl. Read only. 
