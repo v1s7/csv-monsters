@@ -53,7 +53,7 @@ The reason Null's Brawl doesn't show up in the app selection menu when you try t
 # Community
 
 ### How to make mods?  
-Everything is described in the [official manual](https://t.me/nb_mods/16782/21399) written in Russian (it'll be available in English someday). Be sure to read it from cover to cover!
+Everything is described in the [official manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL-en.md) written in Russian (it'll be available in English someday). Be sure to read it from cover to cover!
 
 > [!NOTE]  
 > To create and modify text files (.json and .toml among others) on Android, you can either use the editors that are built into your file manager, or use [QuickEdit](https://xdaforums.com/t/app-4-0-3-quickedit-text-editor.2899385/).
