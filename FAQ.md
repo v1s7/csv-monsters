@@ -1,6 +1,6 @@
 <sup>v1.5 – создано v1s7, вдохновлено MrsFolls</sup>
 
-| \> [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FAQ-en.md) \< |
+[Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FAQ-en.md)
 
 > [!TIP]  
 > Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.

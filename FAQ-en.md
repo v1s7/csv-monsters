@@ -1,6 +1,6 @@
 <sup>v1.5 - created \& translated by v1s7, inspired by MrsFolls</sup>
 
-| \> [Версия на русском](https://github.com/v1s7/csv-monsters/tree/main/FAQ.md) \< |
+[Версия на русском](https://github.com/v1s7/csv-monsters/tree/main/FAQ.md)
 
 > [!TIP]  
 > The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner.

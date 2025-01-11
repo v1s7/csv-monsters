@@ -1,6 +1,5 @@
-<sup>Manual's version: 3.1 (25.12.2024), written by <b>данянул \<3</b>
-Original source: https://t.me/nb_mods/16782/21399
-Translated by v1s7 (11.01.2025)</sup>
+<sup>Manual's version: 3.1 (25.12.2024), written by <b>данянул \<3</b> / Original source: https://t.me/nb_mods/16782/21399 / Translated by v1s7 (11.01.2025)</sup>
+
 [Прочитать на русском](https://github.com/v1s7/csv-monsters/blob/main/MANUAL.md)
 
 -----
@@ -31,7 +30,7 @@ Also it is exceptionally and **strictly forbidden** to:
 In case of deliberate development or distribution of mods that violate the rules, the administration may completely restrict the violators' ability to create mods and/or apply other measures at its discretion.
 
 # II. Game files and their structure
-mods are aimed primarily at altering the game files. Therefore, let's take a look at their structure.
+Mods are aimed primarily at altering the game files. Therefore, let's take a look at their structure.
 
 ## Overall structure of the game folders and files
 All basic (necessary for the game) textures, sounds, tables and other files are stored in the assets folder in the APK, or in the res folder in the IPA file. In turn, they are also organized into folders:
