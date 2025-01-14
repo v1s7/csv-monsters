@@ -6,7 +6,7 @@
 "owcRareOrBetter",,"sc/ui.sc",,"icon_owcRareOrBetter",,,,,,,,
 "owcEpicOrBetter",,"sc/ui.sc",,"icon_owcEpicOrBetter",,,,,,,,
 "Dust",,"sc/ui.sc",,"genicon_dust",,,,,,,,
-"Upgradium",,"sc/ui.sc",,"genicon_upgradium",,,,,,,,
+"Upgradium",,"sc/ui.sc",,"genicon_upgradium",,,,,,
 "Bolts",,"sc/ui.sc",,"genicon_upgradium",,,,,,,,,,
 "HeroLvlUpMaterial","TID_HERO_LVL_UP_MATERIAL","sc/ui.sc",,"genicon_upgradium",,,,,,
 "FirstWins","TID_FIRST_WINS","sc/ui.sc",,"genicon_upgradium",,,,,,,,,,
