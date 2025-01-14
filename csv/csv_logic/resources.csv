@@ -24,4 +24,4 @@
 "Fame","TID_FAME","sc/ui.sc",,"icon_resource_fame",,,,,,,,
 "PowerPoints","TID_RESOURCE_POWER_POINTS","sc/ui.sc",,"icon_resource_powerpoints",,,,,,,,
 "Bling","TID_BLING","sc/ui.sc",,"icon_resource_cosmetic_coins",,,,,,,,
-"CollabPoints","TID_COLLAB_POINTS","sc/collab_sb.sc",,"icon_resource_currency_collab",,,,,,
+"CollabPoints","TID_COLLAB_POINTS","sc/collab_sb.sc",,"icon_resource_currency_collab",,,,
