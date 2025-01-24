@@ -96,7 +96,7 @@ You can boost the [@nulls_ru](https://t.me/nulls_ru) group, in return you will b
 #### I found an annoying bug in a mod.
 If the problematic mod was not taken from this repository (otherwise see [README](https://github.com/v1s7/csv-monsters)), you can post in [this](https://t.me/nb_mods/1) thread, mentioning the author of the mod by @username beforehand (DM-ing them is strongly discouraged).
 
-# Clarity for dummies
+# Normalization of context
 
 ### How do I check the contents of .NullsBrawlAssets?
 Just change the file extension from .NullsBrawlAssets to .zip by renaming the file and look inside of it. Most archival apps and programs can do this even without changing the extension. 
@@ -130,4 +130,4 @@ In the traditional way, you will need to unlock the bootloader of the system (an
 
 It will be easiest for Google Pixel owners, in which bootloader unlocking is extremely simple and with the system that most developers of such software rely on and support. For such purposes there are threads for each model of different devices with instructions on Russian-speaking 4PDA and English-speaking XDA forums.
 
-<!--Переведено с помощью DeepL https://www.deepl.com/app/?utm_source=android&utm_medium=app&utm_campaign=share-translation-->
+<!--Переведено с помощью DeepL https://www.deepl.com/app/-->
