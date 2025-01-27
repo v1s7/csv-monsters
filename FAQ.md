@@ -1,4 +1,4 @@
-<sup>v1.5 – создано v1s7, вдохновлено MrsFolls</sup>
+<sup>v1.5 – создано v1s7, вдохновлено MrsFolls</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FAQ-en.md)
 
