@@ -102,7 +102,7 @@ If the problematic mod was not taken from this repository (otherwise see [README
 Just change the file extension from .NullsBrawlAssets to .zip by renaming the file and look inside of it. Most archival apps and programs can do this even without changing the extension. 
 
 ### What is ZIP?
-
+https://github.com/v1s7/csv-monsters/blob/main/FILETYPES-en.md#zip
 
 ### Can I open a ZIP archive without a computer?
 Of course you can, any file manager should work with archives, both on phones, and on computers, and on TVs. The only thing that makes WinRAR stand out is that it can archive files in their proprietary RAR format (but anything can unpack it), which nobody needs nowadays (except for the 4PDA people, although they are forced by forum restrictions).
