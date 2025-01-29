@@ -1,6 +1,6 @@
 [Мануал](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md) | [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) | [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/README-en.md)
 
-[🇳​​ 🇪 ​​🇼 ​!!! Гайд по форматам файлов](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES.md)
+[🇳​​ 🇪 ​​🇼 ​!!! Гайд по форматам](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES.md)
 
 -----
 ### Назначение папок
