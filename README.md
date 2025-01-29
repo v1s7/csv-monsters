@@ -1,8 +1,11 @@
 [Мануал](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md) | [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ.md) | [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/README-en.md)
 
+[🇳​​ 🇪 ​​🇼 ​!!! Гайд по форматам файлов](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES.md)
+
+-----
 ### Назначение папок
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) – все модифицируемые скриптами (json-файлами), согласно мануалу, CSV-файлы, взятые из последней версии Null's Brawl. Только для чтения. 
-- [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) – сама коллекция неподписанных модов.
+- [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) – коллекция неподписанных модов. Скоро будет перенесена в Телеграм канал.
 
 ### Как и откуда установить
 1. Зайти в [collection](https://github.com/v1s7/csv-monsters/tree/main/collection)

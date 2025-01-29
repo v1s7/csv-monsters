@@ -3,7 +3,7 @@
 [Версия на русском](https://github.com/v1s7/csv-monsters/tree/main/FAQ.md)
 
 > [!TIP]  
-> The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner.
+> The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
 
 > [!NOTE]  
 > It is adviced that you read the [README](https://github.com/v1s7/csv-monsters/tree/main/README-en.md) first before you start reading this FAQ.

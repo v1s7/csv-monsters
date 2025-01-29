@@ -1,8 +1,11 @@
 [Manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md) | [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ-en.md) | [Версия на русском](https://github.com/v1s7/csv-monsters)
 
+[🇳​​ 🇪​​ 🇼​ !!! File Formats Guide](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES-en.md)
+
+-----
 ### Folder assignments
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) - all script-modifiable (json-files), according to the manual, CSV-files, taken from the latest version of Null's Brawl. Read only. 
-- [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) - the collection of unsigned mods itself.
+- [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) - the collection of unsigned mods itself. Soon to be moved to a Telegram channel.
 
 ### How and from where to install
 1. Go to [collection](https://github.com/v1s7/csv-monsters/tree/main/collection)

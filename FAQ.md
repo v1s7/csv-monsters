@@ -3,7 +3,7 @@
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FAQ-en.md)
 
 > [!TIP]  
-> Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
+> Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу. 
 
 > [!NOTE]  
 > Перед началом чтения рекомендуется прочесть [README](https://github.com/v1s7/csv-monsters).

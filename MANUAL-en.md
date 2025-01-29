@@ -8,7 +8,7 @@
 Contents:
 ```table-of-contents
 title: 
-style: nestedList # TOC style (nestedList|nestedOrderedList|inlineFirstLevel)
+style: nestedList # (nestedList|nestedOrderedList|inlineFirstLevel)
 minLevel: 0 
 maxLevel: 0 
 includeLinks: true 
@@ -78,7 +78,11 @@ In this case the **FreeOffer** object will have these values:
 Now, I recommend that you take a look at all the tables in the game – and familiarize yourself with what useful (or not) data they hold. It'll be interesting, trust me :)
 
 ### Game resources
-Textures, music, models... here we will not cover how they are organized, because it would require a separate huge manual. It is important to know the following: the tables contain paths to these resources. This means that we can safely add our own files – the key is to specify the path to them in the corresponding tables.
+Textures, music, models... here we will not cover how they are organized, because it would require a separate huge manual.
+> [!NOTE]  
+> [Here it is](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES-en.md) by the way.
+
+It is important to know the following: the tables contain paths to these resources. This means that we can safely add our own files – the key is to specify the path to them in the corresponding tables.
 
 ### Server-side patches 
 One more thing that's important to keep in mind: the game has a mechanism where it can download some files from the server and use them **instead** of the ones in the APK (IPA).
@@ -91,7 +95,7 @@ The algorithm, in a nutshell, is as follows:
 
 All files are saved to the separate **update** folder in the process, which is usually located at the following path on Android: /data/data/{package name}/update.
 
-# III. mods and their structure
+# III. Mods and their structure
 Starting with the version 59.197, Null's Brawl has a separate modloader, which introduces several of its own concepts for handling files.
 
 ## NullsBrawlAssets 
