@@ -56,7 +56,7 @@
 Всё описано в [официальном мануале](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md). Обязательно прочтите его от корки до корки!
 
 > [!NOTE]  
-> Для создания и изменения текстовых файлов (.json и .toml в том числе) на андроиде можно воспользоваться встроенными редакторами файловых менеджеров или [QuickEdit](https://4pda.to/forum/index.php?showtopic=625901).
+> Для создания и изменения текстовых файлов (.json и .toml в том числе) на андроиде можно воспользоваться встроенными редакторами файловых менеджеров или [QuickEdit](https://4pda.to/forum/index.php?showtopic=625901) для Android, [Runestone Text Editor](https://apps.apple.com/us/app/runestone-text-editor/id1548193893) для iOS, или [Notepad++](https://notepad-plus-plus.org/) для Windows.
 
 > [!TIP]  
 > Есть также сайт для более упрощённого создания простых скриптовых модов для Null's Brawl: https://nb-mods.vercel.app

@@ -56,7 +56,7 @@ The reason Null's Brawl doesn't show up in the app selection menu when you try t
 Everything is described in the [official manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL-en.md) written in Russian (it'll be available in English someday). Be sure to read it from cover to cover!
 
 > [!NOTE]  
-> To create and modify text files (.json and .toml among others) on Android, you can either use the editors that are built into your file manager, or use [QuickEdit](https://xdaforums.com/t/app-4-0-3-quickedit-text-editor.2899385/).
+> To create and modify text files (.json and .toml among others) on Android, you can either use the editors that are built into your file manager, or use [QuickEdit](https://xdaforums.com/t/app-4-0-3-quickedit-text-editor.2899385/) for Android, [Runestone Text Editor](https://apps.apple.com/us/app/runestone-text-editor/id1548193893) for iOS, or [Notepad++](https://notepad-plus-plus.org/) for Windows.
 
 > [!TIP]  
 > There is also a website for simplified creation process of "small" scripted mods for Null's Brawl: https://nb-mods.vercel.app
