@@ -5,16 +5,9 @@
 -----
 **This manual provides the basic information you need to create your own mods for Null's Brawl.**
 
-Contents:
-```table-of-contents
-title: 
-style: nestedList # (nestedList|nestedOrderedList|inlineFirstLevel)
-minLevel: 0 
-maxLevel: 0 
-includeLinks: true 
-hideWhenEmpty: false 
-debugInConsole: false 
-```
+> [!TIP]  
+> The contents of this manual can be accessed by clicking the ⋮☰ button in the upper right corner. 
+
 # I. Generic rules
 But let's start with... the rules. They are quite simple, but, unfortunately, are not obvious to everyone.
 - The title and description of the mod must be meaningful and understandable (without any spelling mistakes)
