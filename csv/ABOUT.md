@@ -26,13 +26,18 @@
 ###### [color_gradients.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/color_gradients.csv "color_gradients.csv") – 👻 
 ###### [credits.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/credits.csv "credits.csv") 
 Перечисление разработчиков, которые участвовали в развитии игры. Находится в соответствующей кнопке в настройках игры
-###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") – 👻 
+###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") 
+Перечисляет все визуальные эффекты в игре (а их в ней немало)
 ###### [faces.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/faces.csv "faces.csv") 
 Перечисляет базовые анимации бравлеров и их скинов из characters.sc, а именно при победе, поражении и бездействии
-###### [fame_tiers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/fame_tiers.csv "fame_tiers.csv") – 👻 
-###### [health_bars.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/health_bars.csv "health_bars.csv") – 👻 
-###### [hints.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/hints.csv "hints.csv") – 👻 
-###### [local_notifications.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/local_notifications.csv "local_notifications.csv") – 👻 
+###### [fame_tiers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/fame_tiers.csv "fame_tiers.csv") 
+Этапы кредитной славы и всё с ними связанное
+###### [health_bars.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/health_bars.csv "health_bars.csv") 
+Столбцы, которые показывают ОЗ игроков и NPC (роботов)
+###### [hints.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/hints.csv "hints.csv") 
+Подсказки от Шелли (в ранних стадиях игры), советы при подборе игроков и прочие рекомендации
+###### [local_notifications.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/local_notifications.csv "local_notifications.csv") 
+Push-уведомления игры (те, что отправляются за её пределами)
 ###### [location_features.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/location_features.csv "location_features.csv") 
 Вносит изменения в окружения карт при соответствии определённым условиям (к примеру, скрытие Тары с фона базара, если её взяли в матче)
 ###### [login_calendar_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/login_calendar_items.csv "login_calendar_items.csv") – 👻 
