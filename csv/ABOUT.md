@@ -27,7 +27,8 @@
 ###### [credits.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/credits.csv "credits.csv") 
 Перечисление разработчиков, которые участвовали в развитии игры. Находится в соответствующей кнопке в настройках игры
 ###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") – 👻 
-###### [faces.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/faces.csv "faces.csv") – 👻 
+###### [faces.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/faces.csv "faces.csv") 
+Перечисляет базовые анимации бравлеров и их скинов из characters.sc, а именно при победе, поражении и бездействии
 ###### [fame_tiers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/fame_tiers.csv "fame_tiers.csv") – 👻 
 ###### [health_bars.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/health_bars.csv "health_bars.csv") – 👻 
 ###### [hints.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/hints.csv "hints.csv") – 👻 
