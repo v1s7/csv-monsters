@@ -24,7 +24,8 @@
 ###### [client_globals.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/client_globals.csv "client_globals.csv") 
 Разнообразные настройки глобального клиента
 ###### [color_gradients.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/color_gradients.csv "color_gradients.csv") – 👻 
-###### [credits.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/credits.csv "credits.csv") – 👻 
+###### [credits.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/credits.csv "credits.csv") 
+Перечисление разработчиков, которые участвовали в развитии игры. Находится в соответствующей кнопке в настройках игры
 ###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") – 👻 
 ###### [faces.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/faces.csv "faces.csv") – 👻 
 ###### [fame_tiers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/fame_tiers.csv "fame_tiers.csv") – 👻 
