@@ -12,7 +12,9 @@
 # csv-client
 Файлы, задающие поведение на стороне клиента, то есть полностью подлежащие модификации.
 
-###### [animations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/animations.csv "animations.csv") – 👻 
+###### [animations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/animations.csv "animations.csv") 
+<!--"Name","FileName","StartFrame","EndFrame","FaceFreezeFrame","Speed","TransitionInMs","TransitionOutMs","AutoFadeMs","Looping","Priority"-->
+Управляет всеми анимациями бравлеров и скинов. Включает в себя начало/конец анимаций, их скорость, переходы, цикличность и приоритет воспроизведения
 ###### [availability_window.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/availability_window.csv "availability_window.csv") – 👻 
 ###### [billing_packages.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/billing_packages.csv "billing_packages.csv") – 👻 
 ###### [bp_purchase_popup.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/bp_purchase_popup.csv "bp_purchase_popup.csv") – 👻 
