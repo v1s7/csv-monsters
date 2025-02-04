@@ -31,7 +31,8 @@
 ###### [health_bars.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/health_bars.csv "health_bars.csv") – 👻 
 ###### [hints.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/hints.csv "hints.csv") – 👻 
 ###### [local_notifications.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/local_notifications.csv "local_notifications.csv") – 👻 
-###### [location_features.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/location_features.csv "location_features.csv") – 👻 
+###### [location_features.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/location_features.csv "location_features.csv") 
+Вносит изменения в окружения карт при соответствии определённым условиям (к примеру, скрытие Тары с фона базара, если её взяли в матче)
 ###### [login_calendar_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/login_calendar_items.csv "login_calendar_items.csv") – 👻 
 ###### [music.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/music.csv "music.csv") 
 Управляет всей музыкой в игре. Включает в себя путь к треку, обозначение трека как фонового, запасной вариант для воспроизведения, громкость, требуется ли бесконечно зациклить трек или сколько раз это требуется сделать
