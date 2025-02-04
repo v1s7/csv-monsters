@@ -1,4 +1,4 @@
-<sup>v0.1 – написал v1s7</sup> 
+<sup>v0.3 – написал v1s7</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPESen.md)
 
@@ -13,7 +13,6 @@
 Файлы, задающие поведение на стороне клиента, то есть полностью подлежащие модификации.
 
 ###### [animations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/animations.csv "animations.csv") 
-<!--"Name","FileName","StartFrame","EndFrame","FaceFreezeFrame","Speed","TransitionInMs","TransitionOutMs","AutoFadeMs","Looping","Priority"-->
 Управляет всеми анимациями бравлеров и скинов. Включает в себя начало/конец анимаций, их скорость, переходы, цикличность и приоритет воспроизведения
 ###### [availability_window.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/availability_window.csv "availability_window.csv") 
 Отвечает за доступность скинов за ограниченное время или сезонное (соответствующий значок под скинами)
@@ -33,14 +32,15 @@
 ###### [fame_tiers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/fame_tiers.csv "fame_tiers.csv") 
 Этапы кредитной славы и всё с ними связанное
 ###### [health_bars.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/health_bars.csv "health_bars.csv") 
-Столбцы, которые показывают ОЗ игроков и NPC (роботов)
+Столбцы, которые показывают здоровье игроков и NPC (роботов)
 ###### [hints.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/hints.csv "hints.csv") 
 Подсказки от Шелли (в ранних стадиях игры), советы при подборе игроков и прочие рекомендации
 ###### [local_notifications.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/local_notifications.csv "local_notifications.csv") 
 Push-уведомления игры (те, что отправляются за её пределами)
 ###### [location_features.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/location_features.csv "location_features.csv") 
 Вносит изменения в окружения карт при соответствии определённым условиям (к примеру, скрытие Тары с фона базара, если её взяли в матче)
-###### [login_calendar_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/login_calendar_items.csv "login_calendar_items.csv") – 👻 
+###### [login_calendar_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/login_calendar_items.csv "login_calendar_items.csv") 
+Все возможные ежедневные награды
 ###### [music.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/music.csv "music.csv") 
 Управляет всей музыкой в игре. Включает в себя путь к треку, обозначение трека как фонового, запасной вариант для воспроизведения, громкость, требуется ли бесконечно зациклить трек или сколько раз это требуется сделать
 ###### [particle_emitters.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/particle_emitters.csv "particle_emitters.csv")
@@ -50,7 +50,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [sounds.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/sounds.csv "sounds.csv") 
 Управляет вообще всеми звуковыми эффектами в игре. Включает в себя путь к треку, обозначение трека как фонового, мин./макс. громкость, тон, требуется ли зациклить трек, и различные махинации с задержками/обрывами воспроизведения
 ###### [tutorial.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/tutorial.csv "tutorial.csv") 
-Параметры того, как должно проходить обучение с Шелли (при захоже в игру в первый раз без аккаунта)
+Параметры того, как должно проходить обучение с Шелли (при заходе в игру в первый раз без аккаунта)
 
 
 # csv-logic
