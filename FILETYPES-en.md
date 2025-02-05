@@ -104,8 +104,7 @@ There's also the WAV format, which is audio without any compression at all and t
 Adherence to this standard is desirable, but not required. Null's Brawl will play any format with any specs.
 
 ## Fonts
-Among fonts there're only 2 mainstream formats: .ttf and .otf, only the first one is used by Null's Brawl, so the second one is hardly supported by the game. You can read more about their differences here: https://old.reddit.com/r/typography/comments/ci4nwk/otf_vs_ttf/.
-`More information is needed on the .otf compatibility in the game.`
+Among fonts there're only 2 mainstream formats: .ttf and .otf, both of which are supported by the game, so it doesn't really matter which one you choose. You can read about their differences more here: https://old.reddit.com/r/typography/comments/ci4nwk/otf_vs_ttf/
 
 # Basic
 ## .png
