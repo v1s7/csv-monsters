@@ -1,5 +1,5 @@
 <!-- Скоро, должен будет содержать инфу о расширениях файлов, на которые можно наткнуться при моддинге Null's Brawl. -->
-<sup>v1.0 – написал v1s7, особые благодарности [Daniill-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup> 
+<sup>v1.1 – написал v1s7, особые благодарности [Daniill-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPES-en.md)
 
