@@ -1,4 +1,4 @@
-<sup>v0.3 – написал v1s7</sup> 
+<sup>v0.4 – написал v1s7</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPESen.md)
 
@@ -9,10 +9,16 @@
 > Перед началом чтения рекомендуется прочесть [мануал](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md).
 
 -----
+# Обозначения
+ 👻 – Ещё не написано
+ 🧊 – Github не сделает из этого файла аккуратную таблицу, так как он весит больше 400 КБ. В таком случае скачайте его ( «<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M8 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM1.5 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm13 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Z"></path></svg>» → «Download», на компьютере это просто «<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16"><path d="M2.75 14A1.75 1.75 0 0 1 1 12.25v-2.5a.75.75 0 0 1 1.5 0v2.5c0 .138.112.25.25.25h10.5a.25.25 0 0 0 .25-.25v-2.5a.75.75 0 0 1 1.5 0v2.5A1.75 1.75 0 0 1 13.25 14Z"></path><path d="M7.25 7.689V2a.75.75 0 0 1 1.5 0v5.689l1.97-1.969a.749.749 0 1 1 1.06 1.06l-3.25 3.25a.749.749 0 0 1-1.06 0L4.22 6.78a.749.749 0 1 1 1.06-1.06l1.97 1.969Z"></path></svg>»)
+⚠️ – Некоторые части модифицировать не выйдет
+⛔ – Файл не подлежит модификации
+
 # csv-client
 Файлы, задающие поведение на стороне клиента, то есть полностью подлежащие модификации.
 
-###### [animations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/animations.csv "animations.csv") 
+###### [animations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/animations.csv "animations.csv") 🧊
 Управляет всеми анимациями бравлеров и скинов. Включает в себя начало/конец анимаций, их скорость, переходы, цикличность и приоритет воспроизведения
 ###### [availability_window.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/availability_window.csv "availability_window.csv") 
 Отвечает за доступность скинов за ограниченное время или сезонное (соответствующий значок под скинами)
@@ -26,7 +32,7 @@
 Задаёт цвета, скорость и интенсивность градиентного текста в различных частях игры
 ###### [credits.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/credits.csv "credits.csv") 
 Перечисление разработчиков, которые участвовали в развитии игры. Находится в соответствующей кнопке в настройках игры
-###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") 
+###### [effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/effects.csv "effects.csv") 🧊
 Перечисляет все визуальные эффекты в игре (а их в ней немало)
 ###### [faces.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/faces.csv "faces.csv") 
 Перечисляет базовые анимации бравлеров и их скинов из characters.sc, а именно при победе, поражении и бездействии
@@ -94,7 +100,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [location_themes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/location_themes.csv "location_themes.csv") – 👻 
 ###### [locations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/locations.csv "locations.csv") – 👻 
 ###### [map_templates.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/map_templates.csv "map_templates.csv") – 👻 
-###### [maps.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/maps.csv "maps.csv") – 👻 
+###### [maps.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/maps.csv "maps.csv") 🧊 – 👻 
 ###### [mastery_hero_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_hero_confs.csv "mastery_hero_confs.csv") – 👻 
 ###### [mastery_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_levels.csv "mastery_levels.csv") – 👻 
 ###### [mastery_points.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_points.csv "mastery_points.csv") – 👻 
@@ -108,7 +114,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [player_map_environments.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_map_environments.csv "player_map_environments.csv") – 👻 
 ###### [player_thumbnails.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_thumbnails.csv "player_thumbnails.csv") – 👻 
 ###### [player_titles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_titles.csv "player_titles.csv") – 👻 
-###### [projectiles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/projectiles.csv "projectiles.csv") – 👻 
+###### [projectiles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/projectiles.csv "projectiles.csv") 🧊 – 👻 
 ###### [random_reward_containers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/random_reward_containers.csv "random_reward_containers.csv") – 👻 
 ###### [random_rewards.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/random_rewards.csv "random_rewards.csv") – 👻 
 ###### [ranked_locations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ranked_locations.csv "ranked_locations.csv") – 👻 
@@ -122,7 +128,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [skills.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skills.csv "skills.csv") – 👻 
 ###### [skin_anim_sequences.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") – 👻 
 ###### [skin_campaigns.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") – 👻 
-###### [skin_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_confs.csv "skin_confs.csv") – 👻 
+###### [skin_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_confs.csv "skin_confs.csv") 🧊 – 👻 
 ###### [skin_rarities.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_rarities.csv "skin_rarities.csv") – 👻 
 ###### [skins.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skins.csv "skins.csv") – 👻 
 ###### [sprays.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/sprays.csv "sprays.csv") – 👻 
@@ -134,47 +140,47 @@ Push-уведомления игры (те, что отправляются за
  
 # localization
 Файлы локализаций. Рекомендуется модифицировать только [texts_patch.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts_patch.csv "texts_patch.csv"), так как игра будет дольше загружаться при модификации остальных файлов. Достаточно задать ему существующие в других файлах TID и языки, на которых нужна замена.
-###### [ar.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ar.csv "ar.csv") 
+###### [ar.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ar.csv "ar.csv") 🧊
 Арабский (العربية)
-###### [cn.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/cn.csv "cn.csv") 
+###### [cn.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/cn.csv "cn.csv") 🧊
 Китайский упрощённый (简体中文)
-###### [cnt.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/cnt.csv "cnt.csv") 
+###### [cnt.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/cnt.csv "cnt.csv") 🧊
 Китайский традиционный (繁體中文)
-###### [de.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/de.csv "de.csv") 
+###### [de.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/de.csv "de.csv") 🧊
 Немецкий (Deutsch)
-###### [es.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/es.csv "es.csv") 
+###### [es.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/es.csv "es.csv") 🧊
 Испанский (Español)
-###### [fi.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/fi.csv "fi.csv") 
+###### [fi.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/fi.csv "fi.csv") 🧊
 Финский (Suomi)
-###### [fr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/fr.csv "fr.csv")
+###### [fr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/fr.csv "fr.csv") 🧊
 Французский (Français)
-###### [he.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/he.csv "he.csv") 
+###### [he.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/he.csv "he.csv") 🧊
 Иврит (עברית)
-###### [id.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/id.csv "id.csv")
+###### [id.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/id.csv "id.csv") 🧊
 Индонезийский (Bahasa Indonesia)
-###### [it.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/it.csv "it.csv") 
+###### [it.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/it.csv "it.csv") 🧊
 Итальянский (Italiano)
-###### [jp.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/jp.csv "jp.csv") 
+###### [jp.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/jp.csv "jp.csv") 🧊
 Японский (日本語)
-###### [kr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/kr.csv "kr.csv") 
+###### [kr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/kr.csv "kr.csv") 🧊
 Корейский (한국어)
-###### [ms.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ms.csv "ms.csv") 
+###### [ms.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ms.csv "ms.csv") 🧊
 Малайский (Bahasa Melayu)
-###### [nl.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/nl.csv "nl.csv") 
+###### [nl.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/nl.csv "nl.csv") 🧊
 Нидерландский (Nederlands)
-###### [pl.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/pl.csv "pl.csv") 
+###### [pl.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/pl.csv "pl.csv") 🧊
 Польский (Polski)
-###### [pt.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/pt.csv "pt.csv")
+###### [pt.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/pt.csv "pt.csv") 🧊
 Португальский (Português)
-###### [ru.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ru.csv "ru.csv") 
+###### [ru.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/ru.csv "ru.csv") 🧊
 Русский (да, именно он)
-###### [texts.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts.csv "texts.csv") 
+###### [texts.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts.csv "texts.csv") 🧊
 Английский (English)
-###### [texts_patch.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts_patch.csv)
+###### [texts_patch.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts_patch.csv) 
 Универсальный файл для замены TID непосредственно на все языки
-###### [th.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/th.csv "th.csv")
+###### [th.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/th.csv "th.csv") 🧊
 Тайский (ภาษาไทย)
-###### [tr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/tr.csv "tr.csv") 
+###### [tr.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/tr.csv "tr.csv") 🧊
 Турецкий (Türkçe)
-###### [vi.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/vi.csv "vi.csv") 
+###### [vi.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/vi.csv "vi.csv") 🧊
 Вьетнамский (Tiếng Việt)
