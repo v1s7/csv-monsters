@@ -1,5 +1,5 @@
 <!--Coming soon, will contain info about file extensions that you'll encounter on your way when modding Null's Brawl.-->
-<sup>v1.0 – written \& translated by v1s7, special thanks to [Daniill-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
+<sup>v1.1 – written \& translated by v1s7, special thanks to [Daniill-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
 [Прочесть на русском](https://github.com/v1s7/csv-monsters/tree/main/FILETYPES.md)
 
