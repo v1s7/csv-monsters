@@ -1,4 +1,4 @@
-<sup>v0.4.1 – написал v1s7</sup> 
+<sup>v0.5 – написал v1s7</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPESen.md)
 
@@ -100,7 +100,8 @@ Push-уведомления игры (те, что отправляются за
 ###### [location_themes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/location_themes.csv "location_themes.csv") – 👻 
 ###### [locations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/locations.csv "locations.csv") – 👻 
 ###### [map_templates.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/map_templates.csv "map_templates.csv") – 👻 
-###### [maps.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/maps.csv "maps.csv") 🧊 – 👻 
+###### [maps.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/maps.csv "maps.csv") 🧊 
+Все предустановленные карты в игре в форме ASCII-артов в одной большой таблице (отвечают и за карту, и за превью)
 ###### [mastery_hero_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_hero_confs.csv "mastery_hero_confs.csv") – 👻 
 ###### [mastery_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_levels.csv "mastery_levels.csv") – 👻 
 ###### [mastery_points.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_points.csv "mastery_points.csv") – 👻 
@@ -112,9 +113,11 @@ Push-уведомления игры (те, что отправляются за
 ###### [night_market_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/night_market_items.csv "night_market_items.csv") – 👻 
 ###### [player_frames.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_frames.csv "player_frames.csv") – 👻 
 ###### [player_map_environments.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_map_environments.csv "player_map_environments.csv") – 👻 
-###### [player_thumbnails.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_thumbnails.csv "player_thumbnails.csv") – 👻 
+###### [player_thumbnails.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_thumbnails.csv "player_thumbnails.csv") 
+Управляет аватарами игроков, взятых из player_icons.sc
 ###### [player_titles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_titles.csv "player_titles.csv") – 👻 
-###### [projectiles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/projectiles.csv "projectiles.csv") 🧊 – 👻 
+###### [projectiles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/projectiles.csv "projectiles.csv") 🧊
+Все характеристики всех атак всех бойцов. Сами текстуры берутся из effects.sc, effects_brawler.sc и effects_brawler2.sc
 ###### [random_reward_containers.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/random_reward_containers.csv "random_reward_containers.csv") – 👻 
 ###### [random_rewards.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/random_rewards.csv "random_rewards.csv") – 👻 
 ###### [ranked_locations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ranked_locations.csv "ranked_locations.csv") – 👻 
@@ -128,7 +131,8 @@ Push-уведомления игры (те, что отправляются за
 ###### [skills.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skills.csv "skills.csv") – 👻 
 ###### [skin_anim_sequences.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") – 👻 
 ###### [skin_campaigns.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") – 👻 
-###### [skin_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_confs.csv "skin_confs.csv") 🧊 – 👻 
+###### [skin_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_confs.csv "skin_confs.csv") 🧊 
+Параметры всех скинов (в том числе и стандартных), модели с текстурами и анимациями которых взяты из различных SCW и GLB файлов
 ###### [skin_rarities.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_rarities.csv "skin_rarities.csv") – 👻 
 ###### [skins.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skins.csv "skins.csv") – 👻 
 ###### [sprays.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/sprays.csv "sprays.csv") – 👻 
