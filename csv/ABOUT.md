@@ -1,4 +1,4 @@
-<sup>v0.6.1 – написал v1s7</sup> 
+<sup>v0.7 – написал v1s7</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPESen.md)
 
@@ -12,7 +12,8 @@
 # Обозначения
 - 👻 – Ещё не написано / требуется больше информации
 - 🧊 – Github не сделает из этого файла аккуратную таблицу, так как он весит больше 400 КБ. В таком случае скачайте его ( «•••» → «Download», на компьютере это просто «<ins>↓</ins>») и откройте
-<!-- - ⛔ – Файл (почти или полностью) не подлежит модификации -->
+- 🪦 – Неиспользуемые в игре файлы, а значит не представляющие интерес для моддинга
+- ⛔ – Файл (почти или полностью) не подлежит модификации
 
 # csv-client
 Файлы, задающие поведение на стороне клиента, то есть полностью подлежащие модификации.
@@ -21,7 +22,7 @@
 Управляет всеми анимациями бравлеров и скинов. Включает в себя начало/конец анимаций, их скорость, переходы, цикличность и приоритет воспроизведения
 ###### [availability_window.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/availability_window.csv "availability_window.csv") 
 Отвечает за доступность скинов за ограниченное время или сезонное (соответствующий значок под скинами)
-###### [billing_packages.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/billing_packages.csv "billing_packages.csv") 
+###### [billing_packages.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/billing_packages.csv "billing_packages.csv") 🪦
 Все донатные акции магазина, то есть за реальные деньги. В Null's Brawl игнорируется
 ###### [bp_purchase_popup.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/bp_purchase_popup.csv "bp_purchase_popup.csv") 
 Анимация покупки Brawl Pass, а также анимации пинов и скинов из него
@@ -51,7 +52,7 @@ Push-уведомления игры (те, что отправляются за
 Управляет всей музыкой в игре. Включает в себя путь к треку, обозначение трека как фонового, запасной вариант для воспроизведения, громкость, требуется ли бесконечно зациклить трек или сколько раз это требуется сделать
 ###### [particle_emitters.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/particle_emitters.csv "particle_emitters.csv")
 Управляет вообще всеми частицами в игре, их исходниками из effects.sc и имеет много различных параметров
-###### [shop_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/shop_items.csv "shop_items.csv") 
+###### [shop_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/shop_items.csv "shop_items.csv") 🪦
 Все возможные предметы в магазине. В Null's Brawl игнорируется
 ###### [sounds.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_client/sounds.csv "sounds.csv") 
 Управляет вообще всеми звуковыми эффектами в игре. Включает в себя путь к треку, обозначение трека как фонового, мин./макс. громкость, тон, требуется ли зациклить трек, и различные махинации с задержками/обрывами воспроизведения
@@ -64,24 +65,24 @@ Push-уведомления игры (те, что отправляются за
 
 ###### [accessories.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/accessories.csv "accessories.csv") 
 Характеристики всех гаджетов в игре
-###### [ad_placements.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ad_placements.csv "ad_placements.csv") 
+###### [ad_placements.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ad_placements.csv "ad_placements.csv") 🪦
 Так и не вышедшие в релиз "посмотри рекламу ради дополнительной награды", да и вряд-ли они когда-либо выйдут. Интереса для моддинга не представляет
 ###### [alliance_badges.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_badges.csv "alliance_badges.csv") 
 Перечисляет эмблемы кланов из ui.sc
-###### [alliance_league_modes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_league_modes.csv "alliance_league_modes.csv") – 👻 
-🤷 Предположительно старый файл со времён войн кланов с золотыми билетами, делает замену эмблемы клана, если он Competitive
-###### [alliance_league_ranks.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_league_ranks.csv "alliance_league_ranks.csv") – 👻 
-🤷 Такой же старый файл, отвечает за ранги клуба
+###### [alliance_league_modes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_league_modes.csv "alliance_league_modes.csv") 🪦 👻
+Старый файл со времён войн кланов с золотыми билетами, делает замену эмблемы клана при статусе Competitive
+###### [alliance_league_ranks.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_league_ranks.csv "alliance_league_ranks.csv") 🪦 👻 
+Такой же старый файл, отвечает за ранги клуба
 ###### [alliance_roles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_roles.csv "alliance_roles.csv") 
 Параметры должностей в клубе, от участника до президента
 ###### [area_effects.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/area_effects.csv "area_effects.csv") 
 Характеристики различных территориальных эффектов, которые могут быть созданны как бравлерами (по типу огня на земле от ракет Брока, разлитого пива Барли и т.п.), так и самой игрой (возрождение, исцеление, появление роботов и т.п.)
 ###### [battle_feats.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/battle_feats.csv "battle_feats.csv") 
 Задаёт медалям игроков (за наибольшие уничтожения, урон или исцеление) вариант градиента и TID из файлов локализации
-###### [bosses.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/bosses.csv "bosses.csv") – 👻 
-🤷 То ли бой с боссом, то ли разгром Суперсити, что это вообще... Содержит параметры 7 боссов
-###### [campaign.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/campaign.csv "campaign.csv") – 👻 
-🤷 Какие-то кампании... GenericSoldier... Это точно не вырезанный контент со времён Project Lazer?
+###### [bosses.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/bosses.csv "bosses.csv") 🪦 👻 
+Уровни то ли боя с боссом, то ли разгрома Суперсити, вообще непонятно... Содержит параметры 7 боссов, за каждого выдаётся награда в 10 кристаллов
+###### [campaign.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/campaign.csv "campaign.csv") 🪦 👻 
+Предположительно вырезанный контент со времён Project Lazer. За каждое завершение этапа кампании выдаётся награда в 3 кристалла
 ###### [cards.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/cards.csv "cards.csv") 
 Информационные карточки на бравлеров и их гаджеты, звёздные силы, гиперзаряды, а также на атаки, суперы и питомцев (турели, миньоны, альтернативные формы и т.п.)
 ###### [carryables.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/carryables.csv "carryables.csv") 
@@ -92,8 +93,8 @@ Push-уведомления игры (те, что отправляются за
 Временные испытания (те, что с ограниченным числом поражений)
 ###### [characters.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/characters.csv "characters.csv") 
 Характеристики уже самих бравлеров. Полезен для того, чтобы узнать, кто под каким кодовым именем скрывается (например, кодовое имя Поко – DeadMariarchi)
-###### [chronos_asset_ids.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/chronos_asset_ids.csv "chronos_asset_ids.csv") – 👻 
-🤷 Какой-то костыль для мегакопилки
+###### [chronos_asset_ids.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/chronos_asset_ids.csv "chronos_asset_ids.csv") 🪦 👻 
+Какой-то костыль для мегакопилки
 ###### [class_archetypes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/class_archetypes.csv "class_archetypes.csv") 
 Перечисляет классы бравлеров (танки, убийцы, артиллерия и т.д.)
 ###### [club_piggy_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/club_piggy_levels.csv "club_piggy_levels.csv") 
@@ -102,17 +103,17 @@ Push-уведомления игры (те, что отправляются за
 Альтернативные скины мегакопилки
 ###### [club_piggy_wins.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/club_piggy_wins.csv "club_piggy_wins.csv") 
 Задаёт уровень мегакопилке по количеству побед клуба
-###### [collab_game_modes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/collab_game_modes.csv "collab_game_modes.csv") – 👻 
-🤷 Режимы из коллабораций со списками лидеров или определённой прогрессией
-###### [collabs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/collabs.csv "collabs.csv") – 👻 
-🤷 Все коллабы в игре и вещи с них
+###### [collab_game_modes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/collab_game_modes.csv "collab_game_modes.csv") 👻 
+Временные режимы из коллабораций со списками лидеров или определённой прогрессией
+###### [collabs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/collabs.csv "collabs.csv") 👻 
+Все коллаборации в истории игры и косметика с них
 ###### [emote_bundles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/emote_bundles.csv "emote_bundles.csv") 
 Перечисляет коллекции пинов
 ###### [emotes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/emotes.csv "emotes.csv") 
 Параметры всех пинов в игре
-###### [enumerated_id_lists.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") – 👻
+###### [enumerated_id_lists.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") 👻
 🤷
-###### [event_slots.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/event_slots.csv "event_slots.csv") – 👻 
+###### [event_slots.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/event_slots.csv "event_slots.csv") 👻 
 🤷
 ###### [game_mode_variations.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/game_mode_variations.csv "game_mode_variations.csv") –
 Параметры всех режимов в игре
@@ -142,7 +143,7 @@ Push-уведомления игры (те, что отправляются за
 Перечисляет мастерства бравлеров и какие уникальные награды будут в пути (пин и аватар)
 ###### [mastery_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_levels.csv "mastery_levels.csv") 
 Сами награды на пути мастерства
-###### [mastery_points.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_points.csv "mastery_points.csv") – 👻 
+###### [mastery_points.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_points.csv "mastery_points.csv") 👻 
 🤷
 ###### [mastery_reward_types.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/mastery_reward_types.csv "mastery_reward_types.csv") 
 Виды наград на пути мастерства
@@ -152,9 +153,9 @@ Push-уведомления игры (те, что отправляются за
 Огромная таблица интервалов всех возможных "путей"
 ###### [name_colors.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/name_colors.csv "name_colors.csv") 
 Цвета имени игрока
-###### [night_market_bundles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") – 👻 
+###### [night_market_bundles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") 👻 
 🤷
-###### [night_market_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/night_market_items.csv "night_market_items.csv") – 👻 
+###### [night_market_items.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/night_market_items.csv "night_market_items.csv") 👻 
 🤷
 ###### [player_frames.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/player_frames.csv "player_frames.csv") 
 Перечисляет рамки боевой карты (либо рейтинга, либо славы)
@@ -174,22 +175,22 @@ Push-уведомления игры (те, что отправляются за
 Карты в рейтинговых боях
 ###### [ranked_ranks.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ranked_ranks.csv "ranked_ranks.csv") 
 Параметры рейтинговых лиг
-###### [ranked_star_rewards.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ranked_star_rewards.csv "ranked_star_rewards.csv") – 👻
-🤷
+###### [ranked_star_rewards.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ranked_star_rewards.csv "ranked_star_rewards.csv")
+Возможные награды из рейтингового дропа на каждый сезон
 ###### [regions.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/regions.csv "regions.csv") 
 Перечисляет расположения (страны/регионы) из соответствующей кнопки в настройках
 ###### [resources.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/resources.csv "resources.csv") 
 Внутриигровые валюты (золото, кристаллы, блинги и т.п.)
-###### [seasonal_skin_sections.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/seasonal_skin_sections.csv "seasonal_skin_sections.csv") – 👻 
-🤷 Управляет предлодениями по категориям скинов в магазине
-###### [shop_panel_layouts.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/shop_panel_layouts.csv "shop_panel_layouts.csv") – 👻 
-🤷 Вновь управляет каким-то видом предложения в магазине
-###### [shop_style_sets.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/shop_style_sets.csv "shop_style_sets.csv") – 👻 
-🤷 Ещё какой-то файл, управляющий предложениями в магазине
+###### [seasonal_skin_sections.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/seasonal_skin_sections.csv "seasonal_skin_sections.csv") 👻 
+Управляет предложениями по категориям скинов в магазине
+###### [shop_panel_layouts.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/shop_panel_layouts.csv "shop_panel_layouts.csv") 👻 
+Вновь управляет каким-то видом предложения в магазине
+###### [shop_style_sets.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/shop_style_sets.csv "shop_style_sets.csv") 👻 
+Ещё какой-то файл, управляющий предложениями в магазине
 ###### [skills.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skills.csv "skills.csv") 
 Характеристики атак и суперов бравлеров
-###### [skin_anim_sequences.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") – 👻
-🤷 Судя по названию должен управлять анимациями скинов, но так как файл имеет только 1 строчку с Мортисом есть предположение, что это просто рандомный костыль
+###### [skin_anim_sequences.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") 👻
+Судя по названию должен управлять порядками анимаций скинов, но так как файл имеет только 1 строку с Мортисом есть предположение, что это всего лишь костыль
 ###### [skin_campaigns.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") 
 Параметры категорий скинов
 ###### [skin_confs.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/skin_confs.csv "skin_confs.csv") 🧊 
@@ -206,10 +207,10 @@ Push-уведомления игры (те, что отправляются за
 Управляет фонами в главном меню, взятыми из можества background_\*.sc
 ###### [tiles.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/tiles.csv "tiles.csv") 
 Характеризует все блоки (плитки) в игре
-###### [trophy_season_reward_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/trophy_season_reward_levels.csv "trophy_season_reward_levels.csv") – 👻 
-🤷
-###### [visual_offer_groupings.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/visual_offer_groupings.csv "visual_offer_groupings.csv") – 👻 
-🤷
+###### [trophy_season_reward_levels.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/trophy_season_reward_levels.csv "trophy_season_reward_levels.csv") 
+Перечисляет уровни сезонных ящиков
+###### [visual_offer_groupings.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/visual_offer_groupings.csv "visual_offer_groupings.csv") 👻 
+Предложение покупки гиперзаряда в магазине
  
 # localization
 Файлы локализаций. Рекомендуется модифицировать только [texts_patch.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/localization/texts_patch.csv "texts_patch.csv"), так как игра будет дольше загружаться при модификации остальных файлов. Достаточно задать ему существующие в других файлах TID и языки, на которых нужна замена.
