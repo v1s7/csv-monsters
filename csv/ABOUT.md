@@ -1,4 +1,4 @@
-<sup>v0.6 – написал v1s7</sup> 
+<sup>v0.6.1 – написал v1s7</sup> 
 
 [Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPESen.md)
 
@@ -64,8 +64,8 @@ Push-уведомления игры (те, что отправляются за
 
 ###### [accessories.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/accessories.csv "accessories.csv") 
 Характеристики всех гаджетов в игре
-###### [ad_placements.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ad_placements.csv "ad_placements.csv") – 👻 
-🤷
+###### [ad_placements.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/ad_placements.csv "ad_placements.csv") 
+Так и не вышедшие в релиз "посмотри рекламу ради дополнительной награды", да и вряд-ли они когда-либо выйдут. Интереса для моддинга не представляет
 ###### [alliance_badges.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_badges.csv "alliance_badges.csv") 
 Перечисляет эмблемы кланов из ui.sc
 ###### [alliance_league_modes.csv](https://github.com/v1s7/csv-monsters/blob/main/csv/csv_logic/alliance_league_modes.csv "alliance_league_modes.csv") – 👻 
