@@ -270,5 +270,6 @@
 "CCTV_URL",,,"https://cctv.starrpark.biz/",,,
 "CCTV_PARAMS",,,"webview=quTxstAcEWffgjXDaLmA&cachebust=<CACHEBUST>",,,
 "CCTV_USE_PRELOAD",,"TRUE",,,,
+"DISABLE_PIGGY_UNSEEN_TICKETS",,"TRUE",,,,
 "FRIEND_REQUEST_TIME",10,,,,,
 "BRAWLWER_SORTING_SELECTOR_ENABLED",,"TRUE",,,,
