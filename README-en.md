@@ -5,9 +5,9 @@
 -----
 ### Folder assignments
 - [csv](https://github.com/v1s7/csv-monsters/tree/main/csv) - all script-modifiable (json-files), according to the manual, CSV-files, taken from the latest version of Null's Brawl. Read only. 
-- [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) - the collection of unsigned mods itself. Soon to be moved to a Telegram channel.
+<!-- - [collection](https://github.com/v1s7/csv-monsters/tree/main/collection) - the collection of unsigned mods itself. Temporarily disabled. -->
 
-### How and from where to install
+<!-- ### How and from where to install
 1. Go to [collection](https://github.com/v1s7/csv-monsters/tree/main/collection)
 2. Open the script you are interested in
 3. Click on the download button
@@ -27,3 +27,4 @@
 > 2. Send it to the author via [Telegram](https://t.me/anonaskbot?start=02PQRQ6rMj0Sjdb)
 
 7. If the file was "Успешно подписано!", then feel free to download it and proceed to installation. Read more about installation in [FAQ](https://github.com/v1s7/csv-monsters/blob/main/FAQ-en.md).
+-->
