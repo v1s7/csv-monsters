@@ -13,7 +13,7 @@
 ### Как удалять/выключать/включать моды?
 Такое меню управления модами можно открыть несколькими способами:
 ##### 1. Прямо из игры
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-ingame-button.webp" alt="1. Зайдите в настройки внутри игры. 2. Нажмите на фиолетовую кнопку «Меню модов…»." width="260em"/>
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-ingame-button.webp" alt="1. Зайдите в настройки внутри игры. 2. Нажмите на фиолетовую кнопку «Меню модов…»." width="100%"/>
 
 ##### 2. По ссылке
 http://files.dnull.xyz/mods.html
