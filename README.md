@@ -1,1 +1,1 @@
-# This branch is used for screenshots, videos, gifs and other stuff for guides. Please switch to other Github branch to read them. It can be done with the dropdown menu on top of the files section (where "media" is displayed).
+# This branch is used for screenshots, videos, gifs and other stuff for guides. To read them, go [here](https://github.com/v1s7/csv-monsters/tree/main).
