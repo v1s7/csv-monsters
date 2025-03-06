@@ -1,4 +1,4 @@
-<sup>v1.99 – создано v1s7, вдохновлено MrsFolls</sup> 
+<sup>v1.995 – создано v1s7, вдохновлено MrsFolls</sup> 
 
 [Switch to English](/FAQ-en.md)
 
@@ -13,22 +13,21 @@
 ### Как удалять/выключать/включать моды?
 Такое меню управления модами можно открыть несколькими способами:
 ##### 1. Прямо из игры
-скоро
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-ingame-button.webp" alt="1. Зайдите в настройки внутри игры. 2. Нажмите на фиолетовую кнопку «Меню модов…»." width="260em"/>
 
 ##### 2. По ссылке
 http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
-
-![]()<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Очистите данные игры. Не бойтесь, сами данные не очистятся. 2. В открывшемся меню выберите «Управление модификациями»." width="260em"/>
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Очистите данные игры. Не бойтесь, сами данные не очистятся. 2. В открывшемся меню выберите «Управление модификациями»." width="260em"/>
 
 ### Как установить мод на iOS?
 > [!CAUTION]  
-> Автор понятия не имеет, о чём написал ответ на этот вопрос, так как не владеет никаким устройством на iOS. Поглощайте данную информацию с осторожностью и умом.
+> Автор не владеет никаким устройством на iOS, поэтому подтвердить данную информацию не может. Поглощайте её осторожно и разумно.
 
 1. Скачайте последнюю версию Null's Brawl и установите игру через [Sideloadly](https://sideloadly.io) с включённым File Sharing (или же распакуйте IPA-файл и добавьте ключ UISupportsDocumentBrowser (bool) со значением TRUE в Info.plist, затем запакуйте обратно, подпишите и установите, выйдет то же самое). 
 2. Зайдите хотя бы один раз в игру. 
-3. Скачайте файл .NullsBrawlAssets, распакуйте его как ZIP-архив (к примеру с помощью [Filza](https://www.tigisoftware.com/default/?page_id=78)) и положите всё содержимое по пути `/var/mobile/Containers/Data/Application/NB v58.279/Documents/updated`
+3. Скачайте файл .NullsBrawlAssets, распакуйте его как ZIP-архив (к примеру с помощью [Filza](https://www.tigisoftware.com/default/?page_id=78)) и положите всё содержимое по пути `/var/mobile/Containers/Data/Application/NB v##.###/Documents/updated`
 
 ### Как установить подписанный мод (.NullsBrawlAssets) на Android?
 Скачиваете и открываете файл мода (.NullsBrawlAssets) прямо из телеграма и выбираете в списке приложений Null's Brawl. Ставите галочку и нажимаете установить. И всё.
@@ -37,17 +36,24 @@ http://files.dnull.xyz/mods.html
 > Если по какой-то причине телега не открывает файл, жмёте на "⋮", потом "Сохранить в загрузки", открываете проводник, заходите в папку Download/Telegram (у людей с определёнными сторонними клиентами тг может находиться в Download/AyuGram или подобной) и уже оттуда открываете файл мода.
 
 > [!NOTE]  
-> Обращаю внимание, что некоторые файловые менеджеры не видят некоторые интент-фильтры, и из-за этого они не видят, что Null's Brawl поддерживает этот формат файла. Тогда попробуйте другой файловый менеджер, например:
-> - [MT Manager](https://mt2.cn) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=548542)),
-> - [Solid Explorer](https://neatbytes.com/solidexplorer/index.php/about) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=325553)),
-> - [MiXplorer](https://www.mixplorer.com) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=318294)), 
-> - [ZArchiver](https://zdevs.ru) ([тема 4PDA](https://4pda.to/forum/index.php?showtopic=305019)).
+> Обращаю внимание, что некоторые файловые менеджеры не видят, что Null's Brawl поддерживает свой формат файла. Тогда попробуйте открыть его другим менеджером, например:
+> - <details><summary>Material Files:</summary> Лучший среди доступных в Google Play менеджеров, к тому же и с открытым кодом и интерфейсом Material You.</details>  
+> 
+> [GitHub](https://github.com/zhanghai/MaterialFiles) | [4PDA](https://4pda.to/forum/index.php?showtopic=957950) | [Google Play](https://play.google.com/store/apps/details?id=me.zhanghai.android.files)
+> 
+> - <details><summary>MT Manager:</summary> Самый напичканный функциями менеджер, некоторые из которых платные. Если вам важен максильный функционал, то это налучший выбор.</details>  
+> 
+> [Сайт](https://mt2.cn) | [4PDA](https://4pda.to/forum/index.php?showtopic=548542) | в Google Play его НЕТ и НЕ БУДЕТ – в нём выйдет найти только подделки оригинала
+> 
+> - <details><summary>ZArchiver:</summary> Простой, стабильный и закалённый временем менеджер. Ему не хватает только интеграции с приватными хранилищами приложений, которая будет важна в следующем вопросе.</details>  
+> 
+> [Сайт](https://zdevs.ru) | [4PDA](https://4pda.to/forum/index.php?showtopic=305019) | [Google Play](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
 
 ### Как установить zip-файл мода (неподписанный) на Android?   
 Достаточно вставить папку с модом, в названии которой должен быть только UUID (сгенерировать [тут](https://uuidgenerator.net)), по пути
 `/data/data/daniillnull.nulls.brawlstars/mods/`. Это можно сделать несколькими способами:
 1. Используя рут-права или виртуальную машину с поддержкой Magisk (например, [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). Виртуальной машине потребуется 6 ГБ свободного места. Видеоинструкция: [YouTube](https://youtu.be/4Bzl8jt57qc) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4)
-2. Модифицируя apk-файл Null's Brawl на открытие доступа к скрытым данным приложения поставщику документов и на удаление проверки подписи apk. Учтите, что таким способом вы рискуете словить бан на свой аккаунт. Видеоинструкция: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)
+2. Модифицируя apk-файл Null's Brawl на открытие доступа к приватному хранилищу приложения поставщику документов и на удаление проверки подписи apk. Учтите, что таким способом вы рискуете словить бан на свой аккаунт (ему ставится флаг, что у вас не оригинальный апк). Видеоинструкция: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)
 
 ### При установке подписанного мода (.NullsBrawlAssets) выдаёт ошибку, почему? 
 Возможно у него истекла подпись (подпись через бота действует 3 дня) и/или не совместим с текущей версией игры. Ну или сам мод сломан, что крайне маловероятно. 
@@ -71,8 +77,10 @@ http://files.dnull.xyz/mods.html
 > [!TIP]  
 > Ну и стоит упомянуть неофициальный [туториал по созданию модов на JSON](https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12)
 
-### Насчёт модпаков и отсутствии в них смысла
+### Насчёт модпаков и их бессмысленности, кроме как для iOS
 Начиная с версии 59.197, в игре появился расширенный загрузчик модов, и стало возможно устанавливать несколько модов за раз.[²](https://t.me/nb_mods_for_kids/13) Делать модпаки – долгая, рутинная и бысмысленная затея, ведь можно просто установить нужные моды и всё. Это не сохранит времени ни вам, ни другим. 
+
+Однако есть один случай где модпаки до сих нужны – iOS, так как там моды работают распаковкой изменённых ассетов в папку `updated`, то есть загрузчика модов на iOS вообще не существует. Замечали, что внутри NullsBrawlAssets также генерируются CSV-файлы при подписи? Они существуют только ради игроков на iOS, модлоадером на Android же они полностью игнорируются.
 
 ### Как мне подписать мод?
 Сделайте это с помощью [официального бота](https://t.me/nulls_mods_bot), отправив ему скрипт с подписью /sign. И да, вы можете подавать ему заявку как на "маленькие", так и на "крупные" моды, но вы также можете подать в [Signing Requests Pro](https://t.me/nb_mods/3), если ваш мод требует дополнительных ресурсов, или если вы хотите подписать свой мод более строгой и долгосрочной подписью. Трешмоды и старые классические моды с изменёнными .csv там больше не приветствуются.[³](https://t.me/nb_mods/3/4525)
