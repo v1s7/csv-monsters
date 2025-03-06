@@ -20,7 +20,7 @@ http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
 
-![]()<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Очистите данные игры. Не бойтесь, сами данные не очистятся. 2. В открывшемся меню выберите «Управление модификациями»." width="50%"/>
+![]()<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Очистите данные игры. Не бойтесь, сами данные не очистятся. 2. В открывшемся меню выберите «Управление модификациями»." width="260em"/>
 
 ### Как установить мод на iOS?
 > [!CAUTION]  
