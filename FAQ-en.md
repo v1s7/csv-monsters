@@ -1,13 +1,9 @@
-<sup>v1.995 - created \& translated by v1s7, inspired by MrsFolls</sup>
-
-[Версия на русском](/FAQ.md)
+<sup>v1.997 - created \& translated by v1s7, inspired by MrsFolls</sup>  
+[Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
 -----
-
-> [!NOTE]  
-> ~~It is adviced that you read the [README](/README-en.md) first before you start reading this FAQ.~~ work in progress
-
+-----
 # Mundane
 
 ### How do I remove mods or resource patch files?
@@ -25,12 +21,14 @@ http://files.dnull.xyz/mods.html
 <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Clear the game data. Don't worry, the data itself will not be cleared. 2. In the opened menu, select «Manage modifications»." width="260em"/>
 
 ### How to install a mod on iOS?
-> [!CAUTION]  
-> The current maintainer has no idea about the integrity of this answer, as the maintainer does not own any iOS device. Take this information with caution and intelligence.
+<details><summary>There's no modloader on iOS!</summary>Exactly. Everything is done by putting files in the `updated` folder, just like in v58 on Android. Have you noticed that CSV files are generated inside NullsBrawlAssets upon signing? They exist only for the sake of iOS users. Android modloader completely ignores them.</details>
 
 1. Download the latest version of Null's Brawl and install the game via [Sideloadly](https://sideloadly.io) with file sharing enabled (or unzip the IPA file and add the UISupportsDocumentBrowser (bool) key with a value of TRUE to Info.plist, then unzip back, sign and install, it will be the same). 
 2. Log into the game at least once. 
 3. Download the .NullsBrawlAssets file, extract it as a ZIP archive (for example, with [Filza](https://www.tigisoftware.com/default/?page_id=78)) and put all the contents in the path `/var/mobile/Containers/Data/Application/NB v##.###/Documents/updated/`.
+
+> [!CAUTION]  
+> The current maintainer can't check the integrity of this answer, as the maintainer doesn't own any iOS device. Take this information cautiously and mindfully.
 
 ### How to install a signed mod (.NullsBrawlAssets) on Android?
 Download and open the mod file (.NullsBrawlAssets) directly from Telegram and select Null's Brawl in the list of apps. Check the box and click install. And that's it.
