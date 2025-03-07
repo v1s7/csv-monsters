@@ -48,7 +48,7 @@ Download and open the mod file (.NullsBrawlAssets) directly from Telegram and se
 > 
 > [Website](https://mt2.cn) | [4PDA](https://4pda.to/forum/index.php?showtopic=548542) | not on Google Play and WON'T EVER be – you can only find fake clones there
 > 
-> - <details><summary>ZArchiver:</summary> Простой, стабильный и закалённый временем менеджер. Ему не хватает только интеграции с приватными хранилищами приложений, которая будет важна в следующем вопросе. Simple, stable, time-tested manager. The only thing it lacks is the integration with private storage of apps, which will be important in the next question.</details>  
+> - <details><summary>ZArchiver:</summary> Simple, stable, time-tested manager. The only thing it lacks is the integration with private storage of apps, which will be important in the next question.</details>  
 > 
 > [Website](https://zdevs.ru) | [4PDA](https://4pda.to/forum/index.php?showtopic=305019) | [Google Play](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
 

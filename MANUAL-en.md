@@ -1,6 +1,6 @@
 <sup>Manual's version: 3.1 (25.12.2024), written by <b>данянул \<3</b> / Original source: https://t.me/nb_mods/16782/21399 / Translated by v1s7 (11.01.2025)</sup>
 
-[Прочитать на русском](https://github.com/v1s7/csv-monsters/blob/main/MANUAL.md)
+[Прочитать на русском](/MANUAL.md)
 
 -----
 **This manual provides the basic information you need to create your own mods for Null's Brawl.**
@@ -73,7 +73,7 @@ Now, I recommend that you take a look at all the tables in the game – and fami
 ### Game resources
 Textures, music, models... here we will not cover how they are organized, because it would require a separate huge manual.
 > [!NOTE]  
-> [Here it is](https://github.com/v1s7/csv-monsters/blob/main/FILETYPES-en.md) by the way.
+> [Here it is](/FILETYPES-en.md) by the way.
 
 It is important to know the following: the tables contain paths to these resources. This means that we can safely add our own files – the key is to specify the path to them in the corresponding tables.
 

@@ -1,13 +1,13 @@
 <!--Coming soon, will contain info about file extensions that you'll encounter on your way when modding Null's Brawl.-->
 <sup>v1.1 – written \& translated by v1s7, special thanks to [Daniill-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
-[Прочесть на русском](https://github.com/v1s7/csv-monsters/tree/main/FILETYPES.md)
+[Прочесть на русском](/FILETYPES.md)
 
 > [!TIP]  
 > The contents of this guide can be accessed by clicking the ⋮☰ button in the upper right corner.
 
 > [!NOTE]  
-> Before reading on it's recommended to first read the [manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL-en.md).
+> Before reading on it's recommended to first read the [manual](/MANUAL-en.md).
 
 -----
 # Introduction
@@ -117,4 +117,4 @@ Regular text file, just with a different extension. Seriously, you can just crea
 ZIP is a popular format for compressing and archiving data in a lossless manner. A ZIP file contains one or more files that have been joined together in order to reduce file size, preserve the original quality of media content, and/or send multiple files in one. In our case, ZIP archives are used to pack several mod files into one, and are further manually verified and signed.
 
 ## .jar / .NullsBrawlAssets
-JAR - Java ARchive, basically it's a ZIP archive with a META-INF folder inside. NullsBrawlAssets is just a JAR archive with a different extension. You can find more information about it in the [manual](https://github.com/v1s7/csv-monsters/tree/main/MANUAL-en.md#NullsBrawlAssets).
+JAR - Java ARchive, basically it's a ZIP archive with a META-INF folder inside. NullsBrawlAssets is just a JAR archive with a different extension. You can find more information about it in the [manual](/MANUAL-en.md#NullsBrawlAssets).

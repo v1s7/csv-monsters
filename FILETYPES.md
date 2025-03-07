@@ -1,13 +1,13 @@
 <!-- Скоро, должен будет содержать инфу о расширениях файлов, на которые можно наткнуться при моддинге Null's Brawl. -->
-<sup>v1.1 – написал v1s7, особые благодарности [Daniill-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup> 
+<sup>v1.1.1 – написал v1s7, особые благодарности [Daniill-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup> 
 
-[Switch to English](https://github.com/v1s7/csv-monsters/tree/main/FILETYPES-en.md)
+[Switch to English](/FILETYPES-en.md)
 
 > [!TIP]  
 > Содержание этого гайда можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
 
 > [!NOTE]  
-> Перед началом чтения рекомендуется прочесть [мануал](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md).
+> Перед началом чтения рекомендуется прочесть [мануал](/MANUAL.md).
 
 -----
 # Введение
@@ -115,4 +115,4 @@ ZKTX – тот же файл KTX, но сжатый с помощью Zstandard
 ZIP – это самый популярный формат сжатия и архивирования данных без потерь. ZIP-файл содержит один или несколько файлов, которые были соединены вместе с целью уменьшения размера файлов, сохранения исходного качества медиаконтента и/или отправки нескольких файлов в одном. В нашем случае ZIP-архивы используются для соединения файлов мода в один, и далее проходят ручную проверку и подпись.
 
 ## .jar / .NullsBrawlAssets
-JAR – Java ARchive, грубо говоря ZIP-архив с папкой META-INF внутри. NullsBrawlAssets – это просто JAR-архив с другим расширением. Подробнее об этом рассказывается в [мануале](https://github.com/v1s7/csv-monsters/tree/main/MANUAL.md#NullsBrawlAssets).
+JAR – Java ARchive, грубо говоря ZIP-архив с папкой META-INF внутри. NullsBrawlAssets – это просто JAR-архив с другим расширением. Подробнее об этом рассказывается в [мануале](/MANUAL.md#NullsBrawlAssets).
