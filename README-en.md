@@ -10,7 +10,7 @@
 ### Guides
 - [FAQ](/FAQ-en.md) – Frequently asked questions about modding. The information is mostly for beginners.
 - [Manual](/MANUAL-en.md) – A manual that provides the basic information you need to create your own mods for Null's Brawl. Written by Daniill Null.
-- [File formats](/FILETYPES-en.md) –a separate memo on all file types you can encounter wjile modding Null's Brawl. Various SCW, SCTX, SC, GLB, OGG and many other formats are explained here.
+- [File formats](/FILETYPES-en.md) –a separate memo on all file types you can encounter while modding Null's Brawl. Various SCW, SCTX, SC, GLB, OGG and many other formats are explained here.
 <!-- - [collection](/collection) - the collection of unsigned mods itself. Temporarily disabled.
 
 ### How and from where to install
