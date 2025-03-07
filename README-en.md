@@ -1,11 +1,16 @@
-[Manual](/MANUAL.md) | [FAQ](/FAQ-en.md) | [Версия на русском](https://github.com/v1s7/csv-monsters)
-
-[🇳​​ 🇪​​ 🇼​ !!! File Formats Guide](/FILETYPES-en.md)
+[Версия на русском 🇷🇺](https://github.com/v1s7/csv-monsters)
 
 -----
 # Navigation
+### Folders
 - [csv](/csv) - all CSV tables taken from the latest version of Null's Brawl. Read only.
+     - [The About note](/csv/ABOUT-en.md) - description to what each CSV table is responsible for. Coming soon.
 - [templates](/templates) - a collection of mod templates. Coming soon.
+     - [The About note](/templates/ABOUT-en.md) - how to use and edit the templates, guidelines for making new templates and other additional info. Coming soon.
+### Guides
+- [FAQ](/FAQ-en.md) – Frequently asked questions about modding. The information is mostly for beginners.
+- [Manual](/MANUAL-en.md) – A manual that provides the basic information you need to create your own mods for Null's Brawl. Written by Daniill Null.
+- [File formats](/FILETYPES-en.md) –a separate memo on all file types you can encounter wjile modding Null's Brawl. Various SCW, SCTX, SC, GLB, OGG and many other formats are explained here.
 <!-- - [collection](/collection) - the collection of unsigned mods itself. Temporarily disabled.
 
 ### How and from where to install
