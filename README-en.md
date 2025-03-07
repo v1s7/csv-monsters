@@ -3,11 +3,12 @@
 [🇳​​ 🇪​​ 🇼​ !!! File Formats Guide](/FILETYPES-en.md)
 
 -----
-### Folder assignments
-- [csv](/csv) - all script-modifiable (json-files), according to the manual, CSV-files, taken from the latest version of Null's Brawl. Read only. 
-<!-- - [collection](/collection) - the collection of unsigned mods itself. Temporarily disabled. -->
+# Navigation
+- [csv](/csv) - all CSV tables taken from the latest version of Null's Brawl. Read only.
+- [templates](/templates) - a collection of mod templates. Coming soon.
+<!-- - [collection](/collection) - the collection of unsigned mods itself. Temporarily disabled.
 
-<!-- ### How and from where to install
+### How and from where to install
 1. Go to [collection](/collection)
 2. Open the script you are interested in
 3. Click on the download button
