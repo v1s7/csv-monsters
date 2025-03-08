@@ -1,5 +1,8 @@
 Разрабатывается…
-<details><summary>Замена текстур скинов</summary>
+<details>  
+
+<summary>Замена текстур скинов</summary>  
+
 ```json
     "skins": {
         "NameFromFirstColumn": {
@@ -7,5 +10,6 @@
             "SpecularTexture": "filename_tex.png"
         }
     }
-```
+```  
+
 </details>
