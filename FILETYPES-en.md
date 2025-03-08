@@ -1,10 +1,10 @@
 <!--Coming soon, will contain info about file extensions that you'll encounter on your way when modding Null's Brawl.-->
-<sup>v1.1 – written \& translated by v1s7, special thanks to [Daniill-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
+<sup>v1.1.2 – written \& translated by v1s7, special thanks to [Daniill-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
-[Прочесть на русском](/FILETYPES.md)
+[Версия на русском 🇷🇺](/FILETYPES.md)
 
-> [!TIP]  
-> The contents of this guide can be accessed by clicking the ⋮☰ button in the upper right corner.
+The contents of this guide can be accessed by clicking the ⋮☰ button in the upper right corner.
+-----
 
 > [!NOTE]  
 > Before reading on it's recommended to first read the [manual](/MANUAL-en.md).
