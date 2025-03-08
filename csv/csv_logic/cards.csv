@@ -919,8 +919,8 @@
 "Chronomancer_unique_2",,"sc/ui.sc",,"Chronomancer",,,,,,4,,"increase_area_duration_per_damage_dealt_with_projectile_status",,,5,,,,,,"ChronomancerTimebendBoostSelf",,"ChronomancerUltiTimebend;ChronomanceUltiDurationIncreasePulse","common","TID_CHRONOMANCER_SP_2",,,,,"genicon_health",,,,,2000
 "Chronomancer_gadget_1",,"sc/ui.sc","icon_item_finx_2","Chronomancer",,,,,,5,,"accessory",,"Chronomancer_Time",25,,,,,,,,,"common","TID_CHRONOMANCER_GADGET_1",,,,,"genicon_health",,,,,1000
 "Chronomancer_gadget_2",,"sc/ui.sc","icon_item_finx_1","Chronomancer",,,,,,5,,"accessory",,"Chronomancer_ProjectileStasis",80,,,,,,,,,"common","TID_CHRONOMANCER_GADGET_2",,,,,"genicon_health",,,,,1000
-"SoulCollector_overcharge",,"sc/ui.sc","icon_overcharge_lola_1","SoulCollector",,true,true,,,6,,"overcharge_soul_collector",,,1,,,,,,,,,"common","TID_SOUL_COLLECTOR_OVERCHARGE",,,,,"genicon_health",,,,,5000
+"SoulCollector_overcharge",,"sc/ui.sc","icon_overcharge_lola_1","SoulCollector",,true,true,,,4,,"petrol_reload",,,1,,,,,,,,,"common","TID_SOUL_COLLECTOR_OVERCHARGE",,,,,"genicon_health",,,,,5000
 "CrossBomber_overcharge",,"sc/ui.sc","icon_overcharge_grom_1","CrossBomber",,,true,,,6,,"overcharge_default",,,1,,,,,,,,,"common","TID_CROSS_BOMBER_OVERCHARGE",,,,,"genicon_health",,,,,5000
 "ShieldTank_overcharge",,"sc/ui.sc","icon_overcharge_buster_1","ShieldTank",,,true,,,6,,"overcharge_buster",,,1,,,,,,,,,"common","TID_SHIELD_TANK_OVERCHARGE",,,,,"genicon_health",,,,,5000
-"Puppeteer_overcharge",,"sc/ui.sc","icon_overcharge_lola_1","Puppeteer",,true,true,,,6,,"overcharge_default",,,1,,,,,,,,,"common","TID_PUPPETEER_OVERCHARGE",,,,,"genicon_health",,,,,5000
+"Puppeteer_overcharge",,"sc/ui.sc","icon_overcharge_lola_1","Puppeteer",,true,true,,,4,,"petrol_reload",,,1,,,,,,,,,"common","TID_PUPPETEER_OVERCHARGE",,,,,"genicon_health",,,,,5000
 "WeaponThrower_overcharge",,"sc/ui.sc","icon_overcharge_sam_1","WeaponThrower",,,true,,,6,,"overcharge_default",,,1,,,,,,,,,"common","TID_WEAPON_THROWER_OVERCHARGE",,,,,"genicon_health",,,,,5000
