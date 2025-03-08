@@ -1,13 +1,13 @@
-<sup>Manual's version: 3.1 (25.12.2024), written by <b>данянул \<3</b> / Original source: https://t.me/nb_mods/16782/21399 / Translated by v1s7 (11.01.2025)</sup>
+<sup>Manual's version: 3.2 (08.03.2025), written by <b>данянул \<3</b> / <a href="https://t.me/nb_mods/16782/39600">Original source</a> / Translated by v1s7</sup>
 
-[Прочитать на русском](/MANUAL.md)
-
------
-**This manual provides the basic information you need to create your own mods for Null's Brawl.**
+[Версия на русском 🇷🇺](/MANUAL.md)
 
 > [!TIP]  
 > The contents of this manual can be accessed by clicking the ⋮☰ button in the upper right corner. 
 
+**This manual provides the basic information you need to create your own mods for Null's Brawl.**
+
+-----
 # I. Generic rules
 But let's start with... the rules. They are quite simple, but, unfortunately, are not obvious to everyone.
 - The title and description of the mod must be meaningful and understandable (without any spelling mistakes)
@@ -239,6 +239,31 @@ If several mods contain a file with the same name, the behavior of the loader is
 
 ## Icon requirements (icon.png)
 PNG format only, square-shaped, no larger than 640x640. It can be any suitable image, as long as it is NSFW-free.
+
+## More on meta-information
+### Localization
+Three standard keys (@title, @description, @author) can contain different versions for different languages. For this purpose, their value should not be a string, but a JSON object similar to this:
+```json
+{
+    "@description": {
+        "EN": "This modification replaces some skins with exclusive versions from Chinese Brawl Stars",
+        "RU": "Эта модификация заменяет некоторые скины на эксклюзивные скины китайской версии Brawl Stars"
+    }
+}
+```
+A key is a 2-character language code (e.g.: EN, RU, FR, TR). If there is no version for the user's language, the English (EN) version will be used, and its presence is always mandatory. The three standard keys (@title, @description, @author) can also contain HTML tags, for example if you want to specify clickable authorship:
+```json
+{
+    "@author": "<a href=\"https://t.me/danyanull\">данянул</a>"
+}
+```
+The `android.text.Html` class is used as the implementation's foundation. Not all tags are supported, but a [relatively accurate list of supported ones](https://stackoverflow.com/a/45146556) is available on Stack Overflow.
+
+And yes, don't forget to escape quotes inside JSON strings!
+
+### Additional keys
+The mechanism of loading modifications assumes the existence of other meta-information as well. At the moment, modders should not pay much attention to it, because it is filled in automatically upon signing the mod.
+- @**gv** (int): the version of the game the mod was developed for. If it is lower than the current one (or absent), the mod loader may show a warning, enable compatibility mode or prevent the mod from being used at all.
 
 ## Alternative format for mods (toml)
 Perhaps in the future there will be support for mod descriptions not only in json format (**content.json**), but also in TOML. The concept is exactly the same, just with a more simplistic syntax:
