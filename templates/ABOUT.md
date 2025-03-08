@@ -1,14 +1,34 @@
+# Перед использованием...
+
+
 <details>  
 
-<summary>Swap skin texture</summary>  
+<summary>Замена текстур скина</summary>  
 
+# Замена текстур скина
+#### Вид внутри мода
 ```json
+{
+    "@title": "",
+    "@description": "",
+    "@author": "Ваше имя",
+    
     "skins": {
-        "NameFromFirstColumn": {
-            "DiffuseTexture": "filename_tex.png",
-            "SpecularTexture": "filename_tex.png"
+        "ИмяСтрокиИзПервогоСтолбца": {
+            "DiffuseTexture": "НазваниеФайла_tex.png",
+            "SpecularTexture": "НазваниеФайла_tex.png"
         }
     }
+    
+}
 ```  
-
+#### Вид блока кода
+```json
+"ИмяСтрокиИзПервогоСтолбца": {
+            "DiffuseTexture": "НазваниеФайла_tex.png",
+            "SpecularTexture": "НазваниеФайла_tex.png"
+        }
+```
+#### Разъяснение
+``
 </details>
