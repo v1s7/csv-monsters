@@ -1,7 +1,6 @@
-Разрабатывается…
 <details>  
 
-<summary>Замена текстур скинов</summary>  
+<summary>Swap skin texture</summary>  
 
 ```json
     "skins": {
