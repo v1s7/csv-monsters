@@ -1,4 +1,4 @@
-<sup>v1.997 - created \& translated by v1s7, inspired by MrsFolls</sup>  
+<sup>v2.0 - created \& translated by v1s7, inspired by MrsFolls</sup>  
 [Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
@@ -51,10 +51,36 @@ Download and open the mod file (.NullsBrawlAssets) directly from Telegram and se
 > [Website](https://zdevs.ru) | [4PDA](https://4pda.to/forum/index.php?showtopic=305019) | [Google Play](https://play.google.com/store/apps/details?id=ru.zdevs.zarchiver)
 
 ### How to install mod zip file (unsigned) on Android?   
+
+> [!IMPORTANT]  
+> <details>  
+> 
+> <summary><h4>HIGHLIGHTS FOR V60</h4></summary>  
+> 
+> 1. All unsigned mods are disabled by default. So after installing one you need to manually enable it in the mod manager.
+> 
+> 2. If the ENABLE button is pale, then it means the mod is incompatible with v60 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
+> ```json
+> "@gv": 60,
+> ```
+> </details>
+
 Just paste the folder (the name of which needs to be a UUID (generate [here](https://uuidgenerator.net)) and nothing else) containing the mod to the path
-`/data/data/daniillnull.nulls.brawlstars/mods/`. This can be done in several ways:
-1. Using root privileges or a virtual machine with Magisk support (such as [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). The virtual machine will need 6GB of free space. Video tutorial: [YouTube](https://youtu.be/4Bzl8jt57qc) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4) (English coming soon)
-2. Modifying the Null's Brawl apk file to open access to app's private storage to the document provider and to remove apk signature verification. Keep in mind that this way you risk catching a ban on your account. Video tutorial: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c) (English coming soon)
+`/data/data/daniillnull.nulls.brawlstars/mods/`. This can be done in two ways:
+#### 1. Using ROOT / a virtual machine
+Using superuser privileges or a virtual machine with Magisk support (such as [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). The virtual machine will need 6GB of free space. 
+Video tutorial: [YouTube](https://youtu.be/4Bzl8jt57qc) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4)  
+(English coming *very* soon)
+#### 2. Patching apk of Null's Brawl
+More specifically to open access the app's private storage to DocumentProvider and to remove apk signature verification. Keep in mind that this way you risk getting your account banned (a special flag is set when a modified apk is detected).  
+Video tutorial: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)  
+(English coming *very* soon)
+
+> [!TIP]  
+> Private storage of Null's Brawl can be accessed by other file managers as well:
+| Material Files | MT Manager |
+| <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-materialfiles.avifs" alt="Left slideout menu \> Add storage \> External storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> daniillnull.nulls.nullsbrawl \> data \> mods" width="120em"/> | <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-mtmanager.avifs" alt="Left slideout menu \> Three dots on top center \> Add local storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> Null\'s Brawl \> data \> mods" width="120em"/> |
+
 
 ### When installing a signed mod (.NullsBrawlAssets) it gives me an error, why? 
 Perhaps it has an expired signature (signatures made by the bot only last 3 days) and/or it's not compatible with the current version of the game. Or the mod itself is broken, which is highly unlikely for a signed one. 
