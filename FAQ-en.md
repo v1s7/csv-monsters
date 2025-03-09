@@ -1,4 +1,4 @@
-<sup>v2.0 - created \& translated by v1s7, inspired by MrsFolls</sup>  
+<sup>v2.0.1 – created \& translated by v1s7, inspired by MrsFolls</sup>  
 [Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
@@ -78,9 +78,13 @@ Video tutorial: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odyse
 
 > [!TIP]  
 > Private storage of Null's Brawl can be accessed by other file managers as well:
-| Material Files | MT Manager |
-| <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-materialfiles.avifs" alt="Left slideout menu \> Add storage \> External storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> daniillnull.nulls.nullsbrawl \> data \> mods" width="120em"/> | <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-mtmanager.avifs" alt="Left slideout menu \> Three dots on top center \> Add local storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> Null\'s Brawl \> data \> mods" width="120em"/> |
-
+> <details>  
+> <summary>Material Files</summary>  
+> <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-materialfiles.avifs" alt="Left slideout menu \> Add storage \> External storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> daniillnull.nulls.nullsbrawl \> data \> mods" width="260em"/>  
+> </details><details>  
+> <summary>MT Manager</summary>  
+> <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-mtmanager.avifs" alt="Left slideout menu \> Three dots on top center \> Add local storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> Null\'s Brawl \> data \> mods" width="260em"/>  
+> </details>
 
 ### When installing a signed mod (.NullsBrawlAssets) it gives me an error, why? 
 Perhaps it has an expired signature (signatures made by the bot only last 3 days) and/or it's not compatible with the current version of the game. Or the mod itself is broken, which is highly unlikely for a signed one. 
