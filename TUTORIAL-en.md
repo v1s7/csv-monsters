@@ -29,7 +29,7 @@ In order to start with something at all, then personally from myself (Vadi) I ad
 
 Now let's get down to the json itself and take apart one screenshot:
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj2.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj2.webp" width="100%" />  
 *Done code.*
 
 For convenience, we will write each step step step by step to understand how to write the code correctly
@@ -54,15 +54,15 @@ After the quotation marks, we write: ": {" and press "Enter". If you are writing
 ```
 Next we see: "TID_TITLE_MASTERY_GRAY", this is the very first column in the csv file: 
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj3.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj3.webp" width="100%" />  
 *On the very left under TID.*
 
 They are different in each csv, in the screenshot below it's "PiggyLevel0", in the screenshot even lower it's "TitleMasteryJessie" and everything below it.
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj4.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj4.webp" width="100%" />  
 *csv file which is responsible for how full the mega piggy bank is.*
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj5.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj5.webp" width="100%" />  
 *csv file which is responsible for titles*
 
 Everything is closed in quotes and written ": {" and then press "Enter".
@@ -77,7 +77,7 @@ The next line in our json file is:
 ```
 "RU" is already a column, as with the string, each csv file has its own columns, for example color_gradients has these: "Colors", "Speed", "Scale". "Name" is also a column, but it is highly undesirable to change it
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj6.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj6.webp" width="100%" />  
 *What's underlined in red are the columns.*
 
 And it is under those columns, on the line you want, that you write what you need in jsone, I'll show you again:  
@@ -86,7 +86,7 @@ And it is under those columns, on the line you want, that you write what you nee
 {
     "ru": {
         "TID_TITLE_MASTERY_GRAY": {
-            "RU": "I Love Gray"
+            "RU": "I love Gray"
 ```
 Then press "Enter" and put 3 brackets like this: "}" (each on a line closer to the beginning of the code).
 
@@ -112,11 +112,11 @@ If it is not clear, here is an example to illustrate:
             "RU": "I love Gray"
         },
         "TID_TITLE_MASTERY_LILY": {
-            "RU": "I LOVE LILY"
+            "RU": "I love Lily"
 ```
 **VERY IMPORTANT,** if you want to continue writing code, don't forget to put a comma after the last closed brackets when opening new brackets.
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj7.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj7.webp" width="100%" />  
 *Blue is the comma that should be there when opening new brackets*.
 
 The next step is much simpler, you repeat the same thing you did with Gray (specify the column and write what you want to replace).
@@ -180,7 +180,7 @@ First we specify the name of the file and open the brackets as usual.
 ```
 Now we need to see which row and column we are going to change, in our case it will be the "Member" row and the "CanSendMail" column.
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj8.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj8.webp" width="100%" />  
 *This is what the entire alliance_roles.csv csv file looks like.*
 
 It can be noticed that by default (or so the developers put it) a member can NOT send letters to the club, because of which the cell says "false". On the other hand, the club president can do it, that's why he has "true" in the cell.
@@ -231,7 +231,7 @@ If you want to have absolutely nothing in the cell, you should write null WITHOU
 {
     "ru": {
         "TID_TITLE_MASTERY_GRAY": {
-            "RU": "I love Gray".
+            "RU": "I love Gray"
         },
         "TID_TITLE_MASTERY_LILY": {
             "RU": null

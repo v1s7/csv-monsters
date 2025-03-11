@@ -24,7 +24,7 @@
 
 Ну и теперь приступим к самому json'у и разберем один скриншот:
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj2.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj2.webp" width="100%" />  
 *Готовый код*
 
 Для удобства каждый шаг мы будем писать постепенно что б разобрать как правильно написать код
@@ -49,15 +49,15 @@
 ```
 Дальше мы видим: "TID_TITLE_MASTERY_GRAY", это самый первый столбец в csv файле: 
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj3.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj3.webp" width="100%" />  
 *С самого лева под TID*
 
 В каждом csv они свои, в скрине ниже это "PiggyLevel0", в скрине еще ниже это "TitleMasteryJessie" и всё что находится под ним.
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj4.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj4.webp" width="100%" />  
 *csv файл который отвечает за то насколько наполнена мега-копилка*
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj5.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj5.webp" width="100%" />  
 *csv файл который отвечает за титулы*
 
 Всё так же закрывается в кавычки и пишется ": {", а после нажимаем "Enter"
@@ -72,7 +72,7 @@
 ```
 "RU" - это уже столбец, как и со строкой, у каждого csv файла свои столбцы, например у color_gradients это: "Colors", "Speed", "Scale". "Name" так же является столбцом но его менять крайне нежелательно
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj6.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj6.webp" width="100%" />  
 *То что подчёркнуто красным является столбцами*
 
 И вот именно под этими столбцами, на нужной вам строке пишется то, что вам нужно в jsone, покажу еще раз:  
@@ -110,7 +110,7 @@
 ```
 **ОЧЕНЬ ВАЖНО,** если вы хотите продолжить писать код то при открывании новых скобочек не забудьте поставить запятую после прошлых закрытых скобочек.
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj7.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj7.webp" width="100%" />  
 *Синим выделена запятая которая должна стоять при открытии новых скобочек*
 
 Дальше всё гораздо проще, вы повторяете то же самое что делали с Греем (указываете столбец и пишите то что вы хотите заменить).
@@ -174,7 +174,7 @@
 ```
 Теперь нужно посмотреть какую строку и столбец мы будем менять, в нашем случае это будет строка "Member" и столбец "CanSendMail".
 
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj8.webp" width="400em" />  
+<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/tj8.webp" width="100%" />  
 *Вот так выглядит весь csv файл alliance_roles.csv*
 
 Сразу можно заметить что по дефолту(а то есть так поставили разработчики) участник НЕ может отправлять письма клуба, из-за чего в ячейке написано "false". С другой стороны президент клуба может вполне это делать, именно поэтому у него в ячейке написано "true".
