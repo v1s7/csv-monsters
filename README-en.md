@@ -1,16 +1,28 @@
-[Версия на русском 🇷🇺](https://github.com/v1s7/csv-monsters)
+[Версия на русском 🇷🇺](https://github.com/v1s7/csv-monsters)  
 
 -----
 # Navigation
-### Folders
-- [csv](/csv) - all CSV tables taken from the latest version of Null's Brawl. Read only.
-     - [The About note](/csv/ABOUT-en.md) - description to what each CSV table is responsible for. Coming soon.
-- [templates](/templates) - a collection of mod templates. Coming soon.
-     - [The About note](/templates/ABOUT-en.md) - how to use and edit the templates, guidelines for making new templates and other additional info. Coming soon.
 ### Guides
-- [FAQ](/FAQ-en.md) – Frequently asked questions about modding. The information is mostly for beginners.
-- [Manual](/MANUAL-en.md) – A manual that provides the basic information you need to create your own mods for Null's Brawl. Written by Daniill Null.
-- [File formats](/FILETYPES-en.md) –a separate memo on all file types you can encounter while modding Null's Brawl. Various SCW, SCTX, SC, GLB, OGG and many other formats are explained here.
+- [FAQ](/FAQ-en.md) – frequently asked questions about modding. The information is mostly for beginners. Learning curve: 🟢 Basic.  
+- [Manual](/MANUAL-en.md) – a manual that provides the basic information you need to create your own mods for Null's Brawl. Written by Daniill Null. Learning curve: 🟡 Intermediate.  
+- [File formats](/FILETYPES-en.md) – a separate manual about all file extensions you can encounter while modding Null's Brawl. SCW, SCTX, SC, GLB, OGG and many other formats are explained here. Learning curve: 🔴 Advanced.  
+### Folders
+- [csv](/csv) - all CSV tables taken from the latest version of Null's Brawl. Read only.  
+     - [The About note](/csv/ABOUT-en.md) - description to what each CSV table is responsible for (the list is still not full).  
+- [templates](/templates) - a collection of mod templates. Coming soon.  
+     - [The About note](/templates/ABOUT-en.md) - how to use and edit the templates, guidelines for making new templates and other additional info. Coming soon.  
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- - [collection](/collection) - the collection of unsigned mods itself. Temporarily disabled.
 
 ### How and from where to install
