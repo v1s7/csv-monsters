@@ -129,8 +129,9 @@ shopt -u nullglob
 - `done` завершает цикл for…in.
 - `shopt -u nullglob` снимает действие самой первой команды.
 </details>
+
 #### PowerShell <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
-> [!caution]  
+> [!warning]  
 > На работоспособность не проверялось – похожий скрипт можно найти на просторах интернета.
 
 ```powershell
