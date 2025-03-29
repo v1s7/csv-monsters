@@ -99,7 +99,7 @@ SC Editor собран модульно, а значит эти модули м�
 ## 🖌️ Три всадника SC
 ### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
  
-Понижает версию SC-файлов до v1 или v0.5. Используется ради совместимости с программой ниже.
+Понижает версию SC-файлов с v2 до v1 или v0.5. Используется ради совместимости с программой ниже.
 
 ### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
 Конвертирует SC-файлы версий v0.5 и v1 в документ FLA – файл проекта Adobe Animate. 
@@ -109,7 +109,8 @@ SC Editor собран модульно, а значит эти модули м�
 
 # 🥣 Прочие полезности
 ### FFmpeg <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Bash.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
-Конвертер вообще любых медиафайлов с громадным набором параметров. Подвох в том, что утилиту можно полноценно использовать только в командной строке – пользовательского интерфейса нет.  
+Конвертер вообще любых медиафайлов с громадным набором параметров. Подвох в том, что утилиту можно полноценно использовать только в командной строке – пользовательского интерфейса нет.
+
 Полезна она будет способностью массово конвертировать аудио и даже видео в предпочитаемый игрой формат OGG. На разных платформах это делается по-разному:
 #### Termux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem"> / Bash <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">  
 ```bash
