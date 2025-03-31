@@ -1,5 +1,4 @@
-<!--Coming soon, will contain info about file extensions that you'll encounter on your way when modding Null's Brawl.-->
-<sup>v1.1.991 – written \& translated by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
+<sup>v1.2 – written \& translated by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
 [Версия на русском 🇷🇺](/FILETYPES.md)
 
@@ -33,47 +32,54 @@ A few simple and less simple terms should be clarified before reading on:
 
 # General
 ## .glb / .gltf – modern 3D models and their animations
-In short, GLB is a version of GLTF with its data converted to a binary format. In turn, glTF is a JSON-based (not the one used by mods), simple, efficient and fast-loading 3D texture format with excellent compression, oftenly reffered as the "JPEG of 3D". Read more: https://simple.wikipedia.org/wiki/GlTF
+In short, GLB is a version of GLTF with its data converted to a binary format. In turn, glTF is a JSON-based (not the one used by mods) 3D texture format with excellent compression. Read more: https://simple.wikipedia.org/wiki/GlTF
+##### How to convert
+Most of GLB files used in Supercell games are optimized with FlatBuffers, so to open them in 3D editors (like Blender) you should convert it to a format without FlatBuffers first:
+- [Flat Converter](/PROGRAMS-en.md#flat-converter---)
+- [ScwBot](/PROGRAMS-en.md#scwbot-) by sending `s!flat2glb`
 
-GLB files used in Supercell games are optimized with FlatBuffers, so to open that GLB in 3D editors (like Blender) you should convert it to a format without FlatBuffers first (for example, using [Flat-Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) or the same ScwBot), and when adding it to the mod - convert it back (optional, but desirable).
+When adding the new model in a mod, there's no need to convert it back.
 
 ## .scw – Supercell's legacy 3D model format
-Proprietary format of 3D models from Supercell with exactly the same purpose of use as GLB, and in its structure SCW is very similar to DAE, the very reason there are converters of these formats (for example, the same ScwBot). As a format, SCW has long been abandoned in favor of GLB, which supports quite a lot of extensions, compression methods, and it's just more convenient to use, from which it becomes very flexible.
+Proprietary format of 3D models from Supercell with exactly the same purpose of use as GLB. As a format, SCW has long been abandoned in favor of GLB, which supports quite a lot of extensions, compression methods, and it's just more convenient to use, from which it becomes very flexible.
+##### How to convert
+By its structure SCW is extremely similar to DAE, that's also the reason there're simple converters out there.
+- [SCW by Opegit Studio](/PROGRAMS-en.md#scw-by-opegit-studio-)
+- [ScwBot](/PROGRAMS-en.md#scwbot-) by sending `s!scw2dae`, and back into SCW by sending `s!dae2scw`. Outside of DAE it's possible to convert to other 3D formats, such as:
+    - FBX: `s!scw2fbx`, vice versa: `s!fbx2scw`
+    - OBJ: `s!scw2obj`, vice versa: `s!obj2scw`
+    - BLEND: `s!blend2fbx`, vice versa: `s!blend2scw`
 
 ## .sctx – textures and unwarps
 Proprietary texture format from Supercell, tailored for their Titan engine. It contains either sprite sheets or unwraps of 3D models. It also has such features as mipmapping and texture streaming.
-
-[SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) will do a great job by pulling two files from one: a PNG and a JSON. To convert back, you will need both of these files.
-
-ScwBot can also convert via `s! sctx2png`. But you won't get a JSON from it, so when converting back (`s! png2sctx`) you may lose important data, and the game may display the edited file incorrectly. This is still the best option for quick texture preview nonetheless.
+##### How to convert
+- [SCTX Converter](/PROGRAMS-en.md#sctx-converter----)
+- [SC Editor](/PROGRAMS-en.md#sc-editor-----) – great option for exploring the internals of such files.
+- [ScwBot](/PROGRAMS-en.md#scwbot-) by sending `s!sctx2png`. Keep in mind that you can't get JSON from it, so some important data can be lost when converting back (`s!png2sctx`), and the game may display the edited file incorrectly. This is still the best way to quickly view textures nonetheless.
 
 ## .sc – sets of diverse interface elements
-Proprietary Supercell texture format, which can contain both simple textures (if the file name ends with \_tex.sc) and 2D animations. The most difficult to edit and decompile since files of this type have the largest sizes, like emoji.sc, which occupies as much as 64 MB of storage. 
-
-The format has several versions, popularly reffered as v0.5, v1 and v2:
+Proprietary Supercell texture format, which can contain both simple textures (if the file name ends with \_tex.sc) and 2D animations. The format has several versions, popularly reffered as v0.5, v1 and v2:
 - v0.5 - stored regular textures in "\_tex.sc"
 - v1 - each texture was moved to its own separate ZKTX
-- v2 - SC was rewritten, after which everything was stored in one file (still in the same KTX), namely inside of FlatBuffers.
+- v2 - SC was rewritten, after which everything was stored in one file (still in the same KTX), namely inside of FlatBuffers. Compression algorithm was updated as well to version 5, thus it can sometimes get wrongly called as "SC v5".
 
-It should be clarified that at least v0.5 and v1.0 were named so by the modders themselves for the sake of convenience - until 2024 Supercell used the approach with tags, as in the original SWF since the days of Adobe Flash. Thus, to update something, they just needed to add a new tag, so all these versions are just a rough set of tags that they used for a long time.
-And about v2, since Supersell started to actively use FlatBuffers, .sc was also affected, thus SC2 was created. As a result, SC2 is the same good old SC, but it was put into FlatBuffers.
-
-The fastest way to convert files with this extension is with the command `s! sc2png` in a Discord channel with ScwBot. But remember, this method is limited to files up to 10 MB, or 5-6 MB if we get the compression from SC into account.
-
-To view the internals of an SC file you can use [SC Editor (the one in Java)](https://github.com/danila-schelkov/sc-editor), in which you can visually look at all resources contained inside of it. However, it doesn't support SC2, and you will have to run SC through [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) first. You will also need to download [KTX Tools](https://github.com/KhronosGroup/KTX-Software) and add it to the PATH in the installer.
-
-If you are not satisfied with both of the previous options, or if you want a more flexible option for editing (namely Adobe Animate), the last option is [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) (FLA is the project format in Animate). It doesn't support SC2 either, the file will need to be downgraded first. To convert FLA back to SC you will need to install the [SupercellSWF-Animate](https://github.com/sc-workshop/SupercellSWF-Animate) plugin.
+It should be clarified that at least v0.5 and v1.0 were named so by the modders themselves for the sake of convenience – up until 2024 Supercell used the approach with tags, as in the original SWF since the days of Adobe Flash. Thus, to update something, they just needed to add a new tag, so all these versions are a rough set of tags that they used for a long time.
+As for v2, since Supersell started to actively use FlatBuffers, .sc was also affected, thus SC2 was created. As a result, SC2 is still the same good old SC, but the one that was put into FlatBuffers.
+##### How to convert
+The most difficult format to convert due to its frequent updates, closed code and general complexity.  
+- [ScwBot](/PROGRAMS-en.md#scwbot-) by sending `s!sc2png`. Keep in mind that this method is limited by files up to 10MB in size, and SC files generally aren't very small. This is still the best way to quickly view textures nonetheless.
+- [SC Editor](/PROGRAMS-en.md#sc-editor-----) will let you view every resource integrated into SC.
+- If you wish to edit SC, then the best option would be to use Adobe Animate 2023[😉](https://rutor.info/torrent/908269/adobe-animate-2023-23.0.2.103-2023-pc-repack-by-kpojiuk) with [«Three horsemen of SC»](/PROGRAMS-en.md#%EF%B8%8F-three-horsemen-of-sc).
 
 ## Extras
 ## .dae – format SCW is based on
 One of the standard formats for 3D models that can be opened in any 3D editor. Can be obtained by converting an SCW file. Read more: https://wikipedia.org/wiki/COLLADA
 
 ## .ktx / .zktx – compresses textures, is used in SC, unsupported by the game as a standalone format
-KTX ([Khronos TeXture](https://www.khronos.org/ktx/)) is an efficient, lightweight container format for reliably distributing GPU textures to diverse platforms and applications. The contents of a KTX file can range from a simple base-level 2D texture to a cubemap array texture with mipmaps. KTX files hold all the parameters needed for efficient texture loading into 3D APIs such as OpenGL and Vulkan, including access to individual mipmap levels.
-
+KTX ([Khronos TeXture](https://www.khronos.org/ktx/)) is a lightweight container format for distributing GPU textures to various platforms and applications built on OpenGL or Vulkan. The contents of a KTX file can range from a simple base-level 2D texture to a cubemap array texture with mipmaps.  
 ZKTX is a KTX file compressed using Zstandard.
-
-For both options the game, as of v58, can no longer open them. You will need to convert it either to PNG first and then to SCTX (for example, by the same ScwBot), or to SC if you opt to edit via Adobe Animate.
+##### How to convert
+For both options the game, as of v58, can no longer open them without firstly wrapping it in SCTX, or just extracting the PNG. Converting is possible with any specialized website and the same good [ScwBot](/PROGRAMS-en.md#scwbot-) by sending `s!ktx2png`. 
 
 <!--
 ## .pvr
@@ -91,15 +97,18 @@ It is not used in the game itself.
 
 -->
 ## Sounds
-The most common format for music and sound effects in the gaming industry is OGG (Vorbis), which not only beats MP3 and AAC in compression level, but also does not have the problems that the previous two suffer from - AAC from its closed code and royalties (usage fees), MP3 from the 0.5 second playback delay when looping (unless some hacks are applied) and poor compression with bigger penalty to CPU performance (although these days it's almost unnoticeable, in games it's important to squeeze every percent of performance out of the player's hardware).
-
-There's also the WAV format, which is audio without any compression at all and therefore with a huge file size (30 times larger than an average MP3 track). Th advantage of using it is getting the maximum performance and instantaneous startup on any hardware, so it's suitable only for overlapping and repetitive sound effects lasting less than a second. It has no use in Null's Brawl, as OGG is still a reasonable candidate for such purposes. The specification of all sounds in Null's Brawl is as follows:
+The most common format for music and sound effects in the gaming industry is OGG (Vorbis), which not only beats MP3 and AAC in compression level, but also does not have the problems that the previous two suffer from - AAC from its closed code and royalties (usage fees), MP3 from the 0.5 second playback delay when looping (unless some hacks are applied) and poor compression with bigger penalty to CPU performance (although these days it's almost unnoticeable, in games it's important to squeeze every percent of performance out of the player's hardware).  
+There's also the WAV format, which is audio without any compression at all and therefore with a huge file size (30 times larger than an average MP3 track). Th advantage of using it is getting the maximum performance and instantaneous startup on any hardware, so it's suitable only for overlapping and repetitive sound effects lasting less than a second. It has no use in Null's Brawl, as OGG is still a reasonable candidate for such purposes.
+##### How to convert
+The specs of all sounds in Null's Brawl are as follows:
 - Format: OGG Vorbis
 - Frequency (sampling): 44.1 kHz (44100 Hz)
 - Bitrate: 48-80 kbps (64 kbps on average)
 - Stereo sound
 
-Adherence to this standard is desirable, but not required. Null's Brawl will play any format with any specs.
+Adherence to this standard is desirable, but not required. Null's Brawl will play any format with any specs. However, soon conversion to OGG will be mandatory for a mod to get signed.
+- If there aren't many tracks to convert (about 1-3), any conversion website will do the job. Just google "mp3 to ogg". If it'll have a choice of OGG quality - set it below average.
+- If there're a lot of tracks, or you just want a more authentic way of converting – [FFmpeg](/PROGRAMS-en.md#ffmpeg------) is the perfect solution for you (see the link for commands and scripts for mass conversion).
 
 ## Fonts
 Among fonts there're only 2 mainstream formats: .ttf and .otf, both of which are supported by the game, so it doesn't really matter which one you choose. You can read about their differences more here: https://old.reddit.com/r/typography/comments/ci4nwk/otf_vs_ttf/
