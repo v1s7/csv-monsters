@@ -50,7 +50,7 @@
 "InvokeAngelicPetAfterDying",,9999999,,,,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"AngelicPet","InvokeAngelicBigPetAfterDying",,,,,0,0,0,,,"end",,,
 "InvokeAngelicBigPetAfterDying",,9999999,,,,,,20,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"AngelicPetBig",,,,,,0,0,0,,,"end",,,
 "VoodooGadgetSpeedUp",,60,,,,,,,,,,,,,,,40,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,,"buff_speedUp","end",,,
-"VoodooGadgetShield",,60,,,,,,,,,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,,"buff_shield","end",,,
+"VoodooGadgetShield",,60,,,,,,,,,,,,,,30,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0,0,0,,"buff_shield","end",,,
 "SilencerUltiOvercharged",,30,,,,,,,,,,,,,,,,,,,,,,,,,"TRUE","TRUE",,,,,,"TRUE",,,,,,,,,,,,,,,,,"stunned","end",,,
 "BarrelbotShield",,18,,,,,,,,,,,,,,50,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"buff_shield","remove",,,
 "Barrelbot005Shield","BarrelbotShield",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"darryl_005_ulti_loop_2","remove",,,

@@ -1238,7 +1238,7 @@
 ,,,"SUPERHEROES",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "ShieldTankSupercellMake","ShieldTankSupercellMake",,"SC_MAKE",,,,,,,,,,,,,,,5000,,149,,,"EPIC","TID_TIME_PROTECTOR_BUSTER_SKIN","TID_TIME_PROTECTOR_BUSTER_SKIN_SHOP","MODEL,TEXTURE,ANIM,VFX","Vinuui",,"buster_time_protector_tex.sctx","buster_time_protector_tex.sctx",,,300,,,,,,
 ,,,"SUPERHEROES",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-"CrossBomberSupercellMake","CrossBomberSupercellMake",,"SC_MAKE",,,,,,,,,,,,,,,,,199,,,"MYTHIC","TID_LORD_OF_GOD_GROM_SKIN","TID_LORD_OF_GOD_GROM_SKIN_SHOP","MODEL,TEXTURE,ANIM,VFX","J-Y Jacky",,"grom_lordofgod_tex.sctx","grom_lordofgod_tex.sctx",,,-200,100,,,,,
+"CrossBomberSupercellMake","CrossBomberSupercellMake",,"SC_MAKE",,,,,,,,,,,,,,,5000,,149,,,"EPIC","TID_LORD_OF_GOD_GROM_SKIN","TID_LORD_OF_GOD_GROM_SKIN_SHOP","MODEL,TEXTURE,ANIM,VFX","J-Y Jacky",,"grom_lordofgod_tex.sctx","grom_lordofgod_tex.sctx",,,-200,100,,,,,
 ,,,"SUPERHEROES",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 "HammerDudeSandsOfTimes","HammerDudeSandsOfTimes",,"BRAWLPASS",,,,,,,,,,,,,,,5000,,149,,,"EPIC","TID_MUMMY_FRANK_SKIN","TID_MUMMY_FRANK_SKIN_SHOP","MODEL,TEXTURE,ANIM,VFX",,,,,,,300,,true,,,,
 ,,,"DARKSANDS",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
