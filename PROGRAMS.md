@@ -1,4 +1,4 @@
-<sup>v1.1 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
+<sup>v1.9 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
@@ -64,27 +64,28 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 ### На Android
 Все из них поддерживают подключение внешних хранилищ – в нашем случае, хранилища игры.
 #### MiXplorer
-[Сайт](https://mixplorer.com) | [4PDA](https://4pda.to/forum/index.php?showtopic=318294) | Google Play – [платно](https://play.google.com/store/apps/details?id=com.mixplorer.silver)  
+[Сайт](https://mixplorer.com) | [4PDA](https://4pda.to/forum/index.php?showtopic=318294) | Google Play – [платно💲](https://play.google.com/store/apps/details?id=com.mixplorer.silver)  
 Самый кастомизируемый и с богатым функционалом. Есть доступ к Android/data при наличии Shizuku (включается в настройках).
 #### Material Files
 [GitHub](https://github.com/zhanghai/MaterialFiles) | [4PDA](https://4pda.to/forum/index.php?showtopic=957950) | [Google Play](https://play.google.com/store/apps/details?id=me.zhanghai.android.files)  
 Лучший среди доступных в Google Play бесплатных менеджеров с открытым кодом.
 #### MT Manager
-[Сайт](https://mt2.cn) | [4PDA](https://4pda.to/forum/index.php?showtopic=548542) | Google Play – никогда
+[Сайт](https://mt2.cn) | [4PDA](https://4pda.to/forum/index.php?showtopic=548542) | Google Play – никогда❌  
 Самый напичканный функциями менеджер, некоторые из которых платные. Есть доступ к Android/data при наличии Shizuku (запрашивается при старте и в настройках).
 
 ### На iOS
 > [!warning]  
 > У автора нет устройства на iOS, требуется дополнение информации.
 #### Filza File Manager
-[Сайт](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)
+[Сайт](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
+Сказать нечего ¯\\\_(ツ)\_/¯
 ## 👨‍💻 Редакторы
 На случай, если вы недовольны редактором от файлового менеджера или системным блокнотом – пользоваться именно ими **необязательно**, это всё вопрос удобства.
 ### На компьютере
 Варианты должны подойти под любые ОС.
 #### VS Code
 [Сайт](https://code.visualstudio.com/download)  
-Самый популярный IDE с массой плагинов и с кучей форков, по типу VSCodium (вырезана телеметрия), Cursor (прикручены нейросети) и прочие.
+Самый популярный IDE с массой плагинов и с кучей форков, по типу VSCodium (вырезана телеметрия майкрософт), Cursor (прикручены нейросети) и прочих.
 #### Kate  
 [Сайт](https://kate-editor.org/get-it/)  
 Менее требовательный к мощности компьютера редактор.
@@ -92,18 +93,35 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 ### На Android
 Здесь функционал у всех скудноват, но для наших целей они подойдут
 #### ACode
+[Github](https://github.com/Acode-Foundation/Acode?tab=readme-ov-file#-installation) | [F-Droid](https://f-droid.org/repo/com.foxdebug.acode) | [Google Play](https://play.google.com/store/apps/details?id=com.foxdebug.acode)   
+Буквально копия VS Code, но портом не является.
 
 #### Xed Editor
+[Github](https://github.com/Xed-Editor/Xed-Editor) | [Izzy](https://apt.izzysoft.de/fdroid/repo/com.rk.xededitor) | Google Play – нет❌  
+Редактор со своим подходом к папкам и приятным интерфейсом. Можно выдать доступ к папке `mods` через DocumentsUI (только если вы [патчили apk игры через ApkTool M](/FAQ.md#2-патч-apk-от-nulls-brawl)) и иметь удобный способ редактировать все JSON-файлы установленных модов!
 
 #### QuickEdit
+[Сайт](https://rhmsoft.com/?p=283) | [4PDA](https://4pda.to/forum/index.php?showtopic=625901) | [Google Play](https://play.google.com/store/apps/details?id=com.rhmsoft.edit)  
+Классика
 
 ### На iOS
 > [!warning]  
-> У автора нет устройства на iOS, требуется дополнение информации.
+> У автора нет устройства на iOS, требуется дополнение информации. Не стесняйтесь делиться ею постами в [Issues](https://github.com/v1s7/csv-monsters/issues)!
 #### Runespace Text Editor
+[Сайт]() | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
+Сказать нечего ¯\\\_(ツ)\_/¯
 
 ## 📑 Просмотрщик таблиц
-CSV-таблицы могут открывать любые редакторы ода и текста, но они отображают её в сыром виде. Их также могут открывать приложения, поддерживающие электронные таблицы, а именно офисы: Google Sheets, MS Excel, 
+CSV-таблицы могут открывать любые редакторы кода и текста, но они отображают её в сыром виде. Удобнее всего их открывать через редакторы электронных таблиц. Чуть ли не все из них опираются на максимальную кроссплатформенность, поэтому разделения по ОС здесь нет.
+
+#### Google Таблицы
+[Сайт](https://workspace.google.com/products/sheets) | [App Store](https://apps.apple.com/us/app/google-sheets/id842849113) | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)
+
+#### Microsoft Excel
+[Сайт](https://www.microsoft.com/en-us/microsoft-365/excel) | [App Store](https://apps.apple.com/us/app/microsoft-excel/id586683407) | [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)
+
+#### WPS Office
+[Сайт](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 
 # 🚪Конвертеры форматов Supercell
 ## ♻️ Программы-конвертеры 

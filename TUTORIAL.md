@@ -13,7 +13,14 @@
 3.3 icon.png
 3.4 Запрос на подпись
 -->
-<sup>v2.0 – написали v1s7, DenysDt и sakupen_ppppp / <a href="https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12">Первоисточник</a></sup>
+
+> [!warning]  
+> 🚧 Ведётся полная перепись туториала и сейчас он не имеет никакого смысла. Прочитать его оригинальную версию можно [здесь](https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12).
+
+> [!warning]  
+> 🚧 A complete rewrite of the tutorial is in progress and it won't make any sense for now. You can read the original version [here](https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12).
+
+<sup>v0.2.1 – написали v1s7, DenysDt и sakupen_ppppp / <a href="https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12">Первоисточник</a></sup>
 
 [Switch to English 🇬🇧](/TUTORIAL-en.md) - localization enchancements in process
 
