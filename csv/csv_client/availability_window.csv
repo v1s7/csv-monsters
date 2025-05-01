@@ -70,3 +70,11 @@
 ,,"MechanicJessie",
 ,,"GunSlingerWoody",
 ,,"BaseballBopeep",
+"Wasabi","seasonal","KnightJapan","TID_AVAILABILITY_WASABI_TIME_LIMITED_SHOP"
+,,"InsectManJapan",
+,,"WallyJapan",
+,,"DoorManJapan",
+,,"BlackHoleJapan",
+"WasabiMilestones","seasonal","SamuraiJapan","TID_AVAILABILITY_WASABI_TIME_LIMITED_MILESTONES"
+,,"SamuraiJapanOvercharge",
+"Uno","time_limited","JesterUno","TID_AVAILABILITY_UNO_TIME_LIMITED"
