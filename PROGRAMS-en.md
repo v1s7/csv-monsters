@@ -1,4 +1,4 @@
-<sup>v1.0 – written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
+<sup>v1.99 – written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
@@ -58,6 +58,70 @@ Wip
 Wip
 ## OGG ←→ MP3 ←→ (...) ← MP4
 Wip-->
+# 🧱 Fundamentals
+## 📁 Explorers
+Just pick one.
+### On Android
+All of them support mounting external storage – in our case, the game's storage.
+#### MiXplorer
+[Website](https://mixplorer.com) | [4PDA](https://4pda.to/forum/index.php?showtopic=318294) | Google Play – [paid💲](https://play.google.com/store/apps/details?id=com.mixplorer.silver)  
+The most customisable and has a plenty of features. You can access Android/data if you have Shizuku installed (needs to be enabled in the settings).
+#### Material Files
+[GitHub](https://github.com/zhanghai/MaterialFiles) | [4PDA](https://4pda.to/forum/index.php?showtopic=957950) | [Google Play](https://play.google.com/store/apps/details?id=me.zhanghai.android.files)  
+The best among free and open source managers available on Google Play.
+#### MT Manager
+[Website](https://mt2.cn) | [4PDA](https://4pda.to/forum/index.php?showtopic=548542) | Google Play – never❌  
+The most feature-rich manager, some parts of which are paid. You can access Android/data if you have Shizuku installed (requested at startup and can be toggled in the settings).
+
+### On iOS
+> [!warning]  
+> The current maintainer doesn't own any iOS device, additional information is needed. Don't hesitate to share some by posting on [Issues](https://github.com/v1s7/csv-monsters/issues)!
+#### Filza File Manager
+[Website](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
+Nothing to say here ¯\\\_(ツ)\_/¯
+## 👨‍💻 Editors
+Just in case you're not happy with the editor from the file manager or the system notepad – you don't **have** to use them, it's all a matter of convenience.
+### On a computer
+These options should fit any OS.
+#### VS Code
+[Website](https://code.visualstudio.com/download)  
+The most popular IDE with a ton of plugins and a bunch of forks like [VSCodium](https://vscodium.com/) (removed microsoft telemetry), [Cursor](https://cursor.com/) (integrated AI) and others.
+#### Kate  
+[Website](https://kate-editor.org/get-it/)  
+A way less resource-demanding editor.
+
+### On Android
+Here the functionality of all of them is a bit lacking, but for our purposes they're fine
+#### ACode
+[Github](https://github.com/Acode-Foundation/Acode?tab=readme-ov-file#-installation) | [F-Droid](https://f-droid.org/repo/com.foxdebug.acode) | [Google Play](https://play.google.com/store/apps/details?id=com.foxdebug.acode)   
+Literal copy of VS Code, though it's not a port.
+
+#### Xed Editor
+[Github](https://github.com/Xed-Editor/Xed-Editor) | [Izzy](https://apt.izzysoft.de/fdroid/repo/com.rk.xededitor) | Google Play – not❌  
+An editor with its own approach to folders with a nice UI. You can give access to the `mods` folder via DocumentsUI (only if you've [patched the game's .apk file with ApkTool M](/FAQ-en.md#2-patching-apk-of-nulls-brawl)) and have a convenient way to edit all JSON files of installed mods!
+
+#### QuickEdit
+[Website](https://rhmsoft.com/?p=283) | [4PDA](https://4pda.to/forum/index.php?showtopic=625901) | [Google Play](https://play.google.com/store/apps/details?id=com.rhmsoft.edit)  
+The classic
+
+### On iOS
+> [!warning]  
+> The current maintainer doesn't own any iOS device, additional information is needed. Don't hesitate to share some by posting on [Issues](https://github.com/v1s7/csv-monsters/issues)!
+#### Runespace Text Editor
+[Website](https://runestone.app) | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
+Nothing to say here ¯\\\_(ツ)\_/¯
+
+## 📑 Table viewers
+CSV tables can be opened by any text editor, but they'll display it in raw form. The most convenient way to open them is through spreadsheet editors. Almost all of them are built with cross-platform in mind, so there's not really a point in OS division here.
+
+#### Google Sheets
+[Website](https://workspace.google.com/products/sheets) | [App Store](https://apps.apple.com/us/app/google-sheets/id842849113) | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)
+
+#### Microsoft Excel
+[Website](https://www.microsoft.com/en-us/microsoft-365/excel) | [App Store](https://apps.apple.com/us/app/microsoft-excel/id586683407) | [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)
+
+#### WPS Office
+[Website](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 # 🚪Converters of Supercell's formats
 ## ♻️ Convertion programs 
 ### [Flat Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  

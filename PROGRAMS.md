@@ -1,4 +1,4 @@
-<sup>v1.9 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
+<sup>v1.99 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
@@ -75,7 +75,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 
 ### На iOS
 > [!warning]  
-> У автора нет устройства на iOS, требуется дополнение информации.
+> У автора нет устройства на iOS, требуется дополнение информации. Не стесняйтесь делиться ею постами в [Issues](https://github.com/v1s7/csv-monsters/issues)!
 #### Filza File Manager
 [Сайт](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
 Сказать нечего ¯\\\_(ツ)\_/¯
@@ -85,7 +85,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 Варианты должны подойти под любые ОС.
 #### VS Code
 [Сайт](https://code.visualstudio.com/download)  
-Самый популярный IDE с массой плагинов и с кучей форков, по типу VSCodium (вырезана телеметрия майкрософт), Cursor (прикручены нейросети) и прочих.
+Самый популярный IDE с массой плагинов и с кучей форков, по типу [VSCodium](https://vscodium.com) (вырезана телеметрия майкрософт), [Cursor](https://cursor.com) (прикручены нейросети) и прочих.
 #### Kate  
 [Сайт](https://kate-editor.org/get-it/)  
 Менее требовательный к мощности компьютера редактор.
@@ -108,7 +108,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 > [!warning]  
 > У автора нет устройства на iOS, требуется дополнение информации. Не стесняйтесь делиться ею постами в [Issues](https://github.com/v1s7/csv-monsters/issues)!
 #### Runespace Text Editor
-[Сайт]() | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
+[Сайт](https://runestone.app) | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
 Сказать нечего ¯\\\_(ツ)\_/¯
 
 ## 📑 Просмотрщик таблиц
