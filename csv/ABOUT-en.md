@@ -109,12 +109,16 @@ Temporal collab modes with leaderboards or a kind of progression
 All the collabs in the game's history and the cosmetics from them
 ###### [competitive_pass_tiers.csv](/csv/csv_logic/competitive_pass_tiers.csv) 👻
 🫥
+###### [contest_types.csv](/csv/csv_logic/contest_types.csv "contest_types.csv") 👻
+🔬
 ###### [emote_bundles.csv](/csv/csv_logic/emote_bundles.csv "emote_bundles.csv") 
 Lists collections of pins
 ###### [emotes.csv](/csv/csv_logic/emotes.csv "emotes.csv") 
 Parameters of all pins in the game
 ###### [enumerated_id_lists.csv](/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") 👻
 🤷
+###### [event_modifiers.csv](/csv/csv_logic/event_modifiers.csv "event_modifiers.csv") 👻
+🔬
 ###### [event_slots.csv](/csv/csv_logic/event_slots.csv "event_slots.csv") 👻
 Responsible for the various slots in the mode rotation (e.g. random - Mystery mode)
 ###### [game_mode_variations.csv](/csv/csv_logic/game_mode_variations.csv "game_mode_variations.csv") 
@@ -153,6 +157,8 @@ Types of rewards on the mastery path
 Quick chat messages and some pins anchored at the very top of the list
 ###### [milestones.csv](/csv/csv_logic/milestones.csv "milestones.csv") 
 Huge table of intervals of all possible "paths"
+###### [mutation_components.csv](/csv/csv_logic/mutation_components.csv "mutation_components.csv") 👻
+🔬
 ###### [name_colors.csv](/csv/csv_logic/name_colors.csv "name_colors.csv") 
 Player name colors
 ###### [night_market_bundles.csv](/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") 👻 
@@ -195,6 +201,8 @@ Once again controls some kind of offer in the shop
 Some other file that manages the offers in the shop
 ###### [skills.csv](/csv/csv_logic/skills.csv "skills.csv") 
 Characteristics of brawlers' attacks and supers
+###### [skin_albums.csv](/csv/csv_logic/skin_albums.csv "skin_albums.csv") 👻
+🔬
 ###### [skin_anim_sequences.csv](/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") 👻
 Judging by the name it should control the order of skin animations, but since the file has only 1 line with Mortis there is an assumption that this is just a hack.
 ###### [skin_campaigns.csv](/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") 

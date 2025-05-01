@@ -109,12 +109,16 @@ Push-уведомления игры (те, что отправляются за
 Все коллаборации в истории игры и косметика с них
 ###### [competitive_pass_tiers.csv](/csv/csv_logic/competitive_pass_tiers.csv) 👻
 🫥
+###### [contest_types.csv](/csv/csv_logic/contest_types.csv "contest_types.csv") 👻
+🔬
 ###### [emote_bundles.csv](/csv/csv_logic/emote_bundles.csv "emote_bundles.csv") 
 Перечисляет коллекции пинов
 ###### [emotes.csv](/csv/csv_logic/emotes.csv "emotes.csv") 
 Параметры всех пинов в игре
 ###### [enumerated_id_lists.csv](/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") 👻
 🤷
+###### [event_modifiers.csv](/csv/csv_logic/event_modifiers.csv "event_modifiers.csv") 👻
+🔬
 ###### [event_slots.csv](/csv/csv_logic/event_slots.csv "event_slots.csv") 👻 
 Отвечает за различные слоты в ротации режимов (например, ranked – ранговый бой, и random – загадочный режим)
 ###### [game_mode_variations.csv](/csv/csv_logic/game_mode_variations.csv "game_mode_variations.csv") 
@@ -153,6 +157,8 @@ Push-уведомления игры (те, что отправляются за
 Быстрые сообщения в чате и некоторые пины, закреплённые в самом верху списка
 ###### [milestones.csv](/csv/csv_logic/milestones.csv "milestones.csv") 
 Огромная таблица интервалов всех возможных "путей"
+###### [mutation_components.csv](/csv/csv_logic/mutation_components.csv "mutation_components.csv") 👻
+🔬
 ###### [name_colors.csv](/csv/csv_logic/name_colors.csv "name_colors.csv") 
 Цвета имени игрока
 ###### [night_market_bundles.csv](/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") 👻 
@@ -195,6 +201,8 @@ Push-уведомления игры (те, что отправляются за
 Ещё какой-то файл, управляющий предложениями в магазине
 ###### [skills.csv](/csv/csv_logic/skills.csv "skills.csv") 
 Характеристики атак и суперов бравлеров
+###### [skin_albums.csv](/csv/csv_logic/skin_albums.csv "skin_albums.csv") 👻
+🔬
 ###### [skin_anim_sequences.csv](/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") 👻
 Судя по названию должен управлять порядками анимаций скинов, но так как файл имеет только 1 строку с Мортисом есть предположение, что это всего лишь костыль
 ###### [skin_campaigns.csv](/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") 
