@@ -1,6 +1,6 @@
-<sup>v1.0 - written by v1s7, special thanks to Null's Brawl Mods<!--Pro--> group</sup> 
+<sup>v61 - written by v1s7, special thanks to Null's Brawl Mods<!--Pro--> group</sup> 
 
-[Switch to English 🇬🇧](/csv/ABOUT-en.md)
+[Версия на русском 🇷🇺](/csv/ABOUT.md)
  
 The contents of this list can be accessed by clicking the ⋮☰ button in the upper right corner.
 -----

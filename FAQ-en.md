@@ -67,13 +67,13 @@ Download and open a mod file (.NullsBrawlAssets) directly from Telegram and sele
 > [!IMPORTANT]  
 > <details>  
 > 
-> <summary><h4>HIGHLIGHTS FOR V60</h4></summary>  
+> <summary><h4>HIGHLIGHTS FOR V61</h4></summary>  
 > 
-> 1. All unsigned mods are disabled by default. So after installing one you need to manually enable it in the mod manager.
+> 1. All unsigned mods are disabled by default since v60. So after installing one you need to manually enable it in the mod manager.
 > 
-> 2. If the ENABLE button is pale, then it means the mod is incompatible with v60 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
+> 2. If the ENABLE button is pale, then it means the mod is incompatible with v61 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
 > ```json
-> "@gv": 60,
+> "@gv": 61,
 > ```
 > </details>
 
