@@ -60,7 +60,7 @@
 ,,"ClusterBombDudeSB",
 ,,"LuchadorSB",
 ,,"UndertakerSB",
-"AngelsDemons","time_limited","EnragerAngel","TID_AVAILABILITY_ANGELSDEMONS_TIME_LIMITED"
+"AngelsDemons","seasonal","EnragerAngel","TID_AVAILABILITY_ANGELSDEMONS_TIME_LIMITED"
 ,,"EnragerAngelChroma1",
 ,,"EnragerAngelChroma2",
 ,,"UndertakerDemon",
@@ -78,3 +78,9 @@
 "WasabiMilestones","seasonal","SamuraiJapan","TID_AVAILABILITY_WASABI_TIME_LIMITED_MILESTONES"
 ,,"SamuraiJapanOvercharge",
 "Uno","time_limited","JesterUno","TID_AVAILABILITY_UNO_TIME_LIMITED"
+"AngelsDemons2","seasonal","ShieldTankAngel","TID_AVAILABILITY_ANGELSDEMONSv2_TIME_LIMITED"
+,,"ArcadeAngel",
+,,"MechaDudeAngel",
+,,"KickerDudeDemon",
+,,"BullDudeDemon",
+,,"SoulCollectorDemon",

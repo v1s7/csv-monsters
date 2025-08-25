@@ -35,3 +35,7 @@
 "WasabiMegaBossOverrides",,,,"MegaBoss",,,,,,,,,,"TRUE",,"TRUE",
 "WasabiWipeoutOverrides",,"WasabiContest",,"Deathmatch",,,,,,,,,,"TRUE",,"TRUE",
 "WasabiSamuraiSmash5v5Overrides",,,,"SamuraiSmash5v5",,,,,,,,,,"TRUE",,"TRUE",
+"KillConfirmOverrides",,"DemonicContest","Contest","KillConfirmed",,"event_killconfirm_contest_banner",,,"event_killconfirm_contest_banner",,,,,"TRUE",,,
+"PetWarsOverrides",,"DemonicContest","Contest","Siege",,"event_petwars_contest_banner",,,"event_petwars_contest_banner",,,,,"TRUE",,,
+"DodgeballOverrides",,,,"Dodgeball",,,,,,,,,,"TRUE",,"TRUE",
+"TrophyThievesOverrides",,,,"CTF",,,,,,,,,,"TRUE",,"TRUE",
