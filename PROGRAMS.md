@@ -1,4 +1,4 @@
-<sup>v1.99 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
+<sup>v1.991 – написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
@@ -79,7 +79,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 #### Filza File Manager
 [Сайт](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
 Сказать нечего ¯\\\_(ツ)\_/¯
-## 👨‍💻 Редакторы
+## 👨‍💻 Редакторы кода
 На случай, если вы недовольны редактором от файлового менеджера или системным блокнотом – пользоваться именно ими **необязательно**, это всё вопрос удобства.
 ### На компьютере
 Варианты должны подойти под любые ОС.
@@ -111,10 +111,10 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 [Сайт](https://runestone.app) | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
 Сказать нечего ¯\\\_(ツ)\_/¯
 
-## 📑 Просмотрщик таблиц
+## 📑 Редакторы таблиц
 CSV-таблицы могут открывать любые редакторы кода и текста, но они отображают её в сыром виде. Удобнее всего их открывать через редакторы электронных таблиц. Чуть ли не все из них опираются на максимальную кроссплатформенность, поэтому разделения по ОС здесь нет.
 
-#### Google Таблицы
+#### Google Sheets
 [Сайт](https://workspace.google.com/products/sheets) | [App Store](https://apps.apple.com/us/app/google-sheets/id842849113) | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)
 
 #### Microsoft Excel
@@ -124,7 +124,7 @@ CSV-таблицы могут открывать любые редакторы �
 [Сайт](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 
 # 🚪Конвертеры форматов Supercell
-## ♻️ Программы-конвертеры 
+## ♻️ Специализированные 
 ### [Flat Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
 Конвертирует в обе стороны обычный GLB с оптимизированным GLB во FlatBuffers.
 
@@ -135,7 +135,11 @@ CSV-таблицы могут открывать любые редакторы �
 Конвертирует в обе стороны SCW и DAE.
 
 <!--### [XCoder by Lexa]()
-найдись
+нашёлся, скоро будет :)
+-->
+
+<!--### [010 Editor]()
+пока не изучал что это
 -->
 
 <!--## 🫡 Устаревшее, но имело значение
@@ -147,7 +151,7 @@ CSV-таблицы могут открывать любые редакторы �
 
 ### так то устаревших программ немало, но 90% из них это XCoder
 -->
-## 🛠️ Швейцарские ножи
+## 🛠️ Универсальные
 ### [SC Editor](https://github.com/danila-schelkov/sc-editor) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Java.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">  
 Позволяет открывать и просматривать файлы SC (и v1, и v2) и SCTX. Есть возможность сохранять разные файлы игры в формате SC v1. Может использоваться для проверки работоспособности пользовательских изменений в SC-файлах. Также он может отрендерить объект в картинку или видео, что может быть полезно для контент-мейкеров.  
 SC Editor собран модульно, а значит эти модули можно взять и использовать их в своих целях. Например, можно написать приложение, открывающее файлы SC2 и сохраняющее их в старом формате SC. У такой идеи как раз имеется [демо](https://github.com/danila-schelkov/sc-reassembler).  
@@ -161,12 +165,11 @@ SC Editor собран модульно, а значит эти модули м�
 - PVR → PNG
 - SCTX ←→ PNG
 
-## 🖌️ Три всадника SC
-### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
- 
+## 🖌️ Для работы в Adobe Animate
+### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
 Понижает версию SC-файлов с v2 до v1 или v0.5. Используется ради совместимости с программой ниже.
 
-### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
+### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
 Конвертирует SC-файлы версий v0.5 и v1 в документ FLA – файл проекта Adobe Animate. 
 
 ### [SupercellSWF Animate](https://github.com/sc-workshop/SupercellSWF-Animate) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Animate.svg" alt="Adobe Animate" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  

@@ -1,4 +1,4 @@
-<sup>v1.99 – written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
+<sup>v1.991 – written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
@@ -59,7 +59,7 @@ Wip
 ## OGG ←→ MP3 ←→ (...) ← MP4
 Wip-->
 # 🧱 Fundamentals
-## 📁 Explorers
+## 📁 File explorers
 Just pick one.
 ### On Android
 All of them support mounting external storage – in our case, the game's storage.
@@ -79,7 +79,7 @@ The most feature-rich manager, some parts of which are paid. You can access Andr
 #### Filza File Manager
 [Website](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
 Nothing to say here ¯\\\_(ツ)\_/¯
-## 👨‍💻 Editors
+## 👨‍💻 Code editors
 Just in case you're not happy with the editor from the file manager or the system notepad – you don't **have** to use them, it's all a matter of convenience.
 ### On a computer
 These options should fit any OS.
@@ -111,7 +111,7 @@ The classic
 [Website](https://runestone.app) | [Github](https://github.com/simonbs/runestone) | [App Store](https://apps.apple.com/us/app/runestone-editor/id1548193893)  
 Nothing to say here ¯\\\_(ツ)\_/¯
 
-## 📑 Table viewers
+## 📑 Table editors
 CSV tables can be opened by any text editor, but they'll display it in raw form. The most convenient way to open them is through spreadsheet editors. Almost all of them are built with cross-platform in mind, so there's not really a point in OS division here.
 
 #### Google Sheets
@@ -123,7 +123,7 @@ CSV tables can be opened by any text editor, but they'll display it in raw form.
 #### WPS Office
 [Website](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
 # 🚪Converters of Supercell's formats
-## ♻️ Convertion programs 
+## ♻️ Specialized  
 ### [Flat Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
 Can convert between regular GLB and FlatBuffered GLB.
 
@@ -146,7 +146,7 @@ Find urself
 
 ### так то устаревших программ немало, но 90% из них это XCoder
 -->
-## 🛠️ Swiss knives
+## 🛠️ Universal
 ### [SC Editor](https://github.com/danila-schelkov/sc-editor) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Java.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">  
 Allows you to open and view SC (both v1 and v2) and SCTX files. It can be used to save different game files in SC v1 format and to test the functionality of custom changes to SC files. It can also render an object into a picture or video, which can be useful for content creators.  
 SC Editor is built modularly, which means these modules can be taken and used for your own purposes. For example, you could write an application that opens SC2 files and saves them in the old SC format. Such idea already has [demo](https://github.com/danila-schelkov/sc-reassembler).  
@@ -160,9 +160,8 @@ A simple texture conversion tool with a GUI for SC games. Based on PVRTexTool an
 - PVR → PNG
 - SCTX ←→ PNG
 
-## 🖌️ Three horsemen of SC
-### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
- 
+## 🖌️ For working in Adobe Animate
+### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem"> 
 Downgrades SC files from v2 to v1 or v0.5. Used for the sake of compatibility with the program below.
 
 ### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
