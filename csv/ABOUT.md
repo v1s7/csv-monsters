@@ -1,5 +1,17 @@
 <sup>написал v1s7, особые благодарности группе Null's Brawl Mods <!--Pro--></sup> 
 
+<!--
+v62 new files:
+
+csv/csv_client/character_components_client.csv
+        csv/csv_logic/character_components_logic.csv
+        csv/csv_logic/record_levels.csv
+        csv/csv_logic/records.csv
+        csv/csv_logic/traits.csv
+        csv/csv_logic/trophy_world_milestones.csv
+        csv/csv_logic/trophy_world_parts.csv
+        csv/csv_logic/trophy_worlds.csv
+-->
 [Switch to English 🇬🇧](/csv/ABOUT-en.md)
  
 Содержание этого списка можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
@@ -26,6 +38,8 @@
 Все донатные акции магазина, то есть за реальные деньги. В Null's Brawl игнорируется
 ###### [bp_purchase_popup.csv](/csv/csv_client/bp_purchase_popup.csv "bp_purchase_popup.csv") 
 Анимация покупки Brawl Pass, а также анимации пинов и скинов из него
+###### [character_components_client.csv](/csv/csv_client/character_components_client.csv "character_components_client.csv") 👻 
+…
 ###### [client_globals.csv](/csv/csv_client/client_globals.csv "client_globals.csv") 
 Разнообразные настройки глобального клиента
 ###### [color_gradients.csv](/csv/csv_client/color_gradients.csv "color_gradients.csv") 
@@ -91,6 +105,8 @@ Push-уведомления игры (те, что отправляются за
 Управляет разделами в каталоге косметики (скинов, аватаров, пинов и спреев) в магазине
 ###### [challenges.csv](/csv/csv_logic/challenges.csv "challenges.csv") 
 Временные испытания (те, что с ограниченным числом поражений)
+###### [character_components_logic.csv](/csv/csv_logic/character_components_logic.csv "character_components_logic.csv") 👻 
+…
 ###### [characters.csv](/csv/csv_logic/characters.csv "characters.csv") 
 Характеристики уже самих бравлеров. Полезен для того, чтобы узнать, кто под каким кодовым именем скрывается (например, кодовое имя Поко – DeadMariarchi)
 ###### [chronos_asset_ids.csv](/csv/csv_logic/chronos_asset_ids.csv "chronos_asset_ids.csv") 🪦 👻 
@@ -108,17 +124,17 @@ Push-уведомления игры (те, что отправляются за
 ###### [collabs.csv](/csv/csv_logic/collabs.csv "collabs.csv") 👻 
 Все коллаборации в истории игры и косметика с них
 ###### [competitive_pass_tiers.csv](/csv/csv_logic/competitive_pass_tiers.csv) 👻
-🫥
+…
 ###### [contest_types.csv](/csv/csv_logic/contest_types.csv "contest_types.csv") 👻
-🔬
+…
 ###### [emote_bundles.csv](/csv/csv_logic/emote_bundles.csv "emote_bundles.csv") 
 Перечисляет коллекции пинов
 ###### [emotes.csv](/csv/csv_logic/emotes.csv "emotes.csv") 
 Параметры всех пинов в игре
 ###### [enumerated_id_lists.csv](/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") 👻
-🤷
+…
 ###### [event_modifiers.csv](/csv/csv_logic/event_modifiers.csv "event_modifiers.csv") 👻
-🔬
+…
 ###### [event_slots.csv](/csv/csv_logic/event_slots.csv "event_slots.csv") 👻 
 Отвечает за различные слоты в ротации режимов (например, ranked – ранговый бой, и random – загадочный режим)
 ###### [game_mode_variations.csv](/csv/csv_logic/game_mode_variations.csv "game_mode_variations.csv") 
@@ -150,7 +166,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [mastery_levels.csv](/csv/csv_logic/mastery_levels.csv "mastery_levels.csv") 
 Сами награды на пути мастерства
 ###### [mastery_points.csv](/csv/csv_logic/mastery_points.csv "mastery_points.csv") 👻 
-🤷
+…
 ###### [mastery_reward_types.csv](/csv/csv_logic/mastery_reward_types.csv "mastery_reward_types.csv") 
 Виды наград на пути мастерства
 ###### [messages.csv](/csv/csv_logic/messages.csv "messages.csv") 
@@ -158,13 +174,13 @@ Push-уведомления игры (те, что отправляются за
 ###### [milestones.csv](/csv/csv_logic/milestones.csv "milestones.csv") 
 Огромная таблица интервалов всех возможных "путей"
 ###### [mutation_components.csv](/csv/csv_logic/mutation_components.csv "mutation_components.csv") 👻
-🔬
+…
 ###### [name_colors.csv](/csv/csv_logic/name_colors.csv "name_colors.csv") 
 Цвета имени игрока
 ###### [night_market_bundles.csv](/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") 👻 
-🤷
+…
 ###### [night_market_items.csv](/csv/csv_logic/night_market_items.csv "night_market_items.csv") 👻 
-🤷
+…
 ###### [player_frames.csv](/csv/csv_logic/player_frames.csv "player_frames.csv") 
 Перечисляет рамки боевой карты (либо рейтинга, либо славы)
 ###### [player_map_environments.csv](/csv/csv_logic/player_map_environments.csv "player_map_environments.csv") 
@@ -174,9 +190,9 @@ Push-уведомления игры (те, что отправляются за
 ###### [player_titles.csv](/csv/csv_logic/player_titles.csv "player_titles.csv") 
 Задаёт титулам игроков вариант градиента (BP/BP+) и TID из файлов локализаций
 ###### [pricepoints.csv](/csv/csv_logic/pricepoints.csv) 👻
-🫥
+…
 ###### [progression_skin_details.csv](/csv/csv_logic/progression_skin_details.csv) 👻
-🫥
+…
 ###### [projectiles.csv](/csv/csv_logic/projectiles.csv "projectiles.csv") 🧊
 Все характеристики всех атак всех бойцов. Сами текстуры берутся из effects.sc, effects_brawler.sc и effects_brawler2.sc
 ###### [random_reward_containers.csv](/csv/csv_logic/random_reward_containers.csv "random_reward_containers.csv")
@@ -189,6 +205,10 @@ Push-уведомления игры (те, что отправляются за
 Параметры рейтинговых лиг
 ###### [ranked_star_rewards.csv](/csv/csv_logic/ranked_star_rewards.csv "ranked_star_rewards.csv")
 Возможные награды из рейтингового дропа на каждый сезон
+###### [record_levels.csv](/csv/csv_logic/record_levels.csv "record_levels.csv") 👻 
+…
+###### [records.csv](/csv/csv_logic/records.csv "records.csv") 👻 
+…
 ###### [regions.csv](/csv/csv_logic/regions.csv "regions.csv") 
 Перечисляет расположения (страны/регионы) из соответствующей кнопки в настройках
 ###### [resources.csv](/csv/csv_logic/resources.csv "resources.csv") 
@@ -202,7 +222,7 @@ Push-уведомления игры (те, что отправляются за
 ###### [skills.csv](/csv/csv_logic/skills.csv "skills.csv") 
 Характеристики атак и суперов бравлеров
 ###### [skin_albums.csv](/csv/csv_logic/skin_albums.csv "skin_albums.csv") 👻
-🔬
+…
 ###### [skin_anim_sequences.csv](/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") 👻
 Судя по названию должен управлять порядками анимаций скинов, но так как файл имеет только 1 строку с Мортисом есть предположение, что это всего лишь костыль
 ###### [skin_campaigns.csv](/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") 
@@ -218,13 +238,21 @@ Push-уведомления игры (те, что отправляются за
 ###### [status_effects.csv](/csv/csv_logic/status_effects.csv "status_effects.csv") 
 Характеризует все баффы и дебаффы (щиты, горение, скольжение, отравление, гипноз, оглушение и т.п.)
 ###### [string_replacement.csv](/csv/csv_logic/string_replacement.csv) 👻
-🫥
+…
 ###### [themes.csv](/csv/csv_logic/themes.csv "themes.csv") 
 Управляет фонами в главном меню, взятыми из можества background_\*.sc
 ###### [tiles.csv](/csv/csv_logic/tiles.csv "tiles.csv") 
 Характеризует все блоки (плитки) в игре
+###### [traits.csv](/csv/csv_logic/traits.csv "traits.csv") 👻 
+…
 ###### [trophy_season_reward_levels.csv](/csv/csv_logic/trophy_season_reward_levels.csv "trophy_season_reward_levels.csv") 
 Перечисляет уровни сезонных ящиков
+###### [trophy_world_milestones.csv](/csv/csv_logic/trophy_world_milestones.csv "trophy_world_milestones.csv") 👻 
+…
+###### [trophy_world_parts.csv](/csv/csv_logic/trophy_world_parts.csv "trophy_world_parts.csv") 👻 
+…
+###### [trophy_worlds.csv](/csv/csv_logic/trophy_worlds.csv "trophy_worlds.csv") 👻 
+…
 ###### [visual_offer_groupings.csv](/csv/csv_logic/visual_offer_groupings.csv "visual_offer_groupings.csv") 👻 
 Предложение покупки гиперзаряда в магазине
  

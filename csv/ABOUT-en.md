@@ -1,5 +1,17 @@
 <sup>written by v1s7, special thanks to Null's Brawl Mods<!--Pro--> group</sup> 
 
+<!--
+v62 new files:
+
+csv/csv_client/character_components_client.csv
+        csv/csv_logic/character_components_logic.csv
+        csv/csv_logic/record_levels.csv
+        csv/csv_logic/records.csv
+        csv/csv_logic/traits.csv
+        csv/csv_logic/trophy_world_milestones.csv
+        csv/csv_logic/trophy_world_parts.csv
+        csv/csv_logic/trophy_worlds.csv
+-->
 [Версия на русском 🇷🇺](/csv/ABOUT.md)
  
 The contents of this list can be accessed by clicking the ⋮☰ button in the upper right corner.
@@ -26,6 +38,8 @@ Responsible for availability of skins for limited or seasonal time (correspondin
 Every single in-game purchase with real money. Gets ignored in Null's Brawl
 ###### [bp_purchase_popup.csv](/csv/csv_client/bp_purchase_popup.csv "bp_purchase_popup.csv") 
 Brawl Pass purchase animation, as well as pin and skin animations from it
+###### [character_components_client.csv](/csv/csv_client/character_components_client.csv "character_components_client.csv") 👻 
+…
 ###### [client_globals.csv](/csv/csv_client/client_globals.csv "client_globals.csv") 
 Various global client customizations
 ###### [color_gradients.csv](/csv/csv_client/color_gradients.csv "color_gradients.csv") 
@@ -91,6 +105,8 @@ Parameters of all items that can be picked up and carried (like balls)
 Manages the sections in the catalog of cosmetics (skins, avatars, pins and sprays) in the shop
 ###### [challenges.csv](/csv/csv_logic/challenges.csv "challenges.csv") 
 Time-limited championships (those with a limited number of defeats)
+###### [character_components_logic.csv](/csv/csv_logic/character_components_logic.csv "character_components_logic.csv") 👻 
+…
 ###### [characters.csv](/csv/csv_logic/characters.csv "characters.csv") 
 Characteristics of the brawlers themselves. Useful for finding out who's hiding under which codename (for example, Poco's codename is DeadMariarchi)
 ###### [chronos_asset_ids.csv](/csv/csv_logic/chronos_asset_ids.csv "chronos_asset_ids.csv") 🪦 👻 
@@ -108,17 +124,17 @@ Temporal collab modes with leaderboards or a kind of progression
 ###### [collabs.csv](/csv/csv_logic/collabs.csv "collabs.csv") 👻 
 All the collabs in the game's history and the cosmetics from them
 ###### [competitive_pass_tiers.csv](/csv/csv_logic/competitive_pass_tiers.csv) 👻
-🫥
+…
 ###### [contest_types.csv](/csv/csv_logic/contest_types.csv "contest_types.csv") 👻
-🔬
+…
 ###### [emote_bundles.csv](/csv/csv_logic/emote_bundles.csv "emote_bundles.csv") 
 Lists collections of pins
 ###### [emotes.csv](/csv/csv_logic/emotes.csv "emotes.csv") 
 Parameters of all pins in the game
 ###### [enumerated_id_lists.csv](/csv/csv_logic/enumerated_id_lists.csv "enumerated_id_lists.csv") 👻
-🤷
+…
 ###### [event_modifiers.csv](/csv/csv_logic/event_modifiers.csv "event_modifiers.csv") 👻
-🔬
+…
 ###### [event_slots.csv](/csv/csv_logic/event_slots.csv "event_slots.csv") 👻
 Responsible for the various slots in the mode rotation (e.g. random - Mystery mode)
 ###### [game_mode_variations.csv](/csv/csv_logic/game_mode_variations.csv "game_mode_variations.csv") 
@@ -150,7 +166,7 @@ Lists the brawler's masteries and which unique rewards will be on the way (pin a
 ###### [mastery_levels.csv](/csv/csv_logic/mastery_levels.csv "mastery_levels.csv") 
 The rewards of mastery path themselves
 ###### [mastery_points.csv](/csv/csv_logic/mastery_points.csv "mastery_points.csv") 👻 
-🤷
+…
 ###### [mastery_reward_types.csv](/csv/csv_logic/mastery_reward_types.csv "mastery_reward_types.csv") 
 Types of rewards on the mastery path
 ###### [messages.csv](/csv/csv_logic/messages.csv "messages.csv") 
@@ -158,13 +174,13 @@ Quick chat messages and some pins anchored at the very top of the list
 ###### [milestones.csv](/csv/csv_logic/milestones.csv "milestones.csv") 
 Huge table of intervals of all possible "paths"
 ###### [mutation_components.csv](/csv/csv_logic/mutation_components.csv "mutation_components.csv") 👻
-🔬
+…
 ###### [name_colors.csv](/csv/csv_logic/name_colors.csv "name_colors.csv") 
 Player name colors
 ###### [night_market_bundles.csv](/csv/csv_logic/night_market_bundles.csv "night_market_bundles.csv") 👻 
-🤷
+…
 ###### [night_market_items.csv](/csv/csv_logic/night_market_items.csv "night_market_items.csv") 👻 
-🤷
+…
 ###### [player_frames.csv](/csv/csv_logic/player_frames.csv "player_frames.csv") 
 Lists the frames of the battle card (either Ranked or Fame)
 ###### [player_map_environments.csv](/csv/csv_logic/player_map_environments.csv "player_map_environments.csv") 
@@ -174,9 +190,9 @@ Manages player avatars taken from player_icons.sc
 ###### [player_titles.csv](/csv/csv_logic/player_titles.csv "player_titles.csv") 
 Sets gradient variant (BP/BP+) and TID from localization files for player titles
 ###### [pricepoints.csv](/csv/csv_logic/pricepoints.csv) 👻
-🫥
+…
 ###### [progression_skin_details.csv](/csv/csv_logic/progression_skin_details.csv) 👻
-🫥
+…
 ###### [projectiles.csv](/csv/csv_logic/projectiles.csv "projectiles.csv") 🧊
 All characteristics of all attacks of all brawlers. The textures themselves are taken from effects.sc, effects_brawler.sc and effects_brawler2.sc
 ###### [random_reward_containers.csv](/csv/csv_logic/random_reward_containers.csv "random_reward_containers.csv")
@@ -189,6 +205,10 @@ Maps in ranked battles
 Parameters of ranked leagues
 ###### [ranked_star_rewards.csv](/csv/csv_logic/ranked_star_rewards.csv "ranked_star_rewards.csv")
 Possible awards from the ranked drop for each season
+###### [record_levels.csv](/csv/csv_logic/record_levels.csv "record_levels.csv") 👻 
+…
+###### [records.csv](/csv/csv_logic/records.csv "records.csv") 👻 
+…
 ###### [regions.csv](/csv/csv_logic/regions.csv "regions.csv") 
 Lists geolocations (countries/regions) from the corresponding button in the settings
 ###### [resources.csv](/csv/csv_logic/resources.csv "resources.csv") 
@@ -202,7 +222,7 @@ Some other file that manages the offers in the shop
 ###### [skills.csv](/csv/csv_logic/skills.csv "skills.csv") 
 Characteristics of brawlers' attacks and supers
 ###### [skin_albums.csv](/csv/csv_logic/skin_albums.csv "skin_albums.csv") 👻
-🔬
+…
 ###### [skin_anim_sequences.csv](/csv/csv_logic/skin_anim_sequences.csv "skin_anim_sequences.csv") 👻
 Judging by the name it should control the order of skin animations, but since the file has only 1 line with Mortis there is an assumption that this is just a hack.
 ###### [skin_campaigns.csv](/csv/csv_logic/skin_campaigns.csv "skin_campaigns.csv") 
@@ -218,13 +238,21 @@ Parameters of all sprays in the game, taken from individual PNG images and paint
 ###### [status_effects.csv](/csv/csv_logic/status_effects.csv "status_effects.csv") 
 Characterizes all buffs and debuffs (shields, burning, sliding, poisoning, hypnosis, stun, etc).
 ###### [string_replacement.csv](/csv/csv_logic/string_replacement.csv) 👻
-🫥
+…
 ###### [themes.csv](/csv/csv_logic/themes.csv "themes.csv") 
 Controls the backgrounds in the main menu, taken from background_\*.sc.
 ###### [tiles.csv](/csv/csv_logic/tiles.csv "tiles.csv") 
 Characterizes all blocks (tiles) in the game
+###### [traits.csv](/csv/csv_logic/traits.csv "traits.csv") 👻 
+…
 ###### [trophy_season_reward_levels.csv](/csv/csv_logic/trophy_season_reward_levels.csv "trophy_season_reward_levels.csv") 
 Lists the levels of the seasonal boxes
+###### [trophy_world_milestones.csv](/csv/csv_logic/trophy_world_milestones.csv "trophy_world_milestones.csv") 👻 
+…
+###### [trophy_world_parts.csv](/csv/csv_logic/trophy_world_parts.csv "trophy_world_parts.csv") 👻 
+…
+###### [trophy_worlds.csv](/csv/csv_logic/trophy_worlds.csv "trophy_worlds.csv") 👻 
+…
 ###### [visual_offer_groupings.csv](/csv/csv_logic/visual_offer_groupings.csv "visual_offer_groupings.csv") 👻 
 Offer to buy hypercharge in the store
  
