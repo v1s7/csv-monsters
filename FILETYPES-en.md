@@ -1,4 +1,4 @@
-<sup>v1.2 – written \& translated by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
+<sup>written \& translated by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
 [Версия на русском 🇷🇺](/FILETYPES.md)
 

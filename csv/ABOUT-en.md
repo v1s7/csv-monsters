@@ -1,4 +1,4 @@
-<sup>v61 - written by v1s7, special thanks to Null's Brawl Mods<!--Pro--> group</sup> 
+<sup>written by v1s7, special thanks to Null's Brawl Mods<!--Pro--> group</sup> 
 
 [Версия на русском 🇷🇺](/csv/ABOUT.md)
  

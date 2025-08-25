@@ -1,4 +1,4 @@
-<sup>v1.991 – written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
+<sup>written by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup>
 <!--
 Techicons by gui-bus
 Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">

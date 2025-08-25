@@ -1,4 +1,4 @@
-<sup>v2.99 – created \& translated by v1s7, inspired by MrsFolls</sup>  
+<sup>created \& translated by v1s7, inspired by MrsFolls</sup>  
 [Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
