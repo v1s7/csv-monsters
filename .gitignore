@@ -1,0 +1,9 @@
+# For this repo specifically
+particle_emitters.json
+particle_emitters.json.flex
+
+# Generic
+.DS_Store
+Thumbs.db
+.trash
+.obsidian
