@@ -18,4 +18,4 @@
 "Gems","TID_LOGIN_CALENDAR_REWARD_GEMS","TID_LOGIN_CALENDAR_REWARD_DESC_GEMS",16,"sc/ui.sc","login_calendar_panel_reward_resource_gems","login_calendar_panel_reward_resource_gems",,,,
 "Gadget","TID_LOGIN_CALENDAR_REWARD_GADGET","TID_LOGIN_CALENDAR_REWARD_DESC_GADGET",5,"sc/ui.sc","login_calendar_featured_reward_item_1","login_calendar_hud_reward_item_1",,,,
 "StarPower","TID_LOGIN_CALENDAR_REWARD_STARPOWER","TID_LOGIN_CALENDAR_REWARD_DESC_STARPOWER",5,"sc/ui.sc","login_calendar_featured_reward_sp_1","login_calendar_hud_reward_sp_1",,,,
-"Overcharge","TID_LOGIN_CALENDAR_REWARD_OVERCHARGE","TID_LOGIN_CALENDAR_REWARD_DESC_OVERCHARGE",5,"sc/ui.sc","login_calendar_featured_reward_overcharge","login_calendar_hud_reward_overcharge",,,,
+"Overcharge","TID_LOGIN_CALENDAR_REWARD_OVERCHARGE_ITEM","TID_LOGIN_CALENDAR_REWARD_DESC_OVERCHARGE_ITEM",5,"sc/ui.sc","login_calendar_featured_reward_overcharge","login_calendar_hud_reward_overcharge",,,,
