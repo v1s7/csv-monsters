@@ -174,11 +174,11 @@
 "Angels3_1",,10,,"ShootProjectileOnBasicAttack",,"AngelicProjectile",,,,"ShootProjectileOnBasicAttackCooldown",,
 "Angels4_1",,10,,"ApplyStatusEffectWhenUsingUlti",,,,,,"SpeedWhenUsingUltiAngels",,
 "Angels4_2",,10,,"SpawnCharacterOnAreaEffect",,,"AngelicAreaEffect","AngelicPet",,,,
-"Angels5_1",,10,,"AddConsumabeShieldWhenDealinDmg",5,,,,,,,
+"Angels5_1",,10,,"AddConsumabeShieldWhenDealinDmg",6,,,,,,,
 "Angels5_2",,10,,"AddExtraHealthToSummonedMinions",2000,,,,,,,
 "Angels6_1",,10,,"SpawnAreaEffectWhileMoving",100,,"AngelicAreaEffect",,,,,
 "Angels7_1",,10,,"TriggerAreaEffectWhenUlti",,,"AngelicAreaEffect",,,"SpeedWhenUsingUltiAngels",,
-"Angels8_1",,10,,"AddReloadSpeedPercent",6500,,,,,,,
+"Angels8_1",,10,,"AddReloadSpeedPercent",4000,,,,,,,
 "Angels8_2",,10,,"AddChainAreaEffectToAreaEffect",,,"AngelicBulletAreaEffect",,,,,"AngelicAreaEffect"
 "Demons1_1",,10,,"SetInvisibleOnKill",50,,,,,,,
 "Demons1_2",,10,,"AddChainProjectileToProjectile",,"DemonicProjectileBoomerang",,,,,"DemonicProjectile",
@@ -196,4 +196,3 @@
 "Demons8_2",,10,,"AddChainAreaEffectToAreaEffect",,,"DemonicAreaEffectFire",,,,,"DemonicAreaEffect"
 "DuplicatorPet1",,,,"PetTooClose",3,,,,,"DuplicatorPetTooCloseCripple",,
 "StalkerSkillRange",,,,"CastingRangeMultByMoveSpeed",250,,,,,,,
-"DomainHealFromStatus",,,,"HealFromStatusEffectDamage",50,"DomainHealProjectile",,,,,,
