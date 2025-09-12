@@ -1,5 +1,5 @@
 <sup>created \& translated by v1s7, inspired by MrsFolls</sup>  
-[Версия на русском 🇷🇺](/FAQ.md) | [用中文阅读（很快）🇨🇳](/FAQ-cn.md)  
+[Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
 -----

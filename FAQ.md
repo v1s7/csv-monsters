@@ -1,5 +1,5 @@
 <sup>создано v1s7, вдохновлено MrsFolls</sup>  
-[Switch to English 🇬🇧](/FAQ-en.md) | [用中文阅读（很快）🇨🇳](/FAQ-cn.md)  
+[Switch to English 🇬🇧](/FAQ-en.md)  
 
 Содержание этого FAQ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
 -----

@@ -12,7 +12,7 @@ csv/csv_client/character_components_client.csv
         csv/csv_logic/trophy_world_parts.csv
         csv/csv_logic/trophy_worlds.csv
 -->
-[Switch to English 🇬🇧](/csv/ABOUT-en.md) | [用中文阅读（很快）🇨🇳](/csv/ABOUT-cn.md)  
+[Switch to English 🇬🇧](/csv/ABOUT-en.md)
  
 Содержание этого списка можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
 -----

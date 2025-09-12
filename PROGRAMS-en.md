@@ -14,7 +14,7 @@ Discord <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/
 Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Telegram.svg" height="16rem">
 -->
 
-[Версия на русском 🇷🇺](/PROGRAMS.md) | [用中文阅读（很快）🇨🇳](/PROGRAMS-cn.md)  
+[Версия на русском 🇷🇺](/PROGRAMS.md)  
 
 > [!TIP]  
 > The list of programs can be opened by pressing the ⋮☰ button in upper right corner.  

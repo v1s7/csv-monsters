@@ -1,4 +1,4 @@
-[Версия на русском 🇷🇺](https://github.com/v1s7/csv-monsters) | [用中文阅读（很快）🇨🇳](/README-cn.md)  
+[Версия на русском 🇷🇺](https://github.com/v1s7/csv-monsters)  
 
 -----
 # Navigation

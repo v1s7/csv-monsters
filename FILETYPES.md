@@ -1,7 +1,7 @@
 <!-- Скоро, должен будет содержать инфу о расширениях файлов, на которые можно наткнуться при моддинге Null's Brawl. -->
 <sup>написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup> 
 
-[Switch to English 🇬🇧](/FILETYPES-en.md) | [用中文阅读（很快）🇨🇳](/FILETYPES-cn.md)
+[Switch to English 🇬🇧](/FILETYPES-en.md)
 
 Содержание этого гайда можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.
 -----
