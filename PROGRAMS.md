@@ -14,7 +14,7 @@ Discord <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/
 Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Telegram.svg" height="16rem">
 -->
 
-[Switch to English 🇬🇧](/PROGRAMS-en.md)  
+[Switch to English 🇬🇧](/PROGRAMS-en.md) | [用中文阅读（很快）🇨🇳](/PROGRAMS-cn.md)
 
 > [!TIP]  
 > Список программ можно открыть, нажав на кнопку ⋮☰ в правом верхнем углу.  
@@ -43,7 +43,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 
 Также боту можно отправлять файлы на подпись в личные сообщения, но между успешными запросами на подпись будет задержка в 120 секунд до следующей возможности запроса. Впрочем, это всё равно лучше 5-минутной задержки чата мододелов.  
 
-### [ScwBot](https://discord.gg/dbD8erDDmF) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Discord.svg" height="16rem"> 
+### [ScwBot](https://discord.gg/dbD8erDDmF) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Discord.svg" height="16rem"> ([alt](https://dsc.gg/coolbrawl))  
 Бот в Дискорде, в котором собраны почти все конвертеры форматов для моддинга, есть моментальный поиск/скачивание игровых файлов и множество прочих интересных функций по типу `img2map`. 
 Этот бот – спасение для людей с телефона, так как почти для всех конвертеров требуется компьютер. Но не всё так радужно: благодаря Дискорду все отправляемые файлы ограничены 10 МБ, а также он не постоянно онлайн.  
 Сам сервер также полезен обилием туториалов на использование конвертеров – советую взглянуть.
@@ -59,8 +59,13 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 ## OGG ←→ MP3 ←→ (...) ← MP4
 скоро-->
 # 🧱 Базовые
+
 ## 📁 Проводники
 Достаточно выбрать один.
+
+### На компьютере
+Просто используйте встроенный.
+
 ### На Android
 Все из них поддерживают подключение внешних хранилищ – в нашем случае, хранилища игры.
 #### MiXplorer
@@ -79,8 +84,10 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 #### Filza File Manager
 [Сайт](https://www.tigisoftware.com/default/?page_id=78) | [BigBoss Repo](http://cydia.saurik.com/package/com.tigisoftware.filza) | [TrollStore](https://www.tigisoftware.com/default/?p=439)  
 Сказать нечего ¯\\\_(ツ)\_/¯
+
 ## 👨‍💻 Редакторы кода
 На случай, если вы недовольны редактором от файлового менеджера или системным блокнотом – пользоваться именно ими **необязательно**, это всё вопрос удобства.
+
 ### На компьютере
 Варианты должны подойти под любые ОС.
 #### VS Code
@@ -95,14 +102,12 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 #### ACode
 [Github](https://github.com/Acode-Foundation/Acode?tab=readme-ov-file#-installation) | [F-Droid](https://f-droid.org/repo/com.foxdebug.acode) | [Google Play](https://play.google.com/store/apps/details?id=com.foxdebug.acode)   
 Буквально копия VS Code, но портом не является.
-
 #### Xed Editor
 [Github](https://github.com/Xed-Editor/Xed-Editor) | [Izzy](https://apt.izzysoft.de/fdroid/repo/com.rk.xededitor) | Google Play – нет❌  
 Редактор со своим подходом к папкам и приятным интерфейсом. Можно выдать доступ к папке `mods` через DocumentsUI (только если вы [патчили apk игры через ApkTool M](/FAQ.md#2-патч-apk-от-nulls-brawl)) и иметь удобный способ редактировать все JSON-файлы установленных модов!
-
 #### QuickEdit
 [Сайт](https://rhmsoft.com/?p=283) | [4PDA](https://4pda.to/forum/index.php?showtopic=625901) | [Google Play](https://play.google.com/store/apps/details?id=com.rhmsoft.edit)  
-Классика
+Классика.
 
 ### На iOS
 > [!warning]  
@@ -112,16 +117,18 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 Сказать нечего ¯\\\_(ツ)\_/¯
 
 ## 📑 Редакторы таблиц
-CSV-таблицы могут открывать любые редакторы кода и текста, но они отображают её в сыром виде. Удобнее всего их открывать через редакторы электронных таблиц. Чуть ли не все из них опираются на максимальную кроссплатформенность, поэтому разделения по ОС здесь нет.
-
-#### Google Sheets
-[Сайт](https://workspace.google.com/products/sheets) | [App Store](https://apps.apple.com/us/app/google-sheets/id842849113) | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)
-
-#### Microsoft Excel
-[Сайт](https://www.microsoft.com/en-us/microsoft-365/excel) | [App Store](https://apps.apple.com/us/app/microsoft-excel/id586683407) | [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)
+CSV-таблицы могут открывать любые редакторы кода и текста, но они отображают её в сыром виде. Удобнее всего их открывать через редакторы электронных таблиц. Чуть ли не все из них опираются на максимальную кроссплатформенность, поэтому разделения по ОС здесь нет. 
 
 #### WPS Office
-[Сайт](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)
+[Сайт](https://wps.com/download) | [App Store](https://apps.apple.com/us/app/wps-office-pdf-docs-sheets/id1491101673) | [Google Play](https://play.google.com/store/apps/details?id=cn.wps.moffice_eng)  
+Лучше всего справляется с большими таблицами, по типу effects.csv или skin_confs.csv
+#### Google Sheets
+[Сайт](https://workspace.google.com/products/sheets) | [App Store](https://apps.apple.com/us/app/google-sheets/id842849113) | [Google Play](https://play.google.com/store/apps/details?id=com.google.android.apps.docs.editors.sheets)  
+Самый приятный интерфейс.
+#### Microsoft Excel
+[Сайт](https://www.microsoft.com/en-us/microsoft-365/excel) | [App Store](https://apps.apple.com/us/app/microsoft-excel/id586683407) | [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.office.excel)  
+Скорее всего он уже у вас установлен. 
+
 
 # 🚪Конвертеры форматов Supercell
 ## ♻️ Специализированные 

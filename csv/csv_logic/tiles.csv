@@ -65,3 +65,5 @@
 "MeepleWallDefault2","-",19,"true","true","true",,"false",,,,,,,,,,,"custom","meeple_def_atk_gadget_explo","wall1_hit",,,"true",,,,,,,80,"sc3d/dice02.glb",,90,,1,,"meeple_def_atk_gadget_spawn"
 "MeepleWallDefault3","-",20,"true","true","true",,"false",,,,,,,,,,,"custom","meeple_def_atk_gadget_explo","wall1_hit",,,"true",,,,,,,80,"sc3d/dice03.glb",,90,,1,,"meeple_def_atk_gadget_spawn"
 "ArenaConnector","(",,,,,,,,,,,,,,"true",,,"custom",,,,,,,100,60,-10,60,25,,"sc3d/moba_connector_geo.glb",,,,1,,
+"OutOfLineWall","-",23,"true","true","true",,"false",,,,,,,,,,,"custom","meeple_def_atk_gadget_explo","wall1_hit",,,"true",,,,,,,80,"sc3d/subway_skill_hurdle_01.glb",,90,,1,,"surbway_hurdle_idle"
+"OutOfLineWall_lvl3","-",24,"true","true","true",,"false",,,,,,,,,,,"custom","meeple_def_atk_gadget_explo","wall1_hit",,,"true",,,,,,,120,"sc3d/subway_skill_hurdle_01.glb",,90,,1,,"surbway_hurdle_idle"

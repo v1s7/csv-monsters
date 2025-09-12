@@ -1,6 +1,6 @@
 <sup>written \& translated by v1s7, special thanks to [Daniil-SV](https://github.com/Daniil-SV) and [SC Workshop](https://discord.gg/spFcna3xFJ) community</sup> 
 
-[Версия на русском 🇷🇺](/FILETYPES.md)
+[Версия на русском 🇷🇺](/FILETYPES.md) | [用中文阅读（很快）🇨🇳](/FILETYPES-cn.md)
 
 The contents of this guide can be accessed by clicking the ⋮☰ button in the upper right corner.
 -----

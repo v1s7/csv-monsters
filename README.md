@@ -1,4 +1,4 @@
- [Switch to English 🇬🇧](/README-en.md)  
+ [Switch to English 🇬🇧](/README-en.md) | [用中文阅读（很快）🇨🇳](/README-cn.md)  
 
 -----
 # Навигация

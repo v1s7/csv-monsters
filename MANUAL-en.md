@@ -1,6 +1,6 @@
 <sup>Manual's version: 3.2 (08.03.2025), written by <b>данянул \<3</b> / <a href="https://t.me/nb_mods/16782/39600">Original source</a> / Translated by v1s7</sup>
 
-[Версия на русском 🇷🇺](/MANUAL.md)
+[Версия на русском 🇷🇺](/MANUAL.md) | [用中文阅读（很快）🇨🇳](/MANUAL-cn.md)
 
 > [!TIP]  
 > The contents of this manual can be accessed by clicking the ⋮☰ button in the upper right corner. 
