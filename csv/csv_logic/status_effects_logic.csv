@@ -108,7 +108,7 @@
 "DomainDamageReduceSP",2,,,,,,,,,,"TRUE",,,,,,,,,,,,,,15,,,,,,,,,,,,,,,,,"TRUE",,,,,,,,,,,,
 "DomainForceShowSP",2,,,,,,,,,,"TRUE",,,,,,,,,,,,,,,,,,,,,,,"TRUE",,,,,,,,"TRUE",,,,,,"TRUE",,,,,,
 "DomainInverseDamageGadget",40,,"TRUE",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"ReceiveDamageInversion",,
-"DomainOverchargedUltiDamage",20,,,,,,,1,,,"TRUE",,,150,,,,,,,,,,,,,,,,,,,,,,,,,,"TRUE","TRUE","TRUE",,,,,,,,,,,"TRUE",
+"DomainOverchargedUltiDamage",20,,,,,,,1,,,"TRUE",,,150,,30,,,,,,,,,,,,,,,,,,,,,,,,"TRUE","TRUE","TRUE",,,,,,,,,,,"TRUE",
 "AngelicHot",40,,,,,,,20,"TRUE","TRUE",,,,,,,,250,,,,,,,,,,,,,,,,,,,,,,"TRUE","TRUE",,,,,,,,,,,,,
 "IceDudeHypothermia",750,,,,,,,,,,"TRUE",,,,,,,,,,,,,,50,,,,,,,,,,,,,,,,,"TRUE",,,,,,"TRUE",,,,"PartialStunBasedDamageReduce",,
 "DuplicatorPetTooCloseCripple",2,,,,,,,,,,"TRUE",,,,,,,,,,,,,,50,,,,,,,,,,,,,,,,,"TRUE",,,,,,,,,,,,
