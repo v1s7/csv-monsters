@@ -46,7 +46,7 @@
 "ArcadeScoring",43,,"TID_EVENT_MODIFIER_43","TID_EVENT_MODIFIER_DESC_43",,,,,,,,
 "RandomGas",44,true,"TID_EVENT_MODIFIER_44","TID_EVENT_MODIFIER_DESC_44",,,true,,,,,
 "FriendlyFire",45,true,"TID_EVENT_MODIFIER_45","TID_EVENT_MODIFIER_DESC_45",,,true,true,,,,
-"BonusSkills",46,,"TID_EVENT_MODIFIER_46","TID_EVENT_MODIFIER_DESC_46",,,,true,,,,
+"BonusSkills",46,,"TID_EVENT_MODIFIER_46","TID_EVENT_MODIFIER_DESC_46",,,true,true,,,,
 "NT_M47_Unused",47,true,,,,,,,,,,
 "NT_M48_Unused",48,true,,,,,,,,,,
 "NT_M49_Unused",49,true,,,,,,,,,,
