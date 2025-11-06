@@ -1,17 +1,17 @@
 <sup>написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
 <!--
 Techicons by gui-bus
-Linux <img src="/static/icons/Dark/Linux.svg" height="16rem">
-Android <img src="/static/icons/Dark/Android.svg" alt="Android" height="16rem">
-Windows <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">
-Animate <img src="/static/icons/Dark/Animate.svg" alt="Adobe Animate" height="16rem">
-MacOS <img src="/static/icons/Dark/Apple.svg" height="16rem">
-Bash <img src="/static/icons/Dark/Bash.svg" height="16rem">
-Python <img src="/static/icons/Dark/Python.svg" height="16rem">
-Java <img src="/static/icons/Dark/Java.svg" height="16rem">
-C++ <img src="/static/icons/Dark/C++.svg" height="16rem">
-Discord <img src="/static/icons/Dark/Discord.svg" height="16rem">
-Telegram <img src="/static/icons/Dark/Telegram.svg" height="16rem">
+Linux <img src="/static/icons/Dark/Linux.svg" height="16rem"> --
+Android <img src="/static/icons/Dark/Android.svg" alt="Android" height="16rem"> --
+Windows <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem"> https://icons8.com/icon/108792/windows-10
+Animate <img src="/static/icons/Dark/Animate.svg" alt="Adobe Animate" height="16rem"> https://icons8.com/icons/set/adobe-animate--animated
+MacOS <img src="/static/icons/Dark/Apple.svg" height="16rem"> https://icons8.com/icons/set/macos
+Bash <img src="/static/icons/Dark/Bash.svg" height="16rem"> https://icons8.com/icon/9MJf0ngDwS8z/bash
+Python <img src="/static/icons/Dark/Python.svg" height="16rem"> https://icons8.com/icon/13441/python
+Java <img src="/static/icons/Dark/Java.svg" height="16rem"> https://icons8.com/icon/13679/java
+C++ <img src="/static/icons/Dark/C++.svg" height="16rem"> https://icons8.com/icon/40669/c%2B%2B
+Discord <img src="/static/icons/Dark/Discord.svg" height="16rem"> https://icons8.com/icon/M725CLW4L7wE/discord-new
+Telegram <img src="/static/icons/Dark/Telegram.svg" height="16rem"> https://icons8.com/icon/25n4hOEoY7ss/telegram-app
 -->
 
 [Switch to English 🇬🇧](/PROGRAMS-en.md)  
