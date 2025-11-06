@@ -1,17 +1,17 @@
 <sup>написал v1s7, особые благодарности [Daniil-SV](https://github.com/Daniil-SV) и сообществу [SC Workshop](https://discord.gg/spFcna3xFJ)</sup>
 <!--
 Techicons by gui-bus
-Linux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">
-Android <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem">
-Windows <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
-Animate <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Animate.svg" alt="Adobe Animate" height="16rem">
-MacOS <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem">
-Bash <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Bash.svg" height="16rem">
-Python <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem">
-Java <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Java.svg" height="16rem">
-C++ <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem">
-Discord <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Discord.svg" height="16rem">
-Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Telegram.svg" height="16rem">
+Linux <img src="/static/icons/Dark/Linux.svg" height="16rem">
+Android <img src="/static/icons/Dark/Android.svg" alt="Android" height="16rem">
+Windows <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">
+Animate <img src="/static/icons/Dark/Animate.svg" alt="Adobe Animate" height="16rem">
+MacOS <img src="/static/icons/Dark/Apple.svg" height="16rem">
+Bash <img src="/static/icons/Dark/Bash.svg" height="16rem">
+Python <img src="/static/icons/Dark/Python.svg" height="16rem">
+Java <img src="/static/icons/Dark/Java.svg" height="16rem">
+C++ <img src="/static/icons/Dark/C++.svg" height="16rem">
+Discord <img src="/static/icons/Dark/Discord.svg" height="16rem">
+Telegram <img src="/static/icons/Dark/Telegram.svg" height="16rem">
 -->
 
 [Switch to English 🇬🇧](/PROGRAMS-en.md)  
@@ -24,7 +24,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 -----
 # 📱Сообщества и боты
 
-### [EscavunBot](https://t.me/escavun_chat) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Telegram.svg" height="16rem"> 
+### [EscavunBot](https://t.me/escavun_chat) <img src="/static/icons/Dark/Telegram.svg" height="16rem"> 
 Бот в Телеграме с гибкими возможностями загрузки игровых файлов:
 - поддержка поиска по RegEx,
 - смена игры и её версии из которой требуется загрузить ассеты,
@@ -32,7 +32,7 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 - автоматически разжимает CSV-файлы,
 - и многое другое.
 
-### [Null's Brawl Mods Bot](https://t.me/nb_mods/4827) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Telegram.svg" height="16rem"> 
+### [Null's Brawl Mods Bot](https://t.me/nb_mods/4827) <img src="/static/icons/Dark/Telegram.svg" height="16rem"> 
 Название говорит само за себя. Используется для временной подписи в NullsBrawlAssets файлов JSON (и только их), а именно на 3 дня. Находится в официальном чате мододелов Null's Brawl, в котором:
 - создаются заявки на долгосрочную подпись мода (90 дней),
 - выкладывается новейшая информация об обновлениях механизма модов и игры,
@@ -43,12 +43,12 @@ Telegram <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark
 
 Также боту можно отправлять файлы на подпись в личные сообщения, но между успешными запросами на подпись будет задержка в 120 секунд до следующей возможности запроса. Впрочем, это всё равно лучше 5-минутной задержки чата мододелов.  
 
-### [ScwBot](https://discord.gg/dbD8erDDmF) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Discord.svg" height="16rem"> 
+### [ScwBot](https://discord.gg/dbD8erDDmF) <img src="/static/icons/Dark/Discord.svg" height="16rem"> 
 Бот в Дискорде, в котором собраны почти все конвертеры форматов для моддинга, есть моментальный поиск/скачивание игровых файлов и множество прочих интересных функций по типу `img2map`. 
 Этот бот – спасение для людей с телефона, так как почти для всех конвертеров требуется компьютер. Но не всё так радужно: благодаря Дискорду все отправляемые файлы ограничены 10 МБ, а также он не постоянно онлайн.  
 Сам сервер также полезен обилием туториалов на использование конвертеров – советую взглянуть.
 
-### [SC Workshop](https://discord.gg/spFcna3xFJ) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Discord.svg" height="16rem"> 
+### [SC Workshop](https://discord.gg/spFcna3xFJ) <img src="/static/icons/Dark/Discord.svg" height="16rem"> 
 Сообщество, благодаря которому моддинг ресурсов игры сейчас не является кошмаром или вовсе выдумкой.
 
 <!--# 🌐 Сайты-конвертеры
@@ -125,13 +125,13 @@ CSV-таблицы могут открывать любые редакторы �
 
 # 🚪Конвертеры форматов Supercell
 ## ♻️ Специализированные 
-### [Flat Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+### [Flat Converter](https://github.com/Daniil-SV/Supercell-Flat-Converter) <img src="/static/icons/Dark/Python.svg" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 Конвертирует в обе стороны обычный GLB с оптимизированным GLB во FlatBuffers.
 
-### [SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> |  <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
+### [SCTX Converter](https://github.com/Daniil-SV/SCTX-Converter) <img src="/static/icons/Dark/Python.svg" height="16rem"> |  <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">
 Конвертирует в обе стороны SCTX и PNG.
 
-### [SCW by Opegit Studio](https://github.com/OpegitStudio/SCW) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Java.svg" height="16rem">  
+### [SCW by Opegit Studio](https://github.com/OpegitStudio/SCW) <img src="/static/icons/Dark/Java.svg" height="16rem">  
 Конвертирует в обе стороны SCW и DAE.
 
 <!--### [XCoder by Lexa]()
@@ -152,35 +152,35 @@ CSV-таблицы могут открывать любые редакторы �
 ### так то устаревших программ немало, но 90% из них это XCoder
 -->
 ## 🛠️ Универсальные
-### [SC Editor](https://github.com/danila-schelkov/sc-editor) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Java.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">  
+### [SC Editor](https://github.com/danila-schelkov/sc-editor) <img src="/static/icons/Dark/Java.svg" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem"> <img src="/static/icons/Dark/Apple.svg" height="16rem"> <img src="/static/icons/Dark/Linux.svg" height="16rem">  
 Позволяет открывать и просматривать файлы SC (и v1, и v2) и SCTX. Есть возможность сохранять разные файлы игры в формате SC v1. Может использоваться для проверки работоспособности пользовательских изменений в SC-файлах. Также он может отрендерить объект в картинку или видео, что может быть полезно для контент-мейкеров.  
 SC Editor собран модульно, а значит эти модули можно взять и использовать их в своих целях. Например, можно написать приложение, открывающее файлы SC2 и сохраняющее их в старом формате SC. У такой идеи как раз имеется [демо](https://github.com/danila-schelkov/sc-reassembler).  
 > [!important]  
 > Для его работы дополнительно потребуется скачать [KTX Tools](https://github.com/KhronosGroup/KTX-Software) и в установщике добавить его в PATH.
 
 *Не путать с уже неактульным SC Editor by ToxicLand*
-### [SimpleTexToolGUI](https://github.com/ARHCOS/SimpleTexToolGUI) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+### [SimpleTexToolGUI](https://github.com/ARHCOS/SimpleTexToolGUI) <img src="/static/icons/Dark/Python.svg" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 Простой конвертер текстур из игр Supercell с графическим интерфейсом. Основан на PVRTexTool и SCTX Converter. Умеет конвертировать:
 - KTX ←→ PNG
 - PVR → PNG
 - SCTX ←→ PNG
 
 ## 🖌️ Для работы в Adobe Animate
-### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/C++.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+### [ScDowngrade](https://github.com/Daniil-SV/ScDowngrade) <img src="/static/icons/Dark/C++.svg" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 Понижает версию SC-файлов с v2 до v1 или v0.5. Используется ради совместимости с программой ниже.
 
-### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Python.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+### [SC2FLA](https://discord.com/channels/751042695698579457/751056303123857509/1288796520199487532) <img src="/static/icons/Dark/Python.svg" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 Конвертирует SC-файлы версий v0.5 и v1 в документ FLA – файл проекта Adobe Animate. 
 
-### [SupercellSWF Animate](https://github.com/sc-workshop/SupercellSWF-Animate) <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Animate.svg" alt="Adobe Animate" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+### [SupercellSWF Animate](https://github.com/sc-workshop/SupercellSWF-Animate) <img src="/static/icons/Dark/Animate.svg" alt="Adobe Animate" height="16rem"> | <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 Плагин для Adobe Animate, позволяющий экспортировать проект в SC-файл. Должен работать на версиях выше Animate 2022, но рекомендуемая и самая стабильная из них – Animate 2023.
 
 # 🥣 Прочие полезности
-### FFmpeg <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Bash.svg" height="16rem"> | <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem"> <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">
+### FFmpeg <img src="/static/icons/Dark/Bash.svg" height="16rem"> | <img src="/static/icons/Dark/Android.svg" alt="Android" height="16rem"> <img src="/static/icons/Dark/Linux.svg" height="16rem"> <img src="/static/icons/Dark/Apple.svg" height="16rem"> <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">
 Конвертер вообще любых медиафайлов с громадным набором параметров. Подвох в том, что утилиту можно полноценно использовать только в командной строке – пользовательского интерфейса нет.
 
 Полезна она будет способностью массово конвертировать аудио и даже видео в предпочитаемый игрой формат OGG. На разных платформах это делается по-разному:
-#### Termux <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem"> / Bash <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Linux.svg" height="16rem">  
+#### Termux <img src="/static/icons/Dark/Android.svg" alt="Android" height="16rem"> / Bash <img src="/static/icons/Dark/Linux.svg" height="16rem">  
 ```bash
 shopt -s nullglob
 mkdir Converted
@@ -209,7 +209,7 @@ shopt -u nullglob
 - `shopt -u nullglob` снимает действие самой первой команды.
 </details>
 
-#### PowerShell <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Windows.svg" alt="Windows" height="16rem">  
+#### PowerShell <img src="/static/icons/Dark/Windows.svg" alt="Windows" height="16rem">  
 > [!warning]  
 > На работоспособность не проверялось – похожий скрипт можно найти на просторах интернета.
 

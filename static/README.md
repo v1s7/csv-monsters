@@ -1,0 +1,2 @@
+- Icons provided by [gui-bus/Techicons](https://github.com/gui-bus/Techicons) under [MIT License](https://github.com/gui-bus/TechIcons/blob/70f9ca213e35be00f41c0350d77c238c999db688/LICENSE).
+- Every other media is original and doesn't contain additional licenses.
