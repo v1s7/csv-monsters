@@ -1,4 +1,4 @@
-<sup>created \& translated by v1s7, inspired by MrsFolls</sup>  
+<sup>created \& translated by v1s7 with the help of [DeepL](https://www.deepl.com/) and [Kagi](https://translate.kagi.com/), inspired by MrsFolls</sup>  
 [Версия на русском 🇷🇺](/FAQ.md)
 
 The contents of this FAQ can be accessed by clicking the ⋮☰ button in the upper right corner. 
@@ -7,25 +7,32 @@ The contents of this FAQ can be accessed by clicking the ⋮☰ button in the up
 # Mundane
 
 ### How to remove/enable/disable mods?
-#### On iOS <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Apple.svg" height="16rem">
+#### On iOS <img src="/static/icons/Dark/Apple.svg" height="16rem">
 Remove all files (or just `fingerprint.json`) from the `updated` folder – here's its path:
 ```
 /var/mobile/Containers/Data/Application/NB v##.###/Documents/updated
 ```  
 It won't affect any critical data – the game will re-download the missing files by itself.
-#### On Android <img src="https://github.com/gui-bus/TechIcons/raw/refs/heads/main/Dark/Android.svg" alt="Android" height="16rem">
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-menu.webp" width="100%"/>
+#### On Android <img src="/static/icons/Dark/Android.svg" height="16rem">
+<img src="/static/faq/mm/Menu.webp" width="100%"/>
 This mod management menu can be opened in several ways: 
 
 ##### 1. Straight from the game
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-ingame-button.webp" alt="1. Go to the in-game settings. 2. Tap the button with purple text «Manage mods…»." width="100%"/>
+<img src="/static/faq/mm/Ingame.webp" width="100%"/>
+> 1. Go to the in-game settings.
+> 2. Tap the button with purple text «Manage mods…».
+
 There is no need to download a separate mod for this button anymore – this functionality has been added to the vanilla game!
 
 ##### 2. By a URL
 http://files.dnull.xyz/mods.html
 
 ##### 3. Via "App info" menu
-<img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/manage-mods-settings-method-24fps.avifs" alt="1. Clear the game data. Don't worry, the data itself will not be cleared. 2. In the opened menu, select «Manage modifications»." width="260em"/>
+<video width="260em" autoplay muted>
+  <source src="/static/faq/mm/AppInfo.webm" type="video/webm"/>
+</video>
+> 1. Clear the game data. Don't worry, the data itself will not be cleared.
+> 2. In the opened menu, select «Manage modifications».
 
 ### How to install a mod on iOS?
 > [!important]  
@@ -92,10 +99,18 @@ Video tutorial: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odyse
 > Private storage of Null's Brawl can be accessed by [other file managers](/PROGRAMS-en.md#-explorers) as well:
 > <details>  
 > <summary>Material Files</summary>  
-> <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-materialfiles.avifs" alt="Left slideout menu \> Add storage \> External storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> daniillnull.nulls.nullsbrawl \> data \> mods" width="260em"/>  
+> <video width="260em" autoplay><source src="/static/faq/dp/MaterialFiles.webm" type="video/webm"/></video>  
+> Left slideout menu → Add storage → External storage → Left slideout menu → Null\'s Brawl → Use this folder → Grant → daniillnull.nulls.nullsbrawl → data → mods
 > </details><details>  
 > <summary>MT Manager</summary>  
-> <img src="https://github.com/v1s7/csv-monsters/raw/refs/heads/media/documents-provider-in-mtmanager.avifs" alt="Left slideout menu \> Three dots on top center \> Add local storage \> Left slideout menu \> Null\'s Brawl \> Use this folder \> Grant \> Null\'s Brawl \> data \> mods" width="260em"/>  
+> <video width="260em" autoplay><source src="/static/faq/dp/MT.webm" type="video/webm"/></video>    
+> Left slideout menu → Three dots on top center → Add local storage = Left slideout menu → Null\'s Brawl → Use this folder → Grant → Null\'s Brawl → data → mods
+> </details><details>  
+> <summary>MiXplorer</summary>
+> <video width="260em" autoplay><source src="/static/faq/dp/MiX.webm" type="video/webm"/></video>  
+> </details><details>  
+> <summary>Total Commander</summary>
+> <video width="260em" autoplay><source src="/static/faq/dp/TotalCommander.webm" type="video/webm"/></video>    
 > </details>
 
 ### When installing a signed mod (.NullsBrawlAssets) gives me an error? 
@@ -106,9 +121,9 @@ There can be several reasons:
 4. IOException – same as the one above, but usually happens on rooted devices with a custom ROM when there's not enough space in the Root partition. Instances may vary, look for the exact error in logcat. Your system might be flawed and needs to be properly re-installed if the issue isn't the lack of space.
 
 ### Why when I open the ZIP Null's Brawl does not appear?
-This can and will only work with .NullsBrawlAssets.
+This can and will only work with .NullsBrawlAssets
 
-The reason Null's Brawl doesn't show up in the app selection menu when you try to open a ZIP is because unsigned mods were never intended to be installed in the first place. And also because the app selection menu would be cluttered – ZIPs are everywhere, for example APKs are also an embellished ZIP archives.
+The reason Null's Brawl doesn't show up in the app selection menu when you try to open a ZIP is because unsigned mods were never intended to be installed in the first place
 
 # Community
 
@@ -116,10 +131,10 @@ The reason Null's Brawl doesn't show up in the app selection menu when you try t
 Everything is described in the [official manual](/MANUAL-en.md) (this one is localized to English). Be sure to read it from cover to cover!
 
 > [!NOTE]  
-> To create and modify text files (.json and .toml among others) on Android, you can either use the text editor that's built into your [file manager](/PROGRAMS-en.md#-explorers), or use a [separate code editor](/PROGRAMS-en.md#-editors). <!--[QuickEdit](https://xdaforums.com/t/app-4-0-3-quickedit-text-editor.2899385/) for Android, [Runestone Text Editor](https://apps.apple.com/us/app/runestone-text-editor/id1548193893) for iOS, or [Notepad++](https://notepad-plus-plus.org/) for Windows.-->
+> To create and modify text files (.json and .toml among others) on Android, you can either use the text editor that's built into your [file manager](/PROGRAMS-en.md#-explorers), or use a [separate code editor](/PROGRAMS-en.md#-editors).
 
 > [!TIP]  
-> There is also a website for simplified creation process of "small" mods for Null's Brawl: https://nb-mods.vercel.app
+> There is also a website for simplified creation process of "small" mods for Null's Brawl: https://darkmean-dev.github.io/nullsmod
 
 > [!TIP]  
 > And I should mention the unofficial [tutorial on creating mods in JSON](https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12) (use auto-translation to read it in your language). It should be noted, however, that v58 was the latest version at the time it was written and a lot of currently crucial information isn't mentioned (such as the requirement to enter "@title" and "@description").
@@ -149,7 +164,7 @@ In the official (stagnant) [channel](https://t.me/nb_mods_for_kids) with mods, t
 - you can ignore the other topics – you'll see for yourself what they're for if you need them.
 
 > [!IMPORTANT]  
-> Before making a request like "send me a mod for China Nulls", try to find the mod you need in the chat room mentioned above. You can do this by turning on "Unified Chat" in "⋮" and going to "Search" in the same menu. 
+> Before making a request like "send me China skins mod pls", try to find the mod you need in the chat room mentioned above. You can do this by turning on "Unified Chat" in "⋮" and going to "Search" in the same menu. 
 
 ### Why is there a 5 minute delay on messages?  
 That chat was made for modders to ask questions and get help in making mods, not for off-toping (although it's still not enforced). You can go to [@dnclserv_chat](https://t.me/dnclserv_chat) or [@nulls_ru](https://t.me/nulls_ru) to chat about something else. 
@@ -158,7 +173,8 @@ That chat was made for modders to ask questions and get help in making mods, not
 Yes. [Here](https://telegra.ph/Pravila-chata-Nulls-04-24) they are. 
 
 ### Where can I spend my boosts?
-Firstly you need to link your Null's Connect account to Telegram and boost the official channel [@nulls_ru](t.me/boost/nulls_ru). You can do it in the additional settings in Null's Connect itself.  
+С ноября 2025 забустив чат мододелов ([@nb_mods](https://t.me/nb_mods)) можно будет писать в нём без медленного режима в 5 минут.  
+Помимо чата мододелов, вы можете получить трофеи на аккаунт за буст другого чата. Firstly you need to link your Null's Connect account to Telegram and boost the official channel [@nulls_ru](t.me/boost/nulls_ru). You can do it in the additional settings in Null's Connect itself.  
 For a boost you will receive **2000 trophies** for a random character **every Friday**. For each additional boost you'll receive 250 trophies more. If you boost for the first time, you'll also receive extra 3000 trophies.[⁴](https://t.me/nulls_ru_faq/5).
 
 ### I found a bug in a mod
@@ -176,24 +192,14 @@ Just change the file extension from .NullsBrawlAssets to .zip by renaming the fi
 Of course you can, any file manager should work with archives, both on phones, and on computers, even on TVs. The only thing that makes WinRAR stand out is that it can archive files in its proprietary RAR format (but anything can unpack it), which nowadays isn't very popular.
 
 ### What is root?
-Ever noticed that all files in Android are located in the `/storage/emulated/0/` path? This is called the internal directory or internal storage and contains all the user's files. But there is also a root directory - just `/`. Root access allows programs to interact with this directory, which means they can access every single file on the device, including system ones, as well as private application storage.
-> [!WARNING]  
-> This opens up many possibilities for customization, as well as security risks.
+Ever noticed that all files in Android are located in the `/storage/emulated/0/` path? This is called the internal directory or internal storage and contains all the user's files. But there is also a root directory - just `/`. Root access allows apps to interact with this directory, which means they can access every single file on the device, including system ones, as well as private application storage.
 
 The owner of these permissions is called a superuser and exists in all UNIX-like systems. For example, in Linux, the internal directory is the home directory – `/home/username/`.
 
-Some of the features of root access include:  
-- uninstalling any pre-installed applications, 
-- creating full backups, 
-- controlling CPU frequency, 
-- installing third-party modules to change the appearance or to introduce new functionality. 
-
 ### How to get root access? 
 > [!CAUTION]  
-> This is an extremely dangerous, long and difficult process where you can not only make the system less stable, but also completely brick your device and, sometimes, with no way back.
+> This is an extremely dangerous, long and difficult process where you can not only make the system less stable, but also completely brick your device and, sometimes, with no way back. Think thrice if you really need it (most likely not).
 
-In the traditional way, you will need to unlock the bootloader of the system (and therefore clear all the data on the device), which by the way may already be impossible without a certain physical intervention on some devices (for such a service usually charge $75, so it will be more profitable to buy a used Redmi 6a for $25), install a custom recovery and flash Magisk. 
+In the traditional way, you will need to unlock the bootloader of the system (and therefore clear all the data on the device), which by the way may already be impossible without a certain physical intervention on some devices, install a custom recovery and flash Magisk. 
 
 It will be easiest for Google Pixel owners, in which bootloader unlocking is extremely simple and with the system that most developers of such software rely on and support. For such purposes there are threads for each model of different devices with instructions on Russian-speaking 4PDA and English-speaking XDA forums.
-
-<!--Переведено с помощью DeepL https://www.deepl.com/app/-->
