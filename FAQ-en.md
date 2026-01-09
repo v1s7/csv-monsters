@@ -70,30 +70,63 @@ Download and open a mod file (.NullsBrawlAssets) directly from Telegram and sele
 > Some file managers may not see Null's Brawl supporting its file format. You can try opening the file with [another file manager](/PROGRAMS-en.md#-explorers) in this case.
 
 ### How to install mod zip file (unsigned) on Android?   
-
 > [!IMPORTANT]  
 > <details>  
 > 
-> <summary><h4>HIGHLIGHTS FOR V61</h4></summary>  
+> <summary><h4>About "gv"</h4></summary>  
 > 
 > 1. All unsigned mods are disabled by default since v60. So after installing one you need to manually enable it in the mod manager.
 > 
-> 2. If the ENABLE button is pale, then it means the mod is incompatible with v61 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
+> 2. If the ENABLE button is pale, then it means the mod is incompatible with v60 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
 > ```json
-> "@gv": 61,
-> ```
+> "@gv": 60,
+> ```  
+> where:
+> - \@gv – "game version" meta-tag;
+> - 60 – current version (now it's different, of course)
 > </details>
+
+#### New method (for v65 or later)
+
+https://t.me/nb_mods/16782/112860
+
+new folder/uuid/mod files
+
+
+#### Old methods (for v64 or sooner)
+>[!IMPORTANT]  
+>This section serves an archival purpose and should not be used. It's better to use the [new method](#new-method-for-v65-or-later).  
 
 Just paste the folder (the name of which needs to be a UUID (generate [here](https://uuidgenerator.net)) and nothing else) containing the mod to the path
 `/data/data/daniillnull.nulls.brawlstars/mods/`. This can be done in two ways:
 #### 1. Using ROOT / a virtual machine
-Using superuser privileges or a virtual machine with Magisk support (such as [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). The virtual machine will need 6GB of free space. 
-Video tutorial: [YouTube](https://youtu.be/4Bzl8jt57qc) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4)  
-(English coming *very* soon)
+Using superuser privileges or a virtual machine with Magisk support (such as [Virtual Master](https://drive.google.com/file/d/1M15zazz8sEhC2wWzl0igFNghTtAvkt6U/view)). The virtual machine will need 6GB of free space.  
+>[!TIP]  
+>Despite this method remaining functional, starting with v65 a [more convenient alternative](#new-method-for-v65-or-later) has been made.
+
+Video tutorial: ~~[YouTube](https://youtu.be/4Bzl8jt57qc)~~ (removed by Suреrсеll :c) | [Odysee](https://odysee.com/@visthj:f/nb-zip-rootvm-method:4)  
+(English coming ~~very soon~~ never)
 #### 2. Patching apk of Null's Brawl
-More specifically to open access the app's private storage to DocumentProvider and to remove apk signature verification. Keep in mind that this way you risk getting your account banned (a special flag is set when a modified apk is detected), the maintainer still didn't receive this punishment though.  
-Video tutorial: [YouTube](https://youtu.be/Jqq-g_-TLhU) | [Odysee](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)  
-(English coming *very* soon)
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
+
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
+
+More specifically to open access the app's private storage to DocumentProvider and to remove apk signature verification. Keep in mind that this way you risk getting your account banned (a special flag is set when a modified apk is detected), ~~the maintainer still didn't receive this punishment though.~~  
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
+
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
+
+Video tutorial: [YouTube (READ THE WARNINGS)](https://youtu.be/Jqq-g_-TLhU) | [Odysee (READ THE WARNINGS)](https://odysee.com/@visthj:f/nb-zip-apktool-method:c)  
+(English coming ~~very soon~~ never)
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
+
+>[!CAUTION]  
+> THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
 
 > [!TIP]  
 > Private storage of Null's Brawl can be accessed by [other file managers](/PROGRAMS-en.md#-explorers) as well:
