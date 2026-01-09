@@ -28,9 +28,7 @@
 http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
-<video width="260em" autoplay muted>
-  <source src="/static/faq/mm/AppInfo.webm" type="video/webm"/>
-</video>
+<img src="/static/faq/mm/AppInfo.webm" type="video/webm" width="260em" controller="true"/>
 > 1. Очистите данные игры. Не бойтесь, сами данные не очистятся.
 > 2. В открывшемся меню выберите «Управление модификациями».
 
