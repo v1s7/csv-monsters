@@ -9,10 +9,9 @@
 - [📱Programs](/PROGRAMS.md) – a page with links to various apps, programs, scripts, bots and communities related to modding.  
 - [⚰️Tutorial](/TUTORIAL.md) – a separate guide on creating mods. **For now it's not recommended to read, better read the manual.**  
 ### Folders
-- [csv](/csv) - all CSV tables taken from the latest version of Null's Brawl.  
-     - [The About note](/csv/ABOUT-en.md) - description to what each CSV table is responsible for (the list is still not full).  
-- [templates](/templates) - a collection of mod templates. Coming soon.  
-     - [The About note](/templates/ABOUT-en.md) - how to use and edit the templates, guidelines for making new templates and other additional info. Coming soon.  
+- [csv](/csv) – all CSV tables taken from the latest version of Null's Brawl with descriptions to what each CSV table is responsible for (the list is still not full).  
+- [templates](/templates) – a collection of mod templates. Coming soon.  
+- [static](/static) – used media files.  
 
 
 
