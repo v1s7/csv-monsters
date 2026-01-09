@@ -28,7 +28,7 @@
 http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
-<img src="/static/faq/mm/AppInfo.webm" type="video/webm" width="260em" controller="true"/>
+<img src="/static/faq/mm/AppInfo.avif" width="260em"/>
 > 1. Очистите данные игры. Не бойтесь, сами данные не очистятся.
 > 2. В открывшемся меню выберите «Управление модификациями».
 
