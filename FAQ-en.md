@@ -28,11 +28,9 @@ There is no need to download a separate mod for this button anymore – this fun
 http://files.dnull.xyz/mods.html
 
 ##### 3. Via "App info" menu
-<video width="260em" autoplay muted>
-  <source src="/static/faq/mm/AppInfo.webm" type="video/webm"/>
-</video>
-> 1. Clear the game data. Don't worry, the data itself will not be cleared.
-> 2. In the opened menu, select «Manage modifications».
+<img src="/static/faq/mm/AppInfo.avif" width="260em"/>
+1. Clear the game data. Don't worry, the data itself will not be cleared.  
+2. In the opened menu, select «Manage modifications».  
 
 ### How to install a mod on iOS?
 > [!important]  
@@ -132,18 +130,18 @@ Video tutorial: [YouTube (READ THE WARNINGS)](https://youtu.be/Jqq-g_-TLhU) | [O
 > Private storage of Null's Brawl can be accessed by [other file managers](/PROGRAMS-en.md#-explorers) as well:
 > <details>  
 > <summary>Material Files</summary>  
-> <video width="260em" autoplay><source src="/static/faq/dp/MaterialFiles.webm" type="video/webm"/></video>  
+> [MaterialFiles.webm](/static/faq/dp/MaterialFiles.webm)  
 > Left slideout menu → Add storage → External storage → Left slideout menu → Null\'s Brawl → Use this folder → Grant → daniillnull.nulls.nullsbrawl → data → mods
 > </details><details>  
 > <summary>MT Manager</summary>  
-> <video width="260em" autoplay><source src="/static/faq/dp/MT.webm" type="video/webm"/></video>    
+> [MT.webm](/static/faq/dp/MT.webm)    
 > Left slideout menu → Three dots on top center → Add local storage = Left slideout menu → Null\'s Brawl → Use this folder → Grant → Null\'s Brawl → data → mods
 > </details><details>  
 > <summary>MiXplorer</summary>
-> <video width="260em" autoplay><source src="/static/faq/dp/MiX.webm" type="video/webm"/></video>  
+> [MiX.webm](/static/faq/dp/MiX.webm)  
 > </details><details>  
 > <summary>Total Commander</summary>
-> <video width="260em" autoplay><source src="/static/faq/dp/TotalCommander.webm" type="video/webm"/></video>    
+> [TotalCommander.webm](/static/faq/dp/TotalCommander.webm)    
 > </details>
 
 ### When installing a signed mod (.NullsBrawlAssets) gives me an error? 

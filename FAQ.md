@@ -19,8 +19,8 @@
 
 ##### 1. Прямо из игры
 <img src="/static/faq/mm/Ingame.webp" width="100%"/>
-> 1. Зайдите в настройки внутри игры.  
-> 2. Нажмите на фиолетовую кнопку «Меню модов…».
+1. Зайдите в настройки внутри игры.  
+2. Нажмите на фиолетовую кнопку «Меню модов…».  
 
 Скачивать отдельный мод на эту кнопку уже не нужно – этот функционал добавили в ванильную игру!
 
@@ -29,8 +29,8 @@ http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
 <img src="/static/faq/mm/AppInfo.avif" width="260em"/>
-> 1. Очистите данные игры. Не бойтесь, сами данные не очистятся.
-> 2. В открывшемся меню выберите «Управление модификациями».
+1. Очистите данные игры. Не бойтесь, сами данные не очистятся.  
+2. В открывшемся меню выберите «Управление модификациями».  
 
 ### Как установить мод на iOS?
 
@@ -189,18 +189,18 @@ http://files.dnull.xyz/mods.html
 > Приватное хранилище Null's Brawl можно также открывать с помощью [других проводников](/PROGRAMS.md#-проводники):  
 > <details>  
 > <summary>Material Files</summary>  
-> <video width="260em" autoplay><source src="/static/faq/dp/MaterialFiles.webm" type="video/webm"/></video>  
+> [MaterialFiles.webm](/static/faq/dp/MaterialFiles.webm)  
 > Левое выдвижное меню → Добавить хранилище → Внешнее хранилище → Левое выдвижное меню → Null\'s Brawl → Использовать эту папку → Разрешить → daniillnull.nulls.nullsbrawl → data → mods
 > </details><details>  
 > <summary>MT Manager</summary>
-> <video width="260em" autoplay><source src="/static/faq/dp/MT.webm" type="video/webm"/></video>    
+> [MT.webm](/static/faq/dp/MT.webm)  
 > Левое выдвижное меню → Три точки сверху → Добавить локальный диск → Левое выдвижное меню → Null\'s Brawl → Использовать эту папку → Разрешить → Null\'s Brawl → data → mods
 > </details><details>  
 > <summary>MiXplorer</summary>
-> <video width="260em" autoplay><source src="/static/faq/dp/MiX.webm" type="video/webm"/></video>  
+> [MiX.webm](/static/faq/dp/MiX.webm)  
 > </details><details>  
 > <summary>Total Commander</summary>
-> <video width="260em" autoplay><source src="/static/faq/dp/TotalCommander.webm" type="video/webm"/></video>    
+> [TotalCommander.webm](/static/faq/dp/TotalCommander.webm)    
 > </details>
 
 ### При установке подписанного мода (.NullsBrawlAssets) вылезает ошибка, почему? 
