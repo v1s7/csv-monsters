@@ -19,8 +19,8 @@ This mod management menu can be opened in several ways:
 
 ##### 1. Straight from the game
 <img src="/static/faq/mm/Ingame.webp" width="100%"/>
-> 1. Go to the in-game settings.
-> 2. Tap the button with purple text «Manage mods…».
+1. Go to the in-game settings.  
+2. Tap the button with purple text «Manage mods…».
 
 There is no need to download a separate mod for this button anymore – this functionality has been added to the vanilla game!
 
@@ -71,11 +71,11 @@ Download and open a mod file (.NullsBrawlAssets) directly from Telegram and sele
 > [!IMPORTANT]  
 > <details>  
 > 
-> <summary><h4>About "gv"</h4></summary>  
+> <summary><h4>About incompatibilities and "gv"</h4></summary>  
 > 
 > 1. All unsigned mods are disabled by default since v60. So after installing one you need to manually enable it in the mod manager.
 > 
-> 2. If the ENABLE button is pale, then it means the mod is incompatible with v60 – however, this can be bypassed by adding the following line in `content.json` after `@description`:
+> 2. If the ENABLE button is pale, then it means the mod is incompatible with v60 – it happens because the mod has .sc files, however, this can be bypassed by adding the following line in `content.json` (e.g. after `@description`):
 > ```json
 > "@gv": 60,
 > ```  
@@ -85,11 +85,74 @@ Download and open a mod file (.NullsBrawlAssets) directly from Telegram and sele
 > </details>
 
 #### New method (for v65 or later)
+<details>  
 
-https://t.me/nb_mods/16782/112860
+<summary>daniillnull: (translated)</summary>  
+Small announcements regarding the testing of unsigned modifications ("installing zip").  
 
-new folder/uuid/mod files
+As you've probably [seen in the main chat](https://t.me/nb_mods/1/110889), this feature will appear in the next update.  
+Now, more details about how it will work: to unlock this feature, you'll need to install a special client of Null's Brawl. It'll be fully compatible with the regular client, having the same signature and package name.  
+It's something like an "APK for modders", but now **official**, **reliable** and **safe**.  
+In this regard, I'd like to remind you again that from now on, the use of third-party APKs will be much more strictly controlled. Don't take risks and don't download malware from the internet. And if you've created it yourself — it's time to consider making mods in our format instead of APKs.
+</details>
 
+Начиная с v65 появился официальный способ устанавливать моды без подписи для их тестирования[⁶](https://t.me/nb_mods/16782/112860). В меню модов появился раздел "Библиотеки и источники", в котором можно будет выбрать папку (желательно создать новую) для загрузки модов из неё. Эти моды появятся в списке со всеми остальными и можно будет приступить к тестированию.  
+
+Однако для всех кнопка добавления сторонней папки в меню модов недоступна. Её можно разблокировать. Для этого нужно заново скачать APK игры, но уже по другой ссылке. Она будет указана ниже.
+
+Starting with v65, an official method for installing unsigned mods for testing purposes has been introduced[⁶](https://t.me/nb_mods/16782/112860). A section called "Libraries & sources" has appeared in the mod manager, where you can select a folder (preferably a new one) to load mods from it. These mods will appear in the list alongside all the others and you'll be able to start testing.
+
+However, the button to add a custom folder in the mod manager isn't available to everyone. It needs to be unlocked. To do this, you need to download the game's APK again, but from a different URL. It'll be provided below.
+
+>[!IMPORTANT]  
+>By using this APK you accept all the rules and conditions for creating modifications. You must not use it to install modifications that you are not involved in developing or testing. In case of rule violations, your account in the game and Null's Connect may be permanently suspended.
+
+**Link to the APK with the ability to test modifications:**  
+- v65: https://tempweb.nullsusercontent.com/fpapk/nb_65.165_release_412b740e.apk?allowUnsignedMods=1  
+
+Structure of a folder dor mods looks like this:  
+```
+{mods folder}/{uuid}/content.json
+```  
+<details>  
+
+<summary>Visual example</summary>  
+
+```
+└── 📂mods/
+    ├── 📂a026ca56-807c-5605-9f29-73c3d34a0c81/
+    │   └── 📄content.json
+    ├── 📂263ca6f6-2689-46b8-8830-86f458c8b87b/
+    │   ├── 📄content.json
+    │   ├── 🖼️icon.png
+    │   └── 📂sc/
+    │       └── 💾level.sc
+    ├── 📂8a59e795-ae15-4622-9460-a931b98e0502/
+    │   ├── 📄content.json
+    │   └── 🖼️icon.png
+    └── 📂d4530d00-a021-4d32-b04f-6933538732de/
+         ├── 📄content.json
+         ├── 🖼️icon.png
+         ├── 📂sfx/
+         │   └── 💾supercell_jingle.ogg
+         ├── 📂music/
+         │   ├── 💾power_of_neo.ogg
+         │   ├── 💾no_more_deals.ogg
+         │   ├── 💾mus_menu7.ogg
+         │   ├── 💾mus_f.ogg
+         │   └── 💾lunar_brawl_menu_01.ogg
+         └── 📂sc/
+             ├── 💾background_waterfall.sc
+             └── 💾background_waterfall_tex.sc
+```  
+
+</details>
+
+- The {uuid} folder names must contain only the UUID and nothing else. **Check if there're any spaces at the end/beginning of the name – this is the most common issue**.  
+- Only folders with a UUID as their name can be inside the mods folder.  
+- The rest of mod's files, if there're any, are stored beside `content.json`.
+> [!TIP]  
+> As you know from the [manual](/MANUAL-en.md), a UUID can be generated on https://uuidgenerator.net/ so you shouldn't have any problems with that (you've already read it, right?)  
 
 #### Old methods (for v64 or sooner)
 >[!IMPORTANT]  
