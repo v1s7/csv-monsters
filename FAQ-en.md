@@ -96,12 +96,8 @@ It's something like an "APK for modders", but now **official**, **reliable** and
 In this regard, I'd like to remind you again that from now on, the use of third-party APKs will be much more strictly controlled. Don't take risks and don't download malware from the internet. And if you've created it yourself — it's time to consider making mods in our format instead of APKs.
 </details>
 
-Начиная с v65 появился официальный способ устанавливать моды без подписи для их тестирования[⁶](https://t.me/nb_mods/16782/112860). В меню модов появился раздел "Библиотеки и источники", в котором можно будет выбрать папку (желательно создать новую) для загрузки модов из неё. Эти моды появятся в списке со всеми остальными и можно будет приступить к тестированию.  
-
-Однако для всех кнопка добавления сторонней папки в меню модов недоступна. Её можно разблокировать. Для этого нужно заново скачать APK игры, но уже по другой ссылке. Она будет указана ниже.
-
-Starting with v65, an official method for installing unsigned mods for testing purposes has been introduced[⁶](https://t.me/nb_mods/16782/112860). A section called "Libraries & sources" has appeared in the mod manager, where you can select a folder (preferably a new one) to load mods from it. These mods will appear in the list alongside all the others and you'll be able to start testing.
-
+Starting with v65, an official method for installing unsigned mods for testing purposes has been introduced[⁶](https://t.me/nb_mods/16782/112860). A section called "Libraries & sources" has appeared in the mod manager, where you can select a folder (preferably a new one) to load mods from it. These mods will appear in the list alongside all the others and you'll be able to start testing.  
+<img src="/static/faq/mm/FolderUnavailable.webp" width="100%"/>
 However, the button to add a custom folder in the mod manager isn't available to everyone. It needs to be unlocked. To do this, you need to download the game's APK again, but from a different URL. It'll be provided below.
 
 >[!IMPORTANT]  
@@ -109,8 +105,8 @@ However, the button to add a custom folder in the mod manager isn't available to
 
 **Link to the APK with the ability to test modifications:**  
 - v65: https://tempweb.nullsusercontent.com/fpapk/nb_65.165_release_412b740e.apk?allowUnsignedMods=1  
-
-Structure of a folder dor mods looks like this:  
+<img src="/static/faq/mm/FolderAdded.webp" width="100%"/>
+Structure of the mod folders looks like this:  
 ```
 {mods folder}/{uuid}/content.json
 ```  
