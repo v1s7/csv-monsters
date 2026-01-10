@@ -18,8 +18,9 @@ It won't affect any critical data – the game will re-download the missing file
 This mod management menu can be opened in several ways: 
 
 ##### 1. Straight from the game
-<img src="/static/faq/mm/Ingame.webp" width="100%"/>
-1. Go to the in-game settings.  
+<img src="/static/faq/mm/Ingame.webp" width="100%"/>  
+1. Go to the in-game settings.
+
 2. Tap the button with purple text «Manage mods…».
 
 There is no need to download a separate mod for this button anymore – this functionality has been added to the vanilla game!
@@ -28,8 +29,9 @@ There is no need to download a separate mod for this button anymore – this fun
 http://files.dnull.xyz/mods.html
 
 ##### 3. Via "App info" menu
-<img src="/static/faq/mm/AppInfo.avif" width="260em"/>
-1. Clear the game data. Don't worry, the data itself will not be cleared.  
+<img src="/static/faq/mm/AppInfo.avif" width="260em"/>  
+1. Clear the game data. Don't worry, the data itself will not be cleared.
+
 2. In the opened menu, select «Manage modifications».  
 
 ### How to install a mod on iOS?
@@ -106,7 +108,8 @@ However, the button to add a custom folder in the mod manager isn't available to
 **Link to the APK with the ability to test modifications:**  
 - v65: https://tempweb.nullsusercontent.com/fpapk/nb_65.165_release_412b740e.apk?allowUnsignedMods=1  
 <img src="/static/faq/mm/FolderAdded.webp" width="100%"/>
-Structure of the mod folders looks like this:  
+Structure of the mod folders looks like this:
+
 ```
 {mods folder}/{uuid}/content.json
 ```  
@@ -186,21 +189,19 @@ Video tutorial: [YouTube (READ THE WARNINGS)](https://youtu.be/Jqq-g_-TLhU) | [O
 > THIS METHOD NO LONGER WORKS AND WILL RESULT IN YOUR ACCOUNT GETTING BANNED. PLEASE USE THE [ALTERNATIVE](#new-method-for-v65-or-later).
 
 > [!TIP]  
-> Private storage of Null's Brawl can be accessed by [other file managers](/PROGRAMS-en.md#-explorers) as well:
+> Private storage of Null's Brawl can be accessed by [other file managers](/PROGRAMS-en.md#-explorers) as well:  
 > <details>  
 > <summary>Material Files</summary>  
-> [MaterialFiles.webm](/static/faq/dp/MaterialFiles.webm)  
-> Left slideout menu → Add storage → External storage → Left slideout menu → Null\'s Brawl → Use this folder → Grant → daniillnull.nulls.nullsbrawl → data → mods
+> <a href="/static/faq/dp/MaterialFiles.webm"> MaterialFiles.webm</a>  
 > </details><details>  
-> <summary>MT Manager</summary>  
-> [MT.webm](/static/faq/dp/MT.webm)    
-> Left slideout menu → Three dots on top center → Add local storage = Left slideout menu → Null\'s Brawl → Use this folder → Grant → Null\'s Brawl → data → mods
+> <summary>MT Manager</summary>
+> <a href="/static/faq/dp/MT.webm"> MT.webm</a>  
 > </details><details>  
 > <summary>MiXplorer</summary>
-> [MiX.webm](/static/faq/dp/MiX.webm)  
+> <a href="/static/faq/dp/MiX.webm"> MiX.webm</a>
 > </details><details>  
 > <summary>Total Commander</summary>
-> [TotalCommander.webm](/static/faq/dp/TotalCommander.webm)    
+> <a href="/static/faq/dp/TotalCommander.webm"> TotalCommander.webm</a>    
 > </details>
 
 ### When installing a signed mod (.NullsBrawlAssets) gives me an error? 

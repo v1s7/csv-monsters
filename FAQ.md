@@ -18,8 +18,9 @@
 Такое меню управления модами можно открыть несколькими способами:
 
 ##### 1. Прямо из игры
-<img src="/static/faq/mm/Ingame.webp" width="100%"/>
-1. Зайдите в настройки внутри игры.  
+<img src="/static/faq/mm/Ingame.webp" width="100%"/>  
+1. Зайдите в настройки внутри игры.
+
 2. Нажмите на фиолетовую кнопку «Меню модов…».  
 
 Скачивать отдельный мод на эту кнопку уже не нужно – этот функционал добавили в ванильную игру!
@@ -28,8 +29,9 @@
 http://files.dnull.xyz/mods.html
 
 ##### 3. Через меню "О приложении"
-<img src="/static/faq/mm/AppInfo.avif" width="260em"/>
-1. Очистите данные игры. Не бойтесь, сами данные не очистятся.  
+<img src="/static/faq/mm/AppInfo.avif" width="260em"/>  
+1. Очистите данные игры. Не бойтесь, сами данные не очистятся.
+
 2. В открывшемся меню выберите «Управление модификациями».  
 
 ### Как установить мод на iOS?
@@ -108,7 +110,8 @@ http://files.dnull.xyz/mods.html
 **Ссылка на APK с возможностью тестировать модификации:**  
 - v65: https://tempweb.nullsusercontent.com/fpapk/nb_65.165_release_412b740e.apk?allowUnsignedMods=1  
 <img src="/static/faq/mm/FolderAdded.webp" width="100%"/>  
-Структура папок с модами выглядит так:  
+Структура папок с модами выглядит так:
+
 ```
 {папка модов}/{uuid}/content.json
 ```  
@@ -189,18 +192,16 @@ http://files.dnull.xyz/mods.html
 > Приватное хранилище Null's Brawl можно также открывать с помощью [других проводников](/PROGRAMS.md#-проводники):  
 > <details>  
 > <summary>Material Files</summary>  
-> [MaterialFiles.webm](/static/faq/dp/MaterialFiles.webm)  
-> Левое выдвижное меню → Добавить хранилище → Внешнее хранилище → Левое выдвижное меню → Null\'s Brawl → Использовать эту папку → Разрешить → daniillnull.nulls.nullsbrawl → data → mods
+> <a href="/static/faq/dp/MaterialFiles.webm"> MaterialFiles.webm</a>  
 > </details><details>  
 > <summary>MT Manager</summary>
-> [MT.webm](/static/faq/dp/MT.webm)  
-> Левое выдвижное меню → Три точки сверху → Добавить локальный диск → Левое выдвижное меню → Null\'s Brawl → Использовать эту папку → Разрешить → Null\'s Brawl → data → mods
+> <a href="/static/faq/dp/MT.webm"> MT.webm</a>  
 > </details><details>  
 > <summary>MiXplorer</summary>
-> [MiX.webm](/static/faq/dp/MiX.webm)  
+> <a href="/static/faq/dp/MiX.webm"> MiX.webm</a>
 > </details><details>  
 > <summary>Total Commander</summary>
-> [TotalCommander.webm](/static/faq/dp/TotalCommander.webm)    
+> <a href="/static/faq/dp/TotalCommander.webm"> TotalCommander.webm</a>    
 > </details>
 
 ### При установке подписанного мода (.NullsBrawlAssets) вылезает ошибка, почему? 
@@ -226,7 +227,7 @@ http://files.dnull.xyz/mods.html
 > [!TIP]  
 > Есть также сайты для более упрощённого создания простых модов для Null's Brawl:
 > - https://nb-mods.vercel.app  
-> - ~~https://darkmean-dev.github.io/nullsmod~~(lost media, остался лишь форк, указанный ниже)  
+> - https://darkmean-dev.github.io/nullsmod (lost media, остался лишь форк, указанный ниже)  
 > - https://maaevgenia676-spec.github.io/nullsmodsv2/ (зеркало: https://v1s7.github.io/nullsmodsv2/)
 
 > [!TIP]  
