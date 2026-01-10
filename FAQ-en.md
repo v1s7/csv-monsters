@@ -225,7 +225,10 @@ Everything is described in the [official manual](/MANUAL-en.md) (this one is loc
 > To create and modify text files (.json and .toml among others) on Android, you can either use the text editor that's built into your [file manager](/PROGRAMS-en.md#-explorers), or use a [separate code editor](/PROGRAMS-en.md#-editors).
 
 > [!TIP]  
-> There is also a website for simplified creation process of "small" mods for Null's Brawl: https://darkmean-dev.github.io/nullsmod
+> There're also websites for simplified creation process of mods for Null's Brawl:
+> - https://nb-mods.vercel.app  
+> - https://darkmean-dev.github.io/nullsmod (lost media, only remnant of it is a fork listed below)  
+> - https://maaevgenia676-spec.github.io/nullsmodsv2/ (mirror: https://v1s7.github.io/nullsmodsv2/)
 
 > [!TIP]  
 > And I should mention the unofficial [tutorial on creating mods in JSON](https://telegra.ph/Tutor-po-dzhsonu-dlya-modov-nulya-bravla-11-12) (use auto-translation to read it in your language). It should be noted, however, that v58 was the latest version at the time it was written and a lot of currently crucial information isn't mentioned (such as the requirement to enter "@title" and "@description").
